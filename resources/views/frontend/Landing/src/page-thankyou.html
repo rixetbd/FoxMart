@@ -1,0 +1,51 @@
+
+@@include("partials/main.html")
+
+    <head>
+        @@include("partials/title-meta.html", {"title": "Landrick"})
+        
+        <!-- Css -->
+        @@include("partials/head-css.html")
+
+    </head>
+
+    <body>
+        <!-- Loader -->
+        <!-- <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Loader -->
+
+        <!-- Hero Start -->
+        <section class="bg-home bg-light d-flex align-items-center">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="text-center">
+                            <div class="icon d-flex align-items-center justify-content-center bg-soft-primary rounded-circle mx-auto" style="height: 90px; width:90px;">
+                                <i class="uil uil-thumbs-up align-middle h1 mb-0"></i>
+                            </div>
+                            <h1 class="my-4 fw-bold">Thank You</h1>
+                            <p class="text-muted para-desc mx-auto">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap v5 html page.</p>
+                            <a href="index.html" class="btn btn-soft-primary mt-3">Go To Home</a>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div> <!--end container-->
+        </section><!--end section-->
+        <!-- Hero End -->
+
+        
+        @@include("partials/switcherbar.html")
+        <!-- Javascript -->
+        @@include("partials/vendor-scripts.html")
+        <!-- Main Js -->
+        <script src="assets/js/plugins.init.js"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+        <script src="assets/js/app.js"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+    </body>
+</html>

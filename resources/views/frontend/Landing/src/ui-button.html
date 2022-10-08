@@ -1,0 +1,373 @@
+
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        @@include("partials/title-meta.html", {"title": "Landrick"})
+        
+        <!-- Css -->
+        @@include("partials/head-css.html")
+
+    </head>
+
+    <body>
+        <!-- Loader -->
+        <!-- <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Loader -->
+        
+        @@include("partials/navbar/nav-center.html")
+        
+        <!-- Hero Start -->
+        <section class="bg-half-170 bg-light d-table w-100">
+            <div class="container">
+                <div class="row mt-5 justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <div class="pages-heading">
+                            <h4 class="title mb-0"> Buttons </h4>
+                        </div>
+                    </div>  <!--end col-->
+                </div><!--end row-->
+                
+                <div class="position-breadcrumb">
+                    <nav aria-label="breadcrumb" class="d-inline-block">
+                        <ul class="breadcrumb rounded shadow mb-0 px-4 py-2">
+                            <li class="breadcrumb-item"><a href="index.html">Landrick</a></li>
+                            <li class="breadcrumb-item"><a href="#">Components</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Buttons</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div> <!--end container-->
+        </section><!--end section-->
+        <!-- Hero End -->
+
+        <!-- Shape Start -->
+        <div class="position-relative">
+            <div class="shape overflow-hidden text-color-white">
+                <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+        <!--Shape End-->
+
+        <!-- Start -->
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 d-md-block d-none">
+                        <h5>Components</h5>
+                        @@include("partials/component-sidenav.html")
+                    </div><!--end col-->
+
+                    <div class="col-lg-9 col-md-8 col-12">
+                        <div class="row">
+                            <!-- Buttons Start -->
+                            <div class="col-12">
+                                <div class="component-wrapper rounded shadow">
+                                    <div class="p-4 border-bottom">
+                                        <h5 class="title mb-0">Buttons</h5>
+                                    </div>
+        
+                                    <div class="p-4">
+                                        <h6 class="text-muted mb-2 pb-2">Ex. <code class="text-danger">&lt;a href="#" class="btn btn-primary"&gt; Primary &lt;/a&gt;</code></h6>
+                                        
+                                        <a href="javascript:void(0)" class="btn btn-primary mt-2 me-2">Primary</a>
+                                        <a href="javascript:void(0)" class="btn btn-secondary mt-2 me-2">Secondary</a>
+                                        <a href="javascript:void(0)" class="btn btn-success mt-2 me-2">Success</a>
+                                        <a href="javascript:void(0)" class="btn btn-danger mt-2 me-2">Danger</a>
+                                        <a href="javascript:void(0)" class="btn btn-info mt-2 me-2">Info</a>
+                                        <a href="javascript:void(0)" class="btn btn-warning mt-2 me-2">Warning</a>
+                                        <a href="javascript:void(0)" class="btn btn-light mt-2 me-2">Light</a>
+                                        <a href="javascript:void(0)" class="btn btn-dark mt-2 me-2">Dark</a>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            <!-- Buttons End -->
+
+                            <!-- Buttons Pill Start -->
+                            <div class="col-12 mt-4 pt-2">
+                                <div class="component-wrapper rounded shadow">
+                                    <div class="p-4 border-bottom">
+                                        <h5 class="title mb-0">Buttons Pill</h5>
+                                    </div>
+        
+                                    <div class="p-4">
+                                        <h6 class="text-muted mb-2 pb-2">Ex. <code class="text-danger">&lt;a href="#" class="btn btn-pills btn-primary"&gt; Primary &lt;/a&gt;</code></h6>
+
+                                        <a href="javascript:void(0)" class="btn btn-pills btn-primary mt-2 me-2">Primary</a>
+                                        <a href="javascript:void(0)" class="btn btn-pills btn-secondary mt-2 me-2">Secondary</a>
+                                        <a href="javascript:void(0)" class="btn btn-pills btn-success mt-2 me-2">Success</a>
+                                        <a href="javascript:void(0)" class="btn btn-pills btn-danger mt-2 me-2">Danger</a>
+                                        <a href="javascript:void(0)" class="btn btn-pills btn-info mt-2 me-2">Info</a>
+                                        <a href="javascript:void(0)" class="btn btn-pills btn-warning mt-2 me-2">Warning</a>
+                                        <a href="javascript:void(0)" class="btn btn-pills btn-light mt-2 me-2">Light</a>
+                                        <a href="javascript:void(0)" class="btn btn-pills btn-dark mt-2 me-2">Dark</a>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            <!-- Buttons Pill End -->
+
+                            <!-- Buttons Start -->
+                            <div class="col-12 mt-4 pt-2">
+                                <div class="component-wrapper rounded shadow">
+                                    <div class="p-4 border-bottom">
+                                        <h5 class="title mb-0">Buttons Soft</h5>
+                                    </div>
+        
+                                    <div class="p-4">
+                                        <h6 class="text-muted mb-2 pb-2">Ex. <code class="text-danger">&lt;a href="#" class="btn btn-soft-primary"&gt; Primary &lt;/a&gt;</code></h6>
+                                        
+                                        <a href="javascript:void(0)" class="btn btn-soft-primary mt-2 me-2">Primary</a>
+                                        <a href="javascript:void(0)" class="btn btn-soft-secondary mt-2 me-2">Secondary</a>
+                                        <a href="javascript:void(0)" class="btn btn-soft-success mt-2 me-2">Success</a>
+                                        <a href="javascript:void(0)" class="btn btn-soft-danger mt-2 me-2">Danger</a>
+                                        <a href="javascript:void(0)" class="btn btn-soft-info mt-2 me-2">Info</a>
+                                        <a href="javascript:void(0)" class="btn btn-soft-warning mt-2 me-2">Warning</a>
+                                        <a href="javascript:void(0)" class="btn btn-soft-light mt-2 me-2">Light</a>
+                                        <a href="javascript:void(0)" class="btn btn-soft-dark mt-2 me-2">Dark</a>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            <!-- Buttons End -->
+
+                            <!-- Buttons Pill Start -->
+                            <div class="col-12 mt-4 pt-2">
+                                <div class="component-wrapper rounded shadow">
+                                    <div class="p-4 border-bottom">
+                                        <h5 class="title mb-0">Buttons Pill Soft</h5>
+                                    </div>
+        
+                                    <div class="p-4">
+                                        <h6 class="text-muted mb-2 pb-2">Ex. <code class="text-danger">&lt;a href="#" class="btn btn-pills btn-soft-primary"&gt; Primary &lt;/a&gt;</code></h6>
+
+                                        <a href="javascript:void(0)" class="btn btn-pills btn-soft-primary mt-2 me-2">Primary</a>
+                                        <a href="javascript:void(0)" class="btn btn-pills btn-soft-secondary mt-2 me-2">Secondary</a>
+                                        <a href="javascript:void(0)" class="btn btn-pills btn-soft-success mt-2 me-2">Success</a>
+                                        <a href="javascript:void(0)" class="btn btn-pills btn-soft-danger mt-2 me-2">Danger</a>
+                                        <a href="javascript:void(0)" class="btn btn-pills btn-soft-info mt-2 me-2">Info</a>
+                                        <a href="javascript:void(0)" class="btn btn-pills btn-soft-warning mt-2 me-2">Warning</a>
+                                        <a href="javascript:void(0)" class="btn btn-pills btn-soft-light mt-2 me-2">Light</a>
+                                        <a href="javascript:void(0)" class="btn btn-pills btn-soft-dark mt-2 me-2">Dark</a>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            <!-- Buttons Pill End -->
+
+                            <!-- Buttons Outline Start -->
+                            <div class="col-12 mt-4 pt-2">
+                                <div class="component-wrapper rounded shadow">
+                                    <div class="p-4 border-bottom">
+                                        <h5 class="title mb-0">Buttons Outline</h5>
+                                    </div>
+        
+                                    <div class="p-4">
+                                        <h6 class="text-muted mb-2 pb-2">Ex. <code class="text-danger">&lt;a href="#" class="btn btn-outline-primary"&gt; Primary &lt;/a&gt;</code></h6>
+
+                                        <a href="javascript:void(0)" class="btn btn-outline-primary mt-2 me-2">Primary</a>
+                                        <a href="javascript:void(0)" class="btn btn-outline-secondary mt-2 me-2">Secondary</a>
+                                        <a href="javascript:void(0)" class="btn btn-outline-success mt-2 me-2">Success</a>
+                                        <a href="javascript:void(0)" class="btn btn-outline-danger mt-2 me-2">Danger</a>
+                                        <a href="javascript:void(0)" class="btn btn-outline-info mt-2 me-2">Info</a>
+                                        <a href="javascript:void(0)" class="btn btn-outline-warning mt-2 me-2">Warning</a>
+                                        <a href="javascript:void(0)" class="btn btn-outline-light mt-2 me-2">Light</a>
+                                        <a href="javascript:void(0)" class="btn btn-outline-dark mt-2 me-2">Dark</a>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            <!-- Buttons Outline End -->
+
+                            <!-- Buttons Pill Outline Start -->
+                            <div class="col-12 mt-4 pt-2">
+                                <div class="component-wrapper rounded shadow">
+                                    <div class="p-4 border-bottom">
+                                        <h5 class="title mb-0">Buttons Pill Outline</h5>
+                                    </div>
+        
+                                    <div class="p-4">
+                                        <h6 class="text-muted mb-2 pb-2">Ex. <code class="text-danger">&lt;a href="#" class="btn btn-outline-primary"&gt; Primary &lt;/a&gt;</code></h6>
+
+                                        <a href="javascript:void(0)" class="btn btn-pills btn-outline-primary mt-2 me-2">Primary</a>
+                                        <a href="javascript:void(0)" class="btn btn-pills btn-outline-secondary mt-2 me-2">Secondary</a>
+                                        <a href="javascript:void(0)" class="btn btn-pills btn-outline-success mt-2 me-2">Success</a>
+                                        <a href="javascript:void(0)" class="btn btn-pills btn-outline-danger mt-2 me-2">Danger</a>
+                                        <a href="javascript:void(0)" class="btn btn-pills btn-outline-info mt-2 me-2">Info</a>
+                                        <a href="javascript:void(0)" class="btn btn-pills btn-outline-warning mt-2 me-2">Warning</a>
+                                        <a href="javascript:void(0)" class="btn btn-pills btn-outline-light mt-2 me-2">Light</a>
+                                        <a href="javascript:void(0)" class="btn btn-pills btn-outline-dark mt-2 me-2">Dark</a>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            <!-- Buttons Pill Outline End -->
+
+                            <!-- Button Icons Start -->
+                            <div class="col-12 mt-4 pt-2">
+                                <div class="component-wrapper rounded shadow">
+                                    <div class="p-4 border-bottom">
+                                        <h5 class="title mb-0">Button Icons</h5>
+                                    </div>
+        
+                                    <div class="p-4">
+                                        <h6 class="text-muted mb-2 pb-2">Ex. <code class="text-danger">&lt;a href="#" class="btn btn-icon btn-primary"&gt;&lt;i data-feather="facebook" class="fea icon-sm"&gt;&lt;/i&gt;&lt;/a&gt;</code></h6>
+
+                                        <ul class="list-inline mb-0">
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-primary mt-2"><i data-feather="facebook" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-info mt-2"><i data-feather="twitter" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-danger mt-2"><i data-feather="youtube" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-success mt-2"><i data-feather="gitlab" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-secondary mt-2"><i data-feather="linkedin" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-warning mt-2"><i data-feather="github" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-info mt-2"><i data-feather="star" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-light mt-2"><i data-feather="github" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-dark mt-2"><i data-feather="star" class="icons"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            <!-- Button Icons End -->
+
+                            <!-- Outline Button Icons Start -->
+                            <div class="col-12 mt-4 pt-2">
+                                <div class="component-wrapper rounded shadow">
+                                    <div class="p-4 border-bottom">
+                                        <h5 class="title mb-0">Outline Button Icons</h5>
+                                    </div>
+        
+                                    <div class="p-4">
+                                        <h6 class="text-muted mb-2 pb-2">Ex. <code class="text-danger">&lt;a href="#" class="btn btn-icon btn-outline-primary"&gt;&lt;i data-feather="facebook" class="fea icon-sm"&gt;&lt;/i&gt;&lt;/a&gt;</code></h6>
+
+                                        <ul class="list-inline mb-0">
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-outline-primary mt-2"><i data-feather="facebook" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-outline-info mt-2"><i data-feather="twitter" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-outline-danger mt-2"><i data-feather="youtube" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-outline-success mt-2"><i data-feather="gitlab" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-outline-secondary mt-2"><i data-feather="linkedin" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-outline-warning mt-2"><i data-feather="github" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-outline-info mt-2"><i data-feather="star" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-outline-light mt-2"><i data-feather="github" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-outline-dark mt-2"><i data-feather="star" class="icons"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            <!-- Outline Button Icons End -->
+
+                            <!-- Button Pill Icons Start -->
+                            <div class="col-12 mt-4 pt-2">
+                                <div class="component-wrapper rounded shadow">
+                                    <div class="p-4 border-bottom">
+                                        <h5 class="title mb-0">Button Pill Icons</h5>
+                                    </div>
+        
+                                    <div class="p-4">
+                                        <h6 class="text-muted mb-2 pb-2">Ex. <code class="text-danger">&lt;a href="#" class="btn btn-icon btn-pills btn-primary"&gt;&lt;i data-feather="facebook" class="fea icon-sm"&gt;&lt;/i&gt;&lt;/a&gt;</code></h6>
+
+                                        <ul class="list-inline mb-0">
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-primary mt-2"><i data-feather="facebook" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-info mt-2"><i data-feather="twitter" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-danger mt-2"><i data-feather="youtube" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-success mt-2"><i data-feather="gitlab" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-secondary mt-2"><i data-feather="linkedin" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-warning mt-2"><i data-feather="github" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-info mt-2"><i data-feather="star" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-light mt-2"><i data-feather="github" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-dark mt-2"><i data-feather="star" class="icons"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            <!-- Button Pill Icons End -->
+
+                            <!-- Outline Button Pill Icons Start -->
+                            <div class="col-12 mt-4 pt-2">
+                                <div class="component-wrapper rounded shadow">
+                                    <div class="p-4 border-bottom">
+                                        <h5 class="title mb-0">Outline Button Pill Icons</h5>
+                                    </div>
+        
+                                    <div class="p-4">
+                                        <h6 class="text-muted mb-2 pb-2">Ex. <code class="text-danger">&lt;a href="#" class="btn btn-icon btn-pills btn-outline-primary"&gt;&lt;i data-feather="facebook" class="fea icon-sm"&gt;&lt;/i&gt;&lt;/a&gt;</code></h6>
+
+                                        <ul class="list-inline mb-0">
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-outline-primary mt-2"><i data-feather="facebook" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-outline-info mt-2"><i data-feather="twitter" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-outline-danger mt-2"><i data-feather="youtube" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-outline-success mt-2"><i data-feather="gitlab" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-outline-secondary mt-2"><i data-feather="linkedin" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-outline-warning mt-2"><i data-feather="github" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-outline-info mt-2"><i data-feather="star" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-outline-light mt-2"><i data-feather="github" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-pills btn-outline-dark mt-2"><i data-feather="star" class="icons"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            <!-- Outline Button Pill Icons End -->
+
+                            <!-- Button Sizing Start -->
+                            <div class="col-12 mt-4 pt-2">
+                                <div class="component-wrapper rounded shadow">
+                                    <div class="p-4 border-bottom">
+                                        <h5 class="title mb-0">Button Sizing</h5>
+                                    </div>
+        
+                                    <div class="p-4">
+                                        <h6 class="text-muted mb-2 pb-2">Ex. <code class="text-danger">&lt;a href="#" class="btn btn-primary btn-sm"&gt; Primary &lt;/a&gt;</code></h6>
+
+                                        <ul class="list-inline mb-0">
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-sm btn-primary mt-2 me-2">Small</a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-sm btn-pills btn-primary mt-2 me-2">Small</a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-sm btn-outline-primary mt-2 me-2">Small</a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-sm btn-pills btn-outline-primary mt-2 me-2">Small</a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-sm btn-primary mt-2"><i data-feather="facebook" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-sm btn-pills btn-primary mt-2"><i data-feather="facebook" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-sm btn-outline-primary mt-2"><i data-feather="facebook" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-sm btn-pills btn-outline-primary mt-2"><i data-feather="facebook" class="icons"></i></a></li>
+                                        </ul>
+                                        
+                                        <h6 class="text-muted mb-2 mt-4 pb-2">Ex. <code class="text-danger">&lt;a href="#" class="btn btn-primary btn-lg"&gt; Primary &lt;/a&gt;</code></h6>
+
+                                        <ul class="list-inline mb-0">
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-lg btn-primary mt-2 me-2">Large</a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-lg btn-pills btn-primary mt-2 me-2">Large</a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-lg btn-outline-primary mt-2 me-2">Large</a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-lg btn-pills btn-outline-primary mt-2 me-2">Large</a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-lg btn-primary mt-2"><i data-feather="facebook" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-lg btn-pills btn-primary mt-2"><i data-feather="facebook" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-lg btn-outline-primary mt-2"><i data-feather="facebook" class="icons"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-icon btn-lg btn-pills btn-outline-primary mt-2"><i data-feather="facebook" class="icons"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            <!-- Button Sizing End -->
+                        </div><!--end row-->
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--section-->
+        <!-- End -->
+        
+        @@include("partials/footer/footer-one.html")
+
+        @@include("partials/offcanvas-right.html")
+        @@include("partials/switcherbar.html")
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fs-5"><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i></a>
+        <!-- Back to top -->
+
+        <!-- javascript -->
+        @@include("partials/vendor-scripts.html")
+        <!-- Main Js -->
+        <script src="assets/js/plugins.init.js"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+        <script src="assets/js/app.js"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+    </body>
+</html>

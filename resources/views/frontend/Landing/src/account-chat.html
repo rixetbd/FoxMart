@@ -1,0 +1,565 @@
+
+@@include("partials/main.html")
+
+    <head>
+        @@include("partials/title-meta.html", {"title": "Landrick"})
+        
+        <!-- Css -->
+        <link href="assets/libs/simplebar/simplebar.min.css" rel="stylesheet">
+        @@include("partials/head-css.html")
+
+    </head>
+
+    <body>
+        <!-- Loader -->
+        <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Loader -->
+        
+        
+        @@include("partials/navbar/nav-light-center.html")
+        
+        <!-- Hero Start -->
+        <section class="bg-profile d-table w-100 bg-primary" style="background: url('assets/images/account/bg.png') center center;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card public-profile border-0 rounded shadow" style="z-index: 1;">
+                            <div class="card-body">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-2 col-md-3 text-md-start text-center">
+                                        <img src="assets/images/client/05.jpg" class="avatar avatar-large rounded-circle shadow d-block mx-auto" alt="">
+                                    </div><!--end col-->
+    
+                                    <div class="col-lg-10 col-md-9">
+                                        <div class="row align-items-end">
+                                            <div class="col-md-7 text-md-start text-center mt-4 mt-sm-0">
+                                                <h3 class="title mb-0">Krista Joseph</h3>
+                                                <small class="text-muted h6 me-2">Web Developer</small>
+                                                <ul class="list-inline mb-0 mt-3">
+                                                    <li class="list-inline-item me-2"><a href="javascript:void(0)" class="text-muted" title="Instagram"><i data-feather="instagram" class="fea icon-sm me-2"></i>krista_joseph</a></li>
+                                                    <li class="list-inline-item"><a href="javascript:void(0)" class="text-muted" title="Linkedin"><i data-feather="linkedin" class="fea icon-sm me-2"></i>Krista Joseph</a></li>
+                                                </ul>
+                                            </div><!--end col-->
+                                            <div class="col-md-5 text-md-end text-center">
+                                                <ul class="list-unstyled social-icon social mb-0 mt-4">
+                                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Add Friend"><i class="uil uil-user-plus align-middle"></i></a></li>
+                                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Messages"><i class="uil uil-comment align-middle"></i></a></li>
+                                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Notifications"><i class="uil uil-bell align-middle"></i></a></li>
+                                                    <li class="list-inline-item"><a href="account-setting.html" class="rounded" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Settings"><i class="uil uil-cog align-middle"></i></a></li>
+                                                </ul><!--end icon-->
+                                            </div><!--end col-->
+                                        </div><!--end row-->
+                                    </div><!--end col-->
+                                </div><!--end row-->
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--ed container-->
+        </section><!--end section-->
+        <!-- Hero End -->
+
+        <!-- Profile Start -->
+        <section class="section mt-60">
+            <div class="container mt-lg-3">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 d-lg-block d-none">
+                        <div class="sidebar sticky-bar p-4 rounded shadow">
+                            <div class="widget">
+                                <h5 class="widget-title">Followers :</h5>
+                                <div class="row mt-4">
+                                    <div class="col-6 text-center">
+                                        <i data-feather="user-plus" class="fea icon-ex-md text-primary mb-1"></i>
+                                        <h5 class="mb-0">2588</h5>
+                                        <p class="text-muted mb-0">Followers</p>
+                                    </div><!--end col-->
+
+                                    <div class="col-6 text-center">
+                                        <i data-feather="users" class="fea icon-ex-md text-primary mb-1"></i>
+                                        <h5 class="mb-0">454</h5>
+                                        <p class="text-muted mb-0">Following</p>
+                                    </div><!--end col-->
+                                </div><!--end row-->
+                            </div>
+
+                            <div class="widget mt-4 pt-2">
+                                <h5 class="widget-title">Projects :</h5>
+                                <div class="progress-box mt-4">
+                                    <h6 class="title text-muted">Progress</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar position-relative bg-primary" style="width:50%;">
+                                            <div class="progress-value d-block text-muted h6">24 / 48</div>
+                                        </div>
+                                    </div>
+                                </div><!--end process box-->
+                            </div>
+                            
+                            <div class="widget mt-4">
+                                <ul class="list-unstyled sidebar-nav mb-0" id="navmenu-nav">
+                                    <li class="navbar-item account-menu px-0">
+                                        <a href="account-profile.html" class="navbar-link d-flex rounded shadow align-items-center py-2 px-4">
+                                            <span class="h4 mb-0"><i class="uil uil-dashboard"></i></span>
+                                            <h6 class="mb-0 ms-2">Profile</h6>
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="navbar-item account-menu px-0 mt-2">
+                                        <a href="account-members.html" class="navbar-link d-flex rounded shadow align-items-center py-2 px-4">
+                                            <span class="h4 mb-0"><i class="uil uil-users-alt"></i></span>
+                                            <h6 class="mb-0 ms-2">Members</h6>
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="navbar-item account-menu px-0 mt-2">
+                                        <a href="account-works.html" class="navbar-link d-flex rounded shadow align-items-center py-2 px-4">
+                                            <span class="h4 mb-0"><i class="uil uil-file"></i></span>
+                                            <h6 class="mb-0 ms-2">Portfolio</h6>
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="navbar-item account-menu px-0 mt-2">
+                                        <a href="account-chat.html" class="navbar-link d-flex rounded shadow align-items-center py-2 px-4">
+                                            <span class="h4 mb-0"><i class="uil uil-comment"></i></span>
+                                            <h6 class="mb-0 ms-2">Chat</h6>
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="navbar-item account-menu px-0 mt-2">
+                                        <a href="account-messages.html" class="navbar-link d-flex rounded shadow align-items-center py-2 px-4">
+                                            <span class="h4 mb-0"><i class="uil uil-envelope-star"></i></span>
+                                            <h6 class="mb-0 ms-2">Messages</h6>
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="navbar-item account-menu px-0 mt-2">
+                                        <a href="account-payments.html" class="navbar-link d-flex rounded shadow align-items-center py-2 px-4">
+                                            <span class="h4 mb-0"><i class="uil uil-transaction"></i></span>
+                                            <h6 class="mb-0 ms-2">Payments</h6>
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="navbar-item account-menu px-0 mt-2">
+                                        <a href="account-setting.html" class="navbar-link d-flex rounded shadow align-items-center py-2 px-4">
+                                            <span class="h4 mb-0"><i class="uil uil-setting"></i></span>
+                                            <h6 class="mb-0 ms-2">Settings</h6>
+                                        </a>
+                                    </li>
+                                    
+                                    <li class="navbar-item account-menu px-0 mt-2">
+                                        <a href="auth-login-three.html" class="navbar-link d-flex rounded shadow align-items-center py-2 px-4">
+                                            <span class="h4 mb-0"><i class="uil uil-dashboard"></i></span>
+                                            <h6 class="mb-0 ms-2">Logout</h6>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="widget mt-4 pt-2">
+                                <h5 class="widget-title">Follow me :</h5>
+                                <ul class="list-unstyled social-icon social mb-0 mt-4">
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="github" class="fea icon-sm fea-social"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="youtube" class="fea icon-sm fea-social"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="gitlab" class="fea icon-sm fea-social"></i></a></li>
+                                </ul><!--end icon-->
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-8 col-12">
+                        <div class="card border-0 rounded shadow">
+                            <div class="p-2 chat chat-list" data-simplebar style="max-height: 360px;">
+                                <a href="#" class="d-flex chat-list active p-2 rounded position-relative">
+                                    <div class="position-relative">
+                                        <img src="assets/images/client/01.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                        <i class="mdi mdi-checkbox-blank-circle text-success on-off align-text-bottom"></i>
+                                    </div>
+                                    <div class="overflow-hidden flex-1 ms-2">
+                                        <div class="d-flex justify-content-between">
+                                            <h6 class="text-dark mb-0 d-block">Calvin</h6>
+                                            <small class="text-muted">10 Min</small>
+                                        </div>
+                                        <div class="text-muted text-truncate">Hello</div>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="d-flex chat-list p-2 mt-2 rounded position-relative">
+                                    <div class="position-relative">
+                                        <img src="assets/images/client/02.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                        <i class="mdi mdi-checkbox-blank-circle text-danger on-off align-text-bottom"></i>
+                                    </div>
+                                    <div class="overflow-hidden flex-1 ms-2">
+                                        <div class="d-flex justify-content-between">
+                                            <h6 class="text-dark mb-0 d-block">Cristino</h6>
+                                            <small class="text-muted">20 Min</small>
+                                        </div>
+
+                                        <div class="d-flex justify-content-between">
+                                            <div class="text-dark h6 mb-0 text-truncate">Hi, How are you?</div>
+                                            <span class="badge rounded-md bg-soft-danger">2</span>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="d-flex chat-list p-2 mt-2 rounded position-relative">
+                                    <div class="position-relative">
+                                        <img src="assets/images/client/03.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                        <i class="mdi mdi-checkbox-blank-circle text-danger on-off align-text-bottom"></i>
+                                    </div>
+                                    <div class="overflow-hidden flex-1 ms-2">
+                                        <div class="d-flex justify-content-between">
+                                            <h6 class="text-dark mb-0 d-block">Faye</h6>
+                                            <small class="text-muted">30 Min</small>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div class="text-muted text-truncate">Heyy</div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="d-flex chat-list p-2 mt-2 rounded position-relative">
+                                    <div class="position-relative">
+                                        <img src="assets/images/client/04.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                        <i class="mdi mdi-checkbox-blank-circle text-danger on-off align-text-bottom"></i>
+                                    </div>
+                                    <div class="overflow-hidden flex-1 ms-2">
+                                        <div class="d-flex justify-content-between">
+                                            <h6 class="text-dark mb-0 d-block">Ronald</h6>
+                                            <small class="text-muted">2 Hours</small>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div class="text-muted text-truncate">Hey, How are you sir?</div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="d-flex chat-list p-2 mt-2 rounded position-relative">
+                                    <div class="position-relative">
+                                        <img src="assets/images/client/05.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                        <i class="mdi mdi-checkbox-blank-circle text-success on-off align-text-bottom"></i>
+                                    </div>
+                                    <div class="overflow-hidden flex-1 ms-2">
+                                        <div class="d-flex justify-content-between">
+                                            <h6 class="text-dark mb-0 d-block">Melissa</h6>
+                                            <small class="text-muted">3 Hours</small>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div class="text-muted text-truncate">Good Afternoon</div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="d-flex chat-list p-2 mt-2 rounded position-relative">
+                                    <div class="position-relative">
+                                        <img src="assets/images/client/06.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                        <i class="mdi mdi-checkbox-blank-circle text-success on-off align-text-bottom"></i>
+                                    </div>
+                                    <div class="overflow-hidden flex-1 ms-2">
+                                        <div class="d-flex justify-content-between">
+                                            <h6 class="text-dark mb-0 d-block">Elsie</h6>
+                                            <small class="text-muted">10 Hours</small>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div class="text-muted text-truncate">Good Morning sir, how can i help you?</div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="d-flex chat-list p-2 mt-2 rounded position-relative">
+                                    <div class="position-relative">
+                                        <img src="assets/images/client/07.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                        <i class="mdi mdi-checkbox-blank-circle text-success on-off align-text-bottom"></i>
+                                    </div>
+                                    <div class="overflow-hidden flex-1 ms-2">
+                                        <div class="d-flex justify-content-between">
+                                            <h6 class="text-dark mb-0 d-block">Jerry</h6>
+                                            <small class="text-muted">16 Hours</small>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div class="text-muted text-truncate">Please give me appointment</div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="d-flex chat-list p-2 mt-2 rounded position-relative">
+                                    <div class="position-relative">
+                                        <img src="assets/images/client/08.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                        <i class="mdi mdi-checkbox-blank-circle text-danger on-off align-text-bottom"></i>
+                                    </div>
+                                    <div class="overflow-hidden flex-1 ms-2">
+                                        <div class="d-flex justify-content-between">
+                                            <h6 class="text-dark mb-0 d-block">Louis</h6>
+                                            <small class="text-muted">1 Days</small>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div class="text-muted text-truncate">Hii</div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="d-flex chat-list p-2 mt-2 rounded position-relative">
+                                    <div class="position-relative">
+                                        <img src="assets/images/client/06.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                        <i class="mdi mdi-checkbox-blank-circle text-danger on-off align-text-bottom"></i>
+                                    </div>
+                                    <div class="overflow-hidden flex-1 ms-2">
+                                        <div class="d-flex justify-content-between">
+                                            <h6 class="text-dark mb-0 d-block">Randall</h6>
+                                            <small class="text-muted">2 Days</small>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div class="text-muted text-truncate">Hello Sir</div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                                <a href="#" class="d-flex chat-list p-2 mt-2 rounded position-relative">
+                                    <div class="position-relative">
+                                        <img src="assets/images/client/08.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                        <i class="mdi mdi-checkbox-blank-circle text-success on-off align-text-bottom"></i>
+                                    </div>
+                                    <div class="overflow-hidden flex-1 ms-2">
+                                        <div class="d-flex justify-content-between">
+                                            <h6 class="text-dark mb-0 d-block">Lester</h6>
+                                            <small class="text-muted">4 Days</small>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <div class="text-muted text-truncate">Hello please give me answer.</div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="card chat chat-person border-0 shadow rounded mt-4">
+                            <div class="d-flex justify-content-between border-bottom p-4">
+                                <div class="d-flex">
+                                    <img src="assets/images/client/02.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                    <div class="overflow-hidden ms-3">
+                                        <a href="#" class="text-dark mb-0 h6 d-block text-truncate">Cristino Murphy</a>
+                                        <small class="text-muted"><i class="mdi mdi-checkbox-blank-circle text-success on-off align-text-bottom"></i> Online</small>
+                                    </div>
+                                </div>
+
+                                <ul class="list-unstyled mb-0">
+                                    <li class="dropdown dropdown-primary list-inline-item">
+                                        <button type="button" class="btn btn-icon btn-pills btn-soft-primary dropdown-toggle p-0" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="uil uil-ellipsis-h "></i></button>
+                                        <div class="dropdown-menu dd-menu dropdown-menu-end bg-white shadow border-0 mt-3 py-3">
+                                            <a class="dropdown-item text-dark" href="#"><span class="mb-0 d-inline-block me-1"><i class="uil uil-user align-middle h6"></i></span> Profile</a>
+                                            <a class="dropdown-item text-dark" href="#"><span class="mb-0 d-inline-block me-1"><i class="uil uil-setting align-middle h6"></i></span> Profile Settings</a>
+                                            <a class="dropdown-item text-dark" href="#"><span class="mb-0 d-inline-block me-1"><i class="uil uil-trash align-middle h6"></i></span> Delete</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <ul class="p-4 list-unstyled mb-0 chat" data-simplebar style="background: url('assets/images/account/bg-chat.png') center center; max-height: 500px;">
+                                <li>
+                                    <div class="d-inline-block">
+                                        <div class="d-flex chat-type mb-3">
+                                            <div class="position-relative">
+                                                <img src="assets/images/client/02.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                                <i class="mdi mdi-checkbox-blank-circle text-success on-off align-text-bottom"></i>
+                                            </div>
+                                                
+                                            <div class="chat-msg" style="max-width: 500px;">
+                                                <p class="text-muted small msg px-3 py-2 bg-light rounded mb-1">Hey Calvin</p>
+                                                <small class="text-muted msg-time"><i class="uil uil-clock-nine me-1"></i>59 min ago</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="chat-right">
+                                    <div class="d-inline-block">
+                                        <div class="d-flex chat-type mb-3">
+                                            <div class="position-relative chat-user-image">
+                                                <img src="assets/images/client/01.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                                <i class="mdi mdi-checkbox-blank-circle text-success on-off align-text-bottom"></i>
+                                            </div>
+                                                
+                                            <div class="chat-msg" style="max-width: 500px;">
+                                                <p class="text-muted small msg px-3 py-2 bg-light rounded mb-1">Hello Cristino</p>
+                                                <small class="text-muted msg-time"><i class="uil uil-clock-nine me-1"></i>45 min ago</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="chat-right">
+                                    <div class="d-inline-block">
+                                        <div class="d-flex chat-type mb-3">
+                                            <div class="position-relative chat-user-image">
+                                                <img src="assets/images/client/01.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                                <i class="mdi mdi-checkbox-blank-circle text-success on-off align-text-bottom"></i>
+                                            </div>
+                                                
+                                            <div class="chat-msg" style="max-width: 500px;">
+                                                <p class="text-muted small msg px-3 py-2 bg-light rounded mb-1">How can i help you?</p>
+                                                <small class="text-muted msg-time"><i class="uil uil-clock-nine me-1"></i>44 min ago</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="d-inline-block">
+                                        <div class="d-flex chat-type mb-3">
+                                            <div class="position-relative">
+                                                <img src="assets/images/client/02.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                                <i class="mdi mdi-checkbox-blank-circle text-success on-off align-text-bottom"></i>
+                                            </div>
+                                                
+                                            <div class="chat-msg" style="max-width: 500px;">
+                                                <p class="text-muted small msg px-3 py-2 bg-light rounded mb-1">Nice to meet you</p>
+                                                <small class="text-muted msg-time"><i class="uil uil-clock-nine me-1"></i>42 min ago</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="d-inline-block">
+                                        <div class="d-flex chat-type mb-3">
+                                            <div class="position-relative">
+                                                <img src="assets/images/client/02.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                                <i class="mdi mdi-checkbox-blank-circle text-success on-off align-text-bottom"></i>
+                                            </div>
+                                                
+                                            <div class="chat-msg" style="max-width: 500px;">
+                                                <p class="text-muted small msg px-3 py-2 bg-light rounded mb-1">Hope you are doing fine?</p>
+                                                <small class="text-muted msg-time"><i class="uil uil-clock-nine me-1"></i>40 min ago</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="chat-right">
+                                    <div class="d-inline-block">
+                                        <div class="d-flex chat-type mb-3">
+                                            <div class="position-relative chat-user-image">
+                                                <img src="assets/images/client/01.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                                <i class="mdi mdi-checkbox-blank-circle text-success on-off align-text-bottom"></i>
+                                            </div>
+                                                
+                                            <div class="chat-msg" style="max-width: 500px;">
+                                                <p class="text-muted small msg px-3 py-2 bg-light rounded mb-1">I'm good thanks for asking</p>
+                                                <small class="text-muted msg-time"><i class="uil uil-clock-nine me-1"></i>45 min ago</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="d-inline-block">
+                                        <div class="d-flex chat-type mb-3">
+                                            <div class="position-relative">
+                                                <img src="assets/images/client/02.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                                <i class="mdi mdi-checkbox-blank-circle text-success on-off align-text-bottom"></i>
+                                            </div>
+                                                
+                                            <div class="chat-msg" style="max-width: 500px;">
+                                                <p class="text-muted small msg px-3 py-2 bg-light rounded mb-1">I am intrested to know more about your prices and services you offer</p>
+                                                <small class="text-muted msg-time"><i class="uil uil-clock-nine me-1"></i>35 min ago</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="chat-right">
+                                    <div class="d-inline-block">
+                                        <div class="d-flex chat-type mb-3">
+                                            <div class="position-relative chat-user-image">
+                                                <img src="assets/images/client/01.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                                <i class="mdi mdi-checkbox-blank-circle text-success on-off align-text-bottom"></i>
+                                            </div>
+                                                
+                                            <div class="chat-msg" style="max-width: 500px;">
+                                                <p class="text-muted small msg px-3 py-2 bg-light rounded mb-1">Sure please check below link to find more useful information <a href="https://1.envato.market/landrick" target="_blank" class="text-primary">http://shreethemes.in/landrick/</a></p>
+                                                <small class="text-muted msg-time"><i class="uil uil-clock-nine me-1"></i>25 min ago</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="d-inline-block">
+                                        <div class="d-flex chat-type mb-3">
+                                            <div class="position-relative">
+                                                <img src="assets/images/client/02.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                                <i class="mdi mdi-checkbox-blank-circle text-success on-off align-text-bottom"></i>
+                                            </div>
+                                                
+                                            <div class="chat-msg" style="max-width: 500px;">
+                                                <p class="text-muted small msg px-3 py-2 bg-light rounded mb-1">Thank you 😊</p>
+                                                <small class="text-muted msg-time"><i class="uil uil-clock-nine me-1"></i>20 min ago</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="chat-right">
+                                    <div class="d-inline-block">
+                                        <div class="d-flex chat-type mb-3">
+                                            <div class="position-relative chat-user-image">
+                                                <img src="assets/images/client/01.jpg" class="avatar avatar-md-sm rounded-circle border shadow" alt="">
+                                                <i class="mdi mdi-checkbox-blank-circle text-success on-off align-text-bottom"></i>
+                                            </div>
+                                                
+                                            <div class="chat-msg" style="max-width: 500px;">
+                                                <p class="text-muted small msg px-3 py-2 bg-light rounded mb-1">Welcome</p>
+                                                <small class="text-muted msg-time"><i class="uil uil-clock-nine me-1"></i>18 min ago</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <div class="p-2 rounded-bottom shadow">
+                                <div class="row">
+                                    <div class="col">
+                                        <input type="text" class="form-control" placeholder="Enter Message...">
+                                    </div>
+                                    <div class="col-auto">
+                                        <a href="#" class="btn btn-icon btn-primary"><i class="uil uil-message"></i></a>
+                                        <a href="#" class="btn btn-icon btn-primary"><i class="uil uil-smile"></i></a>
+                                        <a href="#" class="btn btn-icon btn-primary"><i class="uil uil-paperclip"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- Profile End -->
+
+        
+        @@include("partials/footer/footer-one.html")
+
+        @@include("partials/offcanvas-right.html")
+        @@include("partials/switcherbar.html")
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fs-5"><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i></a>
+        <!-- Back to top -->
+
+        <!-- javascript -->
+        @@include("partials/vendor-scripts.html")
+        <!-- simplebar -->
+        <script src="assets/libs/simplebar/simplebar.min.js"></script>
+        <!-- Main Js -->
+        <script src="assets/js/plugins.init.js"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+        <script src="assets/js/app.js"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+    </body>
+</html>

@@ -1,0 +1,430 @@
+
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        @@include("partials/title-meta.html", {"title": "Landrick"})
+        
+        <!-- Css -->
+        @@include("partials/head-css.html")
+
+    </head>
+
+    <body>
+        <!-- Loader -->
+        <!-- <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Loader -->
+        
+        @@include("partials/navbar/nav-center.html")
+        
+        <!-- Hero Start -->
+        <section class="bg-half-170 bg-light d-table w-100">
+            <div class="container">
+                <div class="row mt-5 justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <div class="pages-heading">
+                            <h4 class="title mb-0"> Forms Elements </h4>
+                        </div>
+                    </div>  <!--end col-->
+                </div><!--end row-->
+                
+                <div class="position-breadcrumb">
+                    <nav aria-label="breadcrumb" class="d-inline-block">
+                        <ul class="breadcrumb rounded shadow mb-0 px-4 py-2">
+                            <li class="breadcrumb-item"><a href="index.html">Landrick</a></li>
+                            <li class="breadcrumb-item"><a href="#">Components</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Forms Elements</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div> <!--end container-->
+        </section><!--end section-->
+        <!-- Hero End -->
+
+        <!-- Shape Start -->
+        <div class="position-relative">
+            <div class="shape overflow-hidden text-color-white">
+                <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+        <!--Shape End-->
+
+        <!-- Start -->
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 d-md-block d-none">
+                        <h5>Components</h5>
+                        @@include("partials/component-sidenav.html")
+                    </div><!--end col-->
+
+                    <div class="col-lg-9 col-md-8 col-12">
+                        <div class="row">
+                            <!-- Forms Start -->
+                            <div class="col-12">
+                                <div class="component-wrapper rounded shadow">
+                                    <div class="p-4 border-bottom">
+                                        <h5 class="title mb-0"> Forms </h5>
+                                    </div>
+        
+                                    <div class="p-4">
+                                        <h6 class="text-muted mb-2 pb-2">Ex. 
+                                            <pre><code class="text-danger">
+&lt;div class="row"&gt;
+    &lt;div class="col-md-6"&gt;
+        &lt;div class="mb-3"&gt;
+            &lt;label class="form-label"&gt;Your Name &lt;span class="text-danger"&gt;*&lt;/span&gt;&lt;/label&gt;
+            &lt;div class="form-icon position-relative"&gt;
+                &lt;i data-feather="user" class="fea icon-sm icons"&gt;&lt;/i&gt;
+                &lt;input name="name" id="name" type="text" class="form-control ps-5" placeholder="First Name :"&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;&lt;!--end col--&gt;
+    &lt;div class="col-md-6"&gt;
+        &lt;div class="mb-3"&gt;
+            &lt;label class="form-label"&gt;Your Email &lt;span class="text-danger"&gt;*&lt;/span&gt;&lt;/label&gt;
+            &lt;div class="form-icon position-relative"&gt;
+                &lt;i data-feather="mail" class="fea icon-sm icons"&gt;&lt;/i&gt;
+                &lt;input name="email" id="email" type="email" class="form-control ps-5" placeholder="Your email :"&gt;
+            &lt;/div&gt;
+        &lt;/div&gt; 
+    &lt;/div&gt;&lt;!--end col--&gt;
+    &lt;div class="col-md-12"&gt;
+        &lt;div class="mb-3"&gt;
+            &lt;label class="form-label"&gt;Subject&lt;/label&gt;
+            &lt;div class="form-icon position-relative"&gt;
+                &lt;i data-feather="book" class="fea icon-sm icons"&gt;&lt;/i&gt;
+                &lt;input name="subject" id="subject" class="form-control ps-5" placeholder="Your subject :"&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;                                                                               
+    &lt;/div&gt;&lt;!--end col--&gt;
+    &lt;div class="col-md-12"&gt;
+        &lt;div class="mb-3"&gt;
+            &lt;label class="form-label"&gt;Comments&lt;/label&gt;
+            &lt;div class="form-icon position-relative"&gt;
+                &lt;i data-feather="message-circle" class="fea icon-sm icons"&gt;&lt;/i&gt;
+                &lt;textarea name="comments" id="comments" rows="4" class="form-control ps-5" placeholder="Your Message :"&gt;&lt;/textarea&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;!--end row--&gt;
+&lt;div class="row"&gt;
+    &lt;div class="col-sm-12"&gt;
+        &lt;input type="submit" id="submit" name="send" class="btn btn-primary" value="Send Message"&gt;
+    &lt;/div&gt;&lt;!--end col--&gt;
+&lt;/div&gt;&lt;!--end row--&gt;
+</code></pre>
+                                        <form>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="mb-3">
+                                                        <label class="form-label">Your Name <span class="text-danger">*</span></label>
+                                                        <div class="form-icon position-relative">
+                                                            <i data-feather="user" class="fea icon-sm icons"></i>
+                                                            <input name="name" id="name" type="text" class="form-control ps-5" placeholder="First Name :">
+                                                        </div>
+                                                    </div>
+                                                </div><!--end col-->
+                                                <div class="col-md-6">
+                                                    <div class="mb-3">
+                                                        <label class="form-label">Your Email <span class="text-danger">*</span></label>
+                                                        <div class="form-icon position-relative">
+                                                            <i data-feather="mail" class="fea icon-sm icons"></i>
+                                                            <input name="email" id="email" type="email" class="form-control ps-5" placeholder="Your email :">
+                                                        </div>
+                                                    </div> 
+                                                </div><!--end col-->
+                                                <div class="col-md-12">
+                                                    <div class="mb-3">
+                                                        <label class="form-label">Subject</label>
+                                                        <div class="form-icon position-relative">
+                                                            <i data-feather="book" class="fea icon-sm icons"></i>
+                                                            <input name="subject" id="subject" class="form-control ps-5" placeholder="Your subject :">
+                                                        </div>
+                                                    </div>                                                                               
+                                                </div><!--end col-->
+                                                <div class="col-md-12">
+                                                    <div class="mb-3">
+                                                        <label class="form-label">Comments</label>
+                                                        <div class="form-icon position-relative">
+                                                            <i data-feather="message-circle" class="fea icon-sm icons"></i>
+                                                            <textarea name="comments" id="comments" rows="4" class="form-control ps-5" placeholder="Your Message :"></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div><!--end row-->
+                                            <div class="row">
+                                                <div class="col-sm-12">
+                                                    <input type="submit" id="submit" name="send" class="btn btn-primary" value="Send Message">
+                                                </div><!--end col-->
+                                            </div><!--end row-->
+                                        </form><!--end form-->
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            <!-- Forms End -->
+
+                            <!-- Checkboxes Start -->
+                            <div class="col-12 mt-4 pt-2">
+                                <div class="component-wrapper rounded shadow">
+                                    <div class="p-4 border-bottom">
+                                        <h5 class="title mb-0"> Checkboxes </h5>
+                                    </div>
+
+                                    <div class="p-4">
+                                        <h6 class="text-muted mb-2 pb-2">Ex. 
+                                            <pre><code class="text-danger">
+&lt;div class="form-check form-check-inline"&gt;
+    &lt;div class="mb-0"&gt;
+        &lt;div class="form-check"&gt;
+            &lt;input class="form-check-input" type="checkbox" checked value="" id="flexCheckDefault1"&gt;
+            &lt;label class="form-check-label" for="flexCheckDefault1"&gt;One&lt;/label&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="form-check form-check-inline"&gt;
+    &lt;div class="mb-0"&gt;
+        &lt;div class="form-check"&gt;
+            &lt;input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2"&gt;
+            &lt;label class="form-check-label" for="flexCheckDefault2"&gt;Two&lt;/label&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="form-check form-check-inline"&gt;
+    &lt;div class="mb-0"&gt;
+        &lt;div class="form-check"&gt;
+            &lt;input class="form-check-input" type="checkbox" disabled value="" id="flexCheckDefault3"&gt;
+            &lt;label class="form-check-label" for="flexCheckDefault3"&gt;Disabled&lt;/label&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+                                        <div class="form-check form-check-inline">
+                                            <div class="mb-0">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" checked value="" id="flexCheckDefault1">
+                                                    <label class="form-check-label" for="flexCheckDefault1">One</label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-check form-check-inline">
+                                            <div class="mb-0">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+                                                    <label class="form-check-label" for="flexCheckDefault2">Two</label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-check form-check-inline">
+                                            <div class="mb-0">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" disabled value="" id="flexCheckDefault3">
+                                                    <label class="form-check-label" for="flexCheckDefault3">Disabled</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            <!-- Checkboxes End -->
+
+                            <!-- Radio Buttons Start -->
+                            <div class="col-12 mt-4 pt-2">
+                                <div class="component-wrapper rounded shadow">
+                                    <div class="p-4 border-bottom">
+                                        <h5 class="title mb-0"> Radio Buttons </h5>
+                                    </div>
+
+                                    <div class="p-4">
+                                        <h6 class="text-muted mb-2 pb-2">Ex. 
+                                            <pre><code class="text-danger">
+&lt;div class="custom-control custom-radio custom-control-inline"&gt;
+    &lt;div class="form-check mb-0"&gt;
+        &lt;input class="form-check-input" checked type="radio" name="flexRadioDefault" id="flexRadioDefault1"&gt;
+        &lt;label class="form-check-label" for="flexRadioDefault1"&gt;Yes&lt;/label&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="custom-control custom-radio custom-control-inline"&gt;
+    &lt;div class="form-check mb-0"&gt;
+        &lt;input class="form-check-input" checked type="radio" name="flexRadioDefault" id="flexRadioDefault2"&gt;
+        &lt;label class="form-check-label" for="flexRadioDefault2"&gt;No&lt;/label&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="custom-control custom-radio custom-control-inline"&gt;
+    &lt;div class="form-check mb-0"&gt;
+        &lt;input class="form-check-input" checked type="radio" disabled name="flexRadioDefault" id="flexRadioDefault3"&gt;
+        &lt;label class="form-check-label" for="flexRadioDefault3"&gt;Disabled&lt;/label&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <div class="form-check mb-0">
+                                                <input class="form-check-input" checked type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">Yes</label>
+                                            </div>
+                                        </div>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <div class="form-check mb-0">
+                                                <input class="form-check-input" checked type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                                <label class="form-check-label" for="flexRadioDefault2">No</label>
+                                            </div>
+                                        </div>
+                                        <div class="custom-control custom-radio custom-control-inline">
+                                            <div class="form-check mb-0">
+                                                <input class="form-check-input" checked type="radio" disabled name="flexRadioDefault" id="flexRadioDefault3">
+                                                <label class="form-check-label" for="flexRadioDefault3">Disabled</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            <!-- Radio Buttons End -->
+
+                            <!-- Switches Button Start -->
+                            <div class="col-12 mt-4 pt-2">
+                                <div class="component-wrapper rounded shadow">
+                                    <div class="p-4 border-bottom">
+                                        <h5 class="title mb-0"> Switches Button </h5>
+                                    </div>
+
+                                    <div class="p-4">
+                                        <h6 class="text-muted mb-2 pb-2">Ex. 
+                                            <pre><code class="text-danger">
+&lt;div class="form-check form-switch"&gt;
+    &lt;input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault"&gt;
+    &lt;label class="form-check-label" for="flexSwitchCheckDefault"&gt;Default switch checkbox input&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;div class="form-check form-switch"&gt;
+    &lt;input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked&gt;
+    &lt;label class="form-check-label" for="flexSwitchCheckChecked"&gt;Checked switch checkbox input&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;div class="form-check form-switch"&gt;
+    &lt;input class="form-check-input" type="checkbox" id="flexSwitchCheckDisabled" disabled&gt;
+    &lt;label class="form-check-label" for="flexSwitchCheckDisabled"&gt;Disabled switch checkbox input&lt;/label&gt;
+&lt;/div&gt;
+
+&lt;div class="form-check form-switch"&gt;
+    &lt;input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled" checked disabled&gt;
+    &lt;label class="form-check-label" for="flexSwitchCheckCheckedDisabled"&gt;Disabled checked switch checkbox input&lt;/label&gt;
+&lt;/div&gt;
+</code></pre>
+                                        <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                                            <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+                                        </div>
+
+                                        <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                            <label class="form-check-label" for="flexSwitchCheckChecked">Checked switch checkbox input</label>
+                                        </div>
+
+                                        <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckDisabled" disabled>
+                                            <label class="form-check-label" for="flexSwitchCheckDisabled">Disabled switch checkbox input</label>
+                                        </div>
+
+                                        <div class="form-check form-switch">
+                                            <input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled" checked disabled>
+                                            <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">Disabled checked switch checkbox input</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            <!-- Switches Button End -->
+
+                            <!-- Select Box Start -->
+                            <div class="col-12 mt-4 pt-2">
+                                <div class="component-wrapper rounded shadow">
+                                    <div class="p-4 border-bottom">
+                                        <h5 class="title mb-0"> Form Select Box </h5>
+                                    </div>
+
+                                    <div class="p-4">
+                                        <h6 class="text-muted mb-2 pb-2">Ex. 
+                                            <pre><code class="text-danger">
+&lt;select class="form-select form-control" aria-label="Default select example"&gt;
+    &lt;option selected&gt;Open this select menu&lt;/option&gt;
+    &lt;option value="1"&gt;One&lt;/option&gt;
+    &lt;option value="2"&gt;Two&lt;/option&gt;
+    &lt;option value="3"&gt;Three&lt;/option&gt;
+&lt;/select&gt;
+</code></pre>
+                                        <select class="form-select form-control" aria-label="Default select example">
+                                            <option selected>Open this select menu</option>
+                                            <option value="1">One</option>
+                                            <option value="2">Two</option>
+                                            <option value="3">Three</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            <!-- Select Box End -->
+
+                            <!-- Subscribe Form Start -->
+                            <div class="col-12 mt-4 pt-2">
+                                <div class="component-wrapper rounded shadow">
+                                    <div class="p-4 border-bottom">
+                                        <h5 class="title mb-0"> Subscribe Form </h5>
+                                    </div>
+        
+                                    <div class="p-4">
+                                        <h6 class="text-muted mb-2 pb-2">Ex. 
+                                            <pre><code class="text-danger">
+&lt;div class="subcribe-form"&gt;
+    &lt;form&gt;
+        &lt;input name="email" id="email2" type="email" class="form-control rounded-pill shadow" placeholder="Your email :" required&gt;
+        &lt;button type="submit" class="btn btn-pills btn-primary"&gt;Subscribe&lt;/button&gt;
+    &lt;/form&gt;&lt;!--end form--&gt;
+&lt;/div>
+</code></pre>
+                                        <div class="subcribe-form">
+                                            <form>
+                                                <input name="email" id="email2" type="email" class="form-control rounded-pill shadow" placeholder="Your email :" required>
+                                                <button type="submit" class="btn btn-pills btn-primary">Subscribe</button>
+                                            </form><!--end form-->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            <!-- Subscribe Form End -->
+                        </div><!--end row-->
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--section-->
+        <!-- End -->
+
+        
+        @@include("partials/footer/footer-one.html")
+
+        @@include("partials/offcanvas-right.html")
+        @@include("partials/switcherbar.html")
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fs-5"><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i></a>
+        <!-- Back to top -->
+
+        <!-- javascript -->
+        @@include("partials/vendor-scripts.html")
+        <!-- Main Js -->
+        <script src="assets/js/plugins.init.js"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+        <script src="assets/js/app.js"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+    </body>
+</html>

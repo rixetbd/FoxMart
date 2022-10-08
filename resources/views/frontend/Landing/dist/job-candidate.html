@@ -1,0 +1,647 @@
+
+<!doctype html>
+<html lang="en" dir="ltr">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Landrick - Saas & Software Landing Page Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Premium Bootstrap 5 Landing Page Template" />
+        <meta name="keywords" content="Saas, Software, multi-uses, HTML, Clean, Modern" />
+        <meta name="author" content="Shreethemes" />
+        <meta name="email" content="support@shreethemes.in" />
+        <meta name="website" content="https://shreethemes.in" />
+        <meta name="Version" content="v4.2.0" />
+
+        <!-- favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico" />
+        
+        <!-- Css -->
+        <!-- Bootstrap Css -->
+        <link href="assets/css/bootstrap.min.css" class="theme-opt" rel="stylesheet" type="text/css" />
+        <!-- Icons Css -->
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/libs/@iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" />
+        <!-- Style Css-->
+        <link href="assets/css/style.min.css" class="theme-opt" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body>
+        <!-- Loader -->
+        <!-- <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Loader -->
+        
+        
+        <!-- Navbar Start -->
+        <header id="topnav" class="defaultscroll sticky">
+            <div class="container">
+                <!-- Logo container-->
+                <a class="logo" href="index.html">
+                    <span class="logo-light-mode">
+                        <img src="assets/images/logo-dark.png" class="l-dark" height="24" alt="">
+                        <img src="assets/images/logo-light.png" class="l-light" height="24" alt="">
+                    </span>
+                    <img src="assets/images/logo-light.png" height="24" class="logo-dark-mode" alt="">
+                </a>
+
+                <!-- End Logo container-->
+                <div class="menu-extras">
+                    <div class="menu-item">
+                        <!-- Mobile menu toggle-->
+                        <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <!-- End mobile menu toggle-->
+                    </div>
+                </div>
+
+                <!--Login button Start-->
+                <ul class="buy-button list-inline mb-0">
+                    <li class="list-inline-item mb-0">
+                        <a href="javascript:void(0)" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            <div class="login-btn-primary"><span class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="settings" class="fea icon-sm"></i></span></div>
+                            <div class="login-btn-light"><span class="btn btn-icon btn-pills btn-light"><i data-feather="settings" class="fea icon-sm"></i></span></div>
+                        </a>
+                    </li>
+            
+                    <li class="list-inline-item ps-1 mb-0">
+                        <a href="https://1.envato.market/landrick" target="_blank">
+                            <div class="login-btn-primary"><span class="btn btn-icon btn-pills btn-primary"><i data-feather="shopping-cart" class="fea icon-sm"></i></span></div>
+                            <div class="login-btn-light"><span class="btn btn-icon btn-pills btn-light"><i data-feather="shopping-cart" class="fea icon-sm"></i></span></div>
+                        </a>
+                    </li>
+                </ul>
+                <!--Login button End-->
+
+                <div id="navigation">
+                    <!-- Navigation Menu-->   
+                    <ul class="navigation-menu nav-light">
+                        <li><a href="index-job.html" class="sub-menu-item">Home</a></li>
+                
+                        <li class="has-submenu parent-parent-menu-item">
+                            <a href="javascript:void(0)">Jobs</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="job-list-one.html" class="sub-menu-item"> Job List One</a></li>
+                                <li><a href="job-list-two.html" class="sub-menu-item"> Job List Two</a></li>
+                                <li><a href="job-list-three.html" class="sub-menu-item"> Job List Three</a></li>
+                                <li><a href="job-list-four.html" class="sub-menu-item"> Job List Four</a></li>
+                                <li><a href="job-list-five.html" class="sub-menu-item"> Job List Five</a></li>
+                                <li class="has-submenu parent-menu-item"><a href="javascript:void(0)"> Job Detail </a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="job-detail-one.html" class="sub-menu-item"> Job Detail One</a></li>
+                                        <li><a href="job-detail-two.html" class="sub-menu-item"> Job Detail Two</a></li>
+                                        <li><a href="job-detail-three.html" class="sub-menu-item"> Job Detail Three</a></li>
+                                    </ul> 
+                                </li>
+                                <li><a href="job-apply.html" class="sub-menu-item"> Job Apply</a></li>
+                            </ul>
+                        </li>
+                
+                        <li class="has-submenu parent-menu-item">
+                            <a href="javascript:void(0)">Candidate</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="job-candidate-list.html" class="sub-menu-item">Candidate Listing</a></li>
+                                <li><a href="job-candidate.html" class="sub-menu-item">Candidate Detail</a></li>
+                            </ul>
+                        </li>
+                
+                        <li class="has-submenu parent-menu-item">
+                            <a href="javascript:void(0)">Company</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="job-company-list.html" class="sub-menu-item">Company Listing</a></li>
+                                <li><a href="job-company.html" class="sub-menu-item">Company Detail</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="has-submenu parent-parent-menu-item">
+                            <a href="javascript:void(0)">Pages</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li><a href="job-about.html" class="sub-menu-item">About us</a></li>
+                                <li><a href="job-price.html" class="sub-menu-item">Pricing</a></li>
+                                <li><a href="job-faqs.html" class="sub-menu-item">FAQs</a></li>
+                                <li class="has-submenu parent-menu-item">
+                                    <a href="javascript:void(0)">Authentication</a><span class="submenu-arrow"></span>
+                                    <ul class="submenu">
+                                        <li><a href="auth-bs-login.html" class="sub-menu-item">Login</a></li>
+                                        <li><a href="auth-bs-signup.html" class="sub-menu-item">Signup</a></li>
+                                        <li><a href="auth-bs-reset.html" class="sub-menu-item">Reset Password</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul><!--end navigation menu-->
+                </div><!--end navigation-->
+            </div><!--end container-->
+        </header><!--end header-->
+        <!-- Navbar End -->
+        
+        <!-- Hero Start -->
+        <section class="bg-half-260 bg-primary d-table w-100" style="background-image: url('assets/images/job/bg.png');">
+            <!-- <div class="bg-overlay"></div> -->
+        </section><!--end section-->
+        <!-- Hero End -->
+
+        <!-- Candidate Detail Start -->
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-5 col-12">
+                        <div class="card job-profile shadow border-0">
+                            <div class="text-center py-5 border-bottom rounded-top">
+                                <img src="assets/images/client/01.jpg" class="avatar avatar-medium mx-auto rounded-circle shadow d-block" alt="">
+                                <h5 class="mt-3 mb-0">Thomas Brewer</h5>
+                                <p class="text-muted mb-0">Senior Web Developer</p>
+                            </div>                               
+                            <div class="card-body">
+                                <h5 class="card-title">Personal Details :</h5>
+                                                                    
+                                <ul class="list-unstyled">
+                                    <li class="h6"><i data-feather="mail" class="fea icon-sm text-warning me-3"></i><span class="text-muted">Email :</span> thomas@mail.com</li>
+                                    <li class="h6"><i data-feather="gift" class="fea icon-sm text-warning me-3"></i><span class="text-muted">D.O.B. :</span> 31st Dec, 1996</li>
+                                    <li class="h6"><i data-feather="home" class="fea icon-sm text-warning me-3"></i><span class="text-muted">Address :</span> 15 Razy street</li>
+                                    <li class="h6"><i data-feather="map-pin" class="fea icon-sm text-warning me-3"></i><span class="text-muted">City :</span> London</li>
+                                    <li class="h6"><i data-feather="globe" class="fea icon-sm text-warning me-3"></i><span class="text-muted">Country :</span> UK</li>
+                                    <li class="h6"><i data-feather="server" class="fea icon-sm text-warning me-3"></i><span class="text-muted">Postal Code :</span> 521452</li>
+                                    <li class="h6"><i data-feather="phone" class="fea icon-sm text-warning me-3"></i><span class="text-muted">Mobile :</span> (+125) 1542-8452</li>
+                                    
+                                    <li>
+                                        <ul class="list-unstyled social-icon social mb-0 mt-4">
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="github" class="fea icon-sm fea-social"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="youtube" class="fea icon-sm fea-social"></i></a></li>
+                                            <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="gitlab" class="fea icon-sm fea-social"></i></a></li>
+                                        </ul><!--end icon-->
+                                    </li>
+                                </ul>
+                                <div class="d-grid">
+                                    <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#Contactme" class="btn btn-primary"><i class="uil uil-envelope align-middle"></i> Contact Me</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-8 col-md-7 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="ms-lg-4">
+                            <h4>About us :</h4>
+                            <p class="text-muted">Obviously I'M Web Developer. Web Developer with over 3 years of experience. Experienced with all stages of the development cycle for dynamic web projects. The as opposed to using 'Content here, content here', making it look like readable English.</p>
+                            <p class="text-muted mb-0">Data Structures and Algorithms are the heart of programming. Initially most of the developers do not realize its importance but when you will start your career in software development, you will find your code is either taking too much time or taking too much space.</p>
+                            
+                            <!-- Skills Start -->
+                            <h4 class="mt-lg-5 mt-4">Skills :</h4>
+                            <div class="progress-box mt-4">
+                                <h6 class="title text-muted">WordPress</h6>
+                                <div class="progress">
+                                    <div class="progress-bar position-relative bg-primary" style="width:84%;">
+                                        <div class="progress-value d-block text-muted h6">84%</div>
+                                    </div>
+                                </div>
+                            </div><!--end process box-->
+                            <div class="progress-box mt-4">
+                                <h6 class="title text-muted">PHP / MYSQL</h6>
+                                <div class="progress">
+                                    <div class="progress-bar position-relative bg-primary" style="width:75%;">
+                                        <div class="progress-value d-block text-muted h6">75%</div>
+                                    </div>
+                                </div>
+                            </div><!--end process box-->
+                            <div class="progress-box mt-4">
+                                <h6 class="title text-muted">Angular / JavaScript</h6>
+                                <div class="progress">
+                                    <div class="progress-bar position-relative bg-primary" style="width:79%;">
+                                        <div class="progress-value d-block text-muted h6">79%</div>
+                                    </div>
+                                </div>
+                            </div><!--end process box-->
+                            <div class="progress-box mt-4">
+                                <h6 class="title text-muted">HTML</h6>
+                                <div class="progress">
+                                    <div class="progress-bar position-relative bg-primary" style="width:95%;">
+                                        <div class="progress-value d-block text-muted h6">95%</div>
+                                    </div>
+                                </div>
+                            </div><!--end process box-->
+                            <!-- Skills End -->
+
+                            <!-- Experience Start -->
+                            <h4 class="mt-lg-5 mt-4">Experience :</h4>
+                            <div class="row">
+                                <div class="col-lg-12 mt-4 pt-2">
+                                    <div class="d-flex">
+                                        <div class="company-logo text-muted h6 me-3 text-center">
+                                            <img src="assets/images/job/Codepen.svg" class="avatar avatar-md-sm mx-auto d-block mb-2" alt="">2017-18
+                                        </div>
+                                        <div class="flex-1">
+                                            <h5 class="title mb-0">Back-end Developer</h5>
+                                            <small class="text-muted company-university">Codepen - CHINA</small>
+                                            <p class="text-muted mt-2 mb-0">It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculate that over the course of time certain letters were added or deleted at various positions within the text. </p>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+                                
+                                <div class="col-lg-12 mt-4 pt-2">
+                                    <div class="d-flex">
+                                        <div class="company-logo text-muted h6 me-3 text-center">
+                                            <img src="assets/images/job/Circleci.svg" class="avatar avatar-md-sm mx-auto d-block mb-2" alt="">2014-17
+                                        </div>
+                                        <div class="flex-1">
+                                            <h5 class="title mb-0">Senior Web Designer</h5>
+                                            <small class="text-muted company-university">CircleCi - SAN FRANCISCO</small>
+                                            <p class="text-muted mt-2 mb-0">It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculate that over the course of time certain letters were added or deleted at various positions within the text. </p>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+                            </div><!--end row-->
+                            <!-- Experience End -->
+
+                            <!-- Start Projects Work -->
+                            <h4 class="mt-lg-5 mt-4">Projects :</h4>
+                            <div class="row">
+                                <div class="col-md-6 col-12 mt-4 pt-2">
+                                    <div class="card border-0 work-container work-primary work-classic">
+                                        <div class="card-body p-0">
+                                            <a href="portfolio-detail-one.html"><img src="assets/images/work/1.jpg" class="img-fluid rounded work-image" alt=""></a>
+                                            <div class="content pt-3">
+                                                <h5 class="mb-0"><a href="portfolio-detail-one.html" class="text-dark title">Iphone mockup</a></h5>
+                                                <h6 class="text-muted tag mb-0">Branding</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+                                
+                                <div class="col-md-6 col-12 mt-4 pt-2">
+                                    <div class="card border-0 work-container work-primary work-classic">
+                                        <div class="card-body p-0">
+                                            <a href="portfolio-detail-one.html"><img src="assets/images/work/2.jpg" class="img-fluid rounded work-image" alt=""></a>
+                                            <div class="content pt-3">
+                                                <h5 class="mb-0"><a href="portfolio-detail-one.html" class="text-dark title">Mockup Collection</a></h5>
+                                                <h6 class="text-muted tag mb-0">Mockup</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+                                
+                                <div class="col-md-6 col-12 mt-4 pt-2">
+                                    <div class="card border-0 work-container work-primary work-classic">
+                                        <div class="card-body p-0">
+                                            <a href="portfolio-detail-one.html"><img src="assets/images/work/3.jpg" class="img-fluid rounded work-image" alt=""></a>
+                                            <div class="content pt-3">
+                                                <h5 class="mb-0"><a href="portfolio-detail-one.html" class="text-dark title">Abstract images</a></h5>
+                                                <h6 class="text-muted tag mb-0">Abstract</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+                                
+                                <div class="col-md-6 col-12 mt-4 pt-2">
+                                    <div class="card border-0 work-container work-primary work-classic">
+                                        <div class="card-body p-0">
+                                            <a href="portfolio-detail-one.html"><img src="assets/images/work/4.jpg" class="img-fluid rounded work-image" alt=""></a>
+                                            <div class="content pt-3">
+                                                <h5 class="mb-0"><a href="portfolio-detail-one.html" class="text-dark title">Yellow bg with Books</a></h5>
+                                                <h6 class="text-muted tag mb-0">Books</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+                            </div><!--end row-->
+                            <!-- End Projects Work -->
+
+                            <div class="mt-4 pt-2">
+                                <a href="javascript:void(0)" class="btn btn-primary me-2"><i class="uil uil-user-check"></i> Hire me</a>
+                                <a href="javascript:void(0)" class="btn btn-outline-primary"><i class="uil uil-print"></i> Print CV</a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--enn row-->
+            </div><!--end container-->
+        </section><!--end section-->
+
+        <!-- Modal Content Start -->
+        <div class="modal fade" id="Contactme" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content rounded shadow border-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalCenterTitle">Contact Me </h5>
+                        <button type="button" class="btn btn-icon btn-close" data-bs-dismiss="modal" id="close-modal"><i class="uil uil-times fs-4 text-dark"></i></button>
+                    </div>
+                    <div class="modal-body p-4">
+                        <div class="custom-form mt-3">
+                            <form>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="mb-3">
+                                            <label class="form-label">Your Name <span class="text-danger">*</span></label>
+                                            <div class="form-icon position-relative">
+                                                <i data-feather="user" class="fea icon-sm icons"></i>
+                                                <input name="name" id="name2" type="text" class="form-control ps-5" placeholder="Name :">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12">
+                                        <div class="mb-3">
+                                            <label class="form-label">Your Email <span class="text-danger">*</span></label>
+                                            <div class="form-icon position-relative">
+                                                <i data-feather="mail" class="fea icon-sm icons"></i>
+                                                <input name="email" id="email2" type="email" class="form-control ps-5" placeholder="Email :">
+                                            </div>
+                                        </div> 
+                                    </div><!--end col-->
+
+                                    <div class="col-12">
+                                        <div class="mb-3">
+                                            <label class="form-label">Subject</label>
+                                            <div class="form-icon position-relative">
+                                                <i data-feather="book" class="fea icon-sm icons"></i>
+                                                <input name="subject" id="subject2" class="form-control ps-5" placeholder="subject :">
+                                            </div>
+                                        </div>
+                                    </div><!--end col-->
+
+                                    <div class="col-12">
+                                        <div class="mb-3">
+                                            <label class="form-label">Comments <span class="text-danger">*</span></label>
+                                            <div class="form-icon position-relative">
+                                                <i data-feather="message-circle" class="fea icon-sm icons clearfix"></i>
+                                                <textarea name="comments" id="comments2" rows="4" class="form-control ps-5" placeholder="Message :"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="d-grid">
+                                            <button type="submit" id="submit2" name="send" class="btn btn-primary">Send Message</button>
+                                        </div>
+                                    </div><!--end col-->
+                                </div><!--end row-->
+                            </form>
+                        </div><!--end custom-form-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Content End -->
+        <!-- Candidate Detail End -->
+
+        
+        <!-- Footer Start -->
+        <footer class="footer">    
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-py-60">
+                            <div class="row">
+                                <div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
+                                    <a href="#" class="logo-footer">
+                                        <img src="assets/images/logo-light.png" height="24" alt="">
+                                    </a>
+                                    <p class="mt-4">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                    <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
+                                    </ul><!--end icon-->
+                                </div><!--end col-->
+                        
+                                <div class="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                                    <h5 class="footer-head">Company</h5>
+                                    <ul class="list-unstyled footer-list mt-4">
+                                        <li><a href="javascript:void(0)" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> About us</a></li>
+                                        <li><a href="javascript:void(0)" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Services</a></li>
+                                        <li><a href="javascript:void(0)" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Team</a></li>
+                                        <li><a href="javascript:void(0)" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Pricing</a></li>
+                                        <li><a href="javascript:void(0)" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Project</a></li>
+                                        <li><a href="javascript:void(0)" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Careers</a></li>
+                                        <li><a href="javascript:void(0)" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Blog</a></li>
+                                        <li><a href="javascript:void(0)" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Login</a></li>
+                                    </ul>
+                                </div><!--end col-->
+                        
+                                <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                                    <h5 class="footer-head">Usefull Links</h5>
+                                    <ul class="list-unstyled footer-list mt-4">
+                                        <li><a href="javascript:void(0)" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Terms of Services</a></li>
+                                        <li><a href="javascript:void(0)" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Privacy Policy</a></li>
+                                        <li><a href="javascript:void(0)" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Documentation</a></li>
+                                        <li><a href="javascript:void(0)" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Changelog</a></li>
+                                        <li><a href="javascript:void(0)" class="text-foot"><i class="uil uil-angle-right-b me-1"></i> Components</a></li>
+                                    </ul>
+                                </div><!--end col-->
+    
+                                <div class="col-lg-3 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                                    <h5 class="footer-head">Newsletter</h5>
+                                    <p class="mt-4">Sign up and receive the latest tips via email.</p>
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="foot-subscribe mb-3">
+                                                    <label class="form-label">Write your email <span class="text-danger">*</span></label>
+                                                    <div class="form-icon position-relative">
+                                                        <i data-feather="mail" class="fea icon-sm icons"></i>
+                                                        <input type="email" name="email" id="emailsubscribe" class="form-control ps-5 rounded" placeholder="Your email : " required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12">
+                                                <div class="d-grid">
+                                                    <input type="submit" id="submitsubscribe" name="send" class="btn btn-soft-primary" value="Subscribe">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div><!--end col-->
+                            </div><!--end row-->
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="footer-py-30 footer-bar">
+                <div class="container text-center">
+                    <div class="row align-items-center">
+                        <div class="col-sm-6">
+                            <div class="text-sm-start">
+                                <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> Landrick. Design with <i class="mdi mdi-heart text-danger"></i> by <a href="https://shreethemes.in/" target="_blank" class="text-reset">Shreethemes</a>.</p>
+                            </div>
+                        </div><!--end col-->
+
+                        <div class="col-sm-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                            <ul class="list-unstyled text-sm-end mb-0">
+                                <li class="list-inline-item"><a href="javascript:void(0)"><img src="assets/images/payments/american-ex.png" class="avatar avatar-ex-sm" title="American Express" alt=""></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)"><img src="assets/images/payments/discover.png" class="avatar avatar-ex-sm" title="Discover" alt=""></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)"><img src="assets/images/payments/master-card.png" class="avatar avatar-ex-sm" title="Master Card" alt=""></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)"><img src="assets/images/payments/paypal.png" class="avatar avatar-ex-sm" title="Paypal" alt=""></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)"><img src="assets/images/payments/visa.png" class="avatar avatar-ex-sm" title="Visa" alt=""></a></li>
+                            </ul>
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div>
+        </footer><!--end footer-->
+        <!-- Footer End -->
+
+        <!-- Offcanvas Start -->
+        <div class="offcanvas offcanvas-end shadow" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header p-4 border-bottom">
+                <h5 id="offcanvasRightLabel" class="mb-0">
+                    <img src="assets/images/logo-dark.png" height="24" class="light-version" alt="">
+                    <img src="assets/images/logo-light.png" height="24" class="dark-version" alt="">
+                </h5>
+                <button type="button" class="btn-close d-flex align-items-center text-dark" data-bs-dismiss="offcanvas" aria-label="Close"><i class="uil uil-times fs-4"></i></button>
+            </div>
+            <div class="offcanvas-body p-4">
+                <div class="row">
+                    <div class="col-12">
+                        <img src="assets/images/contact.svg" class="img-fluid d-block mx-auto" style="max-width: 256px;" alt="">
+                        <div class="card border-0 mt-5" style="z-index: 1">
+                            <div class="card-body p-0">
+                                <form method="post" name="myForm" id="myForm" onsubmit="return validateForm()">
+                                    <p id="error-msg" class="mb-0"></p>
+                                    <div id="simple-msg"></div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <label class="form-label">Your Name <span class="text-danger">*</span></label>
+                                                <div class="form-icon position-relative">
+                                                    <i data-feather="user" class="fea icon-sm icons"></i>
+                                                    <input name="name" id="name" type="text" class="form-control ps-5" placeholder="Name :">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <label class="form-label">Your Email <span class="text-danger">*</span></label>
+                                                <div class="form-icon position-relative">
+                                                    <i data-feather="mail" class="fea icon-sm icons"></i>
+                                                    <input name="email" id="email" type="email" class="form-control ps-5" placeholder="Email :">
+                                                </div>
+                                            </div> 
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="mb-3">
+                                                <label class="form-label">Subject</label>
+                                                <div class="form-icon position-relative">
+                                                    <i data-feather="book" class="fea icon-sm icons"></i>
+                                                    <input name="subject" id="subject" class="form-control ps-5" placeholder="subject :">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="mb-3">
+                                                <label class="form-label">Comments <span class="text-danger">*</span></label>
+                                                <div class="form-icon position-relative">
+                                                    <i data-feather="message-circle" class="fea icon-sm icons clearfix"></i>
+                                                    <textarea name="comments" id="comments" rows="4" class="form-control ps-5" placeholder="Message :"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-grid">
+                                                <button type="submit" id="submit" name="send" class="btn btn-primary">Send Message</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offcanvas-footer p-4 border-top text-center">
+                <ul class="list-unstyled social-icon social mb-0">
+                    <li class="list-inline-item mb-0"><a href="https://1.envato.market/landrick" target="_blank" class="rounded"><i class="uil uil-shopping-cart align-middle" title="Buy Now"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://dribbble.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-dribbble align-middle" title="dribbble"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://www.behance.net/shreethemes" target="_blank" class="rounded"><i class="uil uil-behance align-middle" title="behance"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://www.facebook.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-facebook-f align-middle" title="facebook"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://www.instagram.com/shreethemes/" target="_blank" class="rounded"><i class="uil uil-instagram align-middle" title="instagram"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://twitter.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-twitter align-middle" title="twitter"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="mailto:support@shreethemes.in" class="rounded"><i class="uil uil-envelope align-middle" title="email"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://shreethemes.in" target="_blank" class="rounded"><i class="uil uil-globe align-middle" title="website"></i></a></li>
+                </ul><!--end icon-->
+            </div>
+        </div>
+        <!-- Offcanvas End -->
+        <!-- Switcher Start -->
+        <a href="javascript:void(0)" class="switcher-btn shadow-md text-primary bg-white" data-bs-toggle="offcanvas" data-bs-target="#switcher-sidebar" aria-controls="offcanvasLeft">
+            <i class="mdi mdi-cog mdi-24px mdi-spin align-middle"></i>
+        </a>
+
+        <div class="offcanvas offcanvas-start shadow" tabindex="-1" id="switcher-sidebar" aria-labelledby="offcanvasLeftLabel">
+            <div class="offcanvas-header p-4 border-bottom">
+                <h5 id="offcanvasLeftLabel" class="mb-0">
+                    <img src="assets/images/logo-dark.png" height="24" class="light-version" alt="">
+                    <img src="assets/images/logo-light.png" height="24" class="dark-version" alt="">
+                </h5>
+                <button type="button" class="btn-close d-flex align-items-center text-dark" data-bs-dismiss="offcanvas" aria-label="Close"><i class="uil uil-times fs-4"></i></button>
+            </div>
+            <div class="offcanvas-body p-4">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="text-center">
+                            <h6 class="fw-bold">Theme Options</h6>
+
+                            <ul class="text-center style-switcher list-unstyled mt-4">
+                                <li class="d-grid"><a href="javascript:void(0)" class="rtl-version t-rtl-light" onclick="setTheme('style-rtl')"><img src="assets/images/demos/rtl.png" class="img-fluid rounded-md shadow-md d-block mx-auto" style="width: 270px;" alt=""><span class="text-dark fw-medium mt-3 d-block">RTL Version</span></a></li>
+                                <li class="d-grid"><a href="javascript:void(0)" class="ltr-version t-ltr-light" onclick="setTheme('style')"><img src="assets/images/demos/ltr.png" class="img-fluid rounded-md shadow-md d-block mx-auto" style="width: 270px;" alt=""><span class="text-dark fw-medium mt-3 d-block">LTR Version</span></a></li>
+                                <li class="d-grid"><a href="javascript:void(0)" class="dark-rtl-version t-rtl-dark" onclick="setTheme('style-dark-rtl')"><img src="assets/images/demos/dark-rtl.png" class="img-fluid rounded-md shadow-md d-block mx-auto" style="width: 270px;" alt=""><span class="text-dark fw-medium mt-3 d-block">RTL Version</span></a></li>
+                                <li class="d-grid"><a href="javascript:void(0)" class="dark-ltr-version t-ltr-dark" onclick="setTheme('style-dark')"><img src="assets/images/demos/dark.png" class="img-fluid rounded-md shadow-md d-block mx-auto" style="width: 270px;" alt=""><span class="text-dark fw-medium mt-3 d-block">LTR Version</span></a></li>
+                                <li class="d-grid"><a href="javascript:void(0)" class="dark-version t-dark mt-4" onclick="setTheme('style-dark')"><img src="assets/images/demos/dark.png" class="img-fluid rounded-md shadow-md d-block mx-auto" style="width: 270px;" alt=""><span class="text-dark fw-medium mt-3 d-block">Dark Version</span></a></li>
+                                <li class="d-grid"><a href="javascript:void(0)" class="light-version t-light mt-4" onclick="setTheme('style')"><img src="assets/images/demos/ltr.png" class="img-fluid rounded-md shadow-md d-block mx-auto" style="width: 270px;" alt=""><span class="text-dark fw-medium mt-3 d-block">Light Version</span></a></li>
+                                <li class="d-grid"><a href="../../dashboard/dist/index.html" target="_blank" class="mt-4"><img src="assets/images/demos/admin.png" class="img-fluid rounded-md shadow-md d-block mx-auto" style="width: 270px;" alt=""><span class="text-dark fw-medium mt-3 d-block">Landing</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offcanvas-footer p-4 border-top text-center">
+                <ul class="list-unstyled social-icon social mb-0">
+                    <li class="list-inline-item mb-0"><a href="https://1.envato.market/landrick" target="_blank" class="rounded"><i class="uil uil-shopping-cart align-middle" title="Buy Now"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://dribbble.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-dribbble align-middle" title="dribbble"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://www.behance.net/shreethemes" target="_blank" class="rounded"><i class="uil uil-behance align-middle" title="behance"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://www.facebook.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-facebook-f align-middle" title="facebook"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://www.instagram.com/shreethemes/" target="_blank" class="rounded"><i class="uil uil-instagram align-middle" title="instagram"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://twitter.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-twitter align-middle" title="twitter"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="mailto:support@shreethemes.in" class="rounded"><i class="uil uil-envelope align-middle" title="email"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://shreethemes.in" target="_blank" class="rounded"><i class="uil uil-globe align-middle" title="website"></i></a></li>
+                </ul><!--end icon-->
+            </div>
+        </div>
+        <!-- Switcher End -->
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fs-5"><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i></a>
+        <!-- Back to top -->
+
+        <!-- Javascript -->
+        <!-- JAVASCRIPT -->
+        <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/libs/feather-icons/feather.min.js"></script>
+        <!-- Main Js -->
+        <script src="assets/js/plugins.init.js"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+        <script src="assets/js/app.js"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+    </body>
+</html>

@@ -1,0 +1,312 @@
+
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        @@include("partials/title-meta.html", {"title": "Landrick"})
+        
+        <!-- Css -->
+        @@include("partials/head-css.html")
+
+    </head>
+
+    <body>
+        <!-- Loader -->
+        <!-- <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Loader -->
+        
+        @@include("partials/navbar/nav-center.html")
+        
+        <!-- Hero Start -->
+        <section class="bg-half-170 bg-light d-table w-100">
+            <div class="container">
+                <div class="row mt-5 justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <div class="pages-heading">
+                            <h4 class="title mb-0"> Nav Tabs </h4>
+                        </div>
+                    </div>  <!--end col-->
+                </div><!--end row-->
+                
+                <div class="position-breadcrumb">
+                    <nav aria-label="breadcrumb" class="d-inline-block">
+                        <ul class="breadcrumb rounded shadow mb-0 px-4 py-2">
+                            <li class="breadcrumb-item"><a href="index.html">Landrick</a></li>
+                            <li class="breadcrumb-item"><a href="#">Components</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Nav Tabs</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div> <!--end container-->
+        </section><!--end section-->
+        <!-- Hero End -->
+
+        <!-- Shape Start -->
+        <div class="position-relative">
+            <div class="shape overflow-hidden text-color-white">
+                <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+        <!--Shape End-->
+
+        <!-- Start -->
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 d-md-block d-none">
+                        <h5>Components</h5>
+                        @@include("partials/component-sidenav.html")
+                    </div><!--end col-->
+
+                    <div class="col-lg-9 col-md-8 col-12">
+                        <div class="row">
+                            <!-- Nav Tabs Start -->
+                            <div class="col-12">
+                                <div class="component-wrapper rounded shadow">
+                                    <div class="p-4 border-bottom">
+                                        <h5 class="title mb-0"> Nav Tabs #1 </h5>
+                                    </div>
+        
+                                    <div class="p-4">
+                                        <h6 class="text-muted mb-2 pb-2">Ex. 
+                                            <pre><code class="text-danger">
+&lt;div class="row"&gt;
+    &lt;div class="col-lg-12"&gt;
+        &lt;ul class="nav nav-pills nav-justified flex-column flex-sm-row rounded" id="pills-tab" role="tablist"&gt;
+            &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link rounded active" id="pills-cloud-tab" data-bs-toggle="pill" href="#pills-cloud" role="tab" aria-controls="pills-cloud" aria-selected="false"&gt;
+                    &lt;div class="text-center py-2"&gt;
+                        &lt;h6 class="mb-0"&gt;Home&lt;/h6&gt;
+                    &lt;/div&gt;
+                &lt;/a&gt;&lt;!--end nav link--&gt;
+            &lt;/li&gt;&lt;!--end nav item--&gt;
+            
+            &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link rounded" id="pills-smart-tab" data-bs-toggle="pill" href="#pills-smart" role="tab" aria-controls="pills-smart" aria-selected="false"&gt;
+                    &lt;div class="text-center py-2"&gt;
+                        &lt;h6 class="mb-0"&gt;About&lt;/h6&gt;
+                    &lt;/div&gt;
+                &lt;/a&gt;&lt;!--end nav link--&gt;
+            &lt;/li&gt;&lt;!--end nav item--&gt;
+            
+            &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link rounded" id="pills-apps-tab" data-bs-toggle="pill" href="#pills-apps" role="tab" aria-controls="pills-apps" aria-selected="false"&gt;
+                    &lt;div class="text-center py-2"&gt;
+                        &lt;h6 class="mb-0"&gt;Service&lt;/h6&gt;
+                    &lt;/div&gt;
+                &lt;/a&gt;&lt;!--end nav link--&gt;
+            &lt;/li&gt;&lt;!--end nav item--&gt;
+        &lt;/ul&gt;&lt;!--end nav pills--&gt;
+    &lt;/div&gt;&lt;!--end col--&gt;
+&lt;/div&gt;&lt;!--end row--&gt;
+
+&lt;div class="row pt-3"&gt;
+    &lt;div class="col-12"&gt;
+        &lt;div class="tab-content" id="pills-tabContent"&gt;
+            &lt;div class="tab-pane fade show active" id="pills-cloud" role="tabpanel" aria-labelledby="pills-cloud-tab"&gt;
+                &lt;p class="text-muted mb-0"&gt;You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website.&lt;/p&gt;
+            &lt;/div&gt;&lt;!--end teb pane--&gt;
+            
+            &lt;div class="tab-pane fade" id="pills-smart" role="tabpanel" aria-labelledby="pills-smart-tab"&gt;
+                &lt;p class="text-muted mb-0"&gt;You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website.&lt;/p&gt;                       
+            &lt;/div&gt;&lt;!--end teb pane--&gt;
+
+            &lt;div class="tab-pane fade" id="pills-apps" role="tabpanel" aria-labelledby="pills-apps-tab"&gt;
+                &lt;p class="text-muted mb-0"&gt;You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website.&lt;/p&gt;                       
+            &lt;/div&gt;&lt;!--end teb pane--&gt;
+        &lt;/div&gt;&lt;!--end tab content--&gt;
+    &lt;/div&gt;&lt;!--end col--&gt;
+&lt;/div&gt;&lt;!--end row--&gt;
+</code></pre>
+
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <ul class="nav nav-pills nav-justified flex-column flex-sm-row rounded" id="pills-tab" role="tablist">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link rounded active" id="pills-cloud-tab" data-bs-toggle="pill" href="#pills-cloud" role="tab" aria-controls="pills-cloud" aria-selected="false">
+                                                            <div class="text-center py-2">
+                                                                <h6 class="mb-0">Home</h6>
+                                                            </div>
+                                                        </a><!--end nav link-->
+                                                    </li><!--end nav item-->
+                                                    
+                                                    <li class="nav-item">
+                                                        <a class="nav-link rounded" id="pills-smart-tab" data-bs-toggle="pill" href="#pills-smart" role="tab" aria-controls="pills-smart" aria-selected="false">
+                                                            <div class="text-center py-2">
+                                                                <h6 class="mb-0">About</h6>
+                                                            </div>
+                                                        </a><!--end nav link-->
+                                                    </li><!--end nav item-->
+                                                    
+                                                    <li class="nav-item">
+                                                        <a class="nav-link rounded" id="pills-apps-tab" data-bs-toggle="pill" href="#pills-apps" role="tab" aria-controls="pills-apps" aria-selected="false">
+                                                            <div class="text-center py-2">
+                                                                <h6 class="mb-0">Service</h6>
+                                                            </div>
+                                                        </a><!--end nav link-->
+                                                    </li><!--end nav item-->
+                                                </ul><!--end nav pills-->
+                                            </div><!--end col-->
+                                        </div><!--end row-->
+
+                                        <div class="row pt-3">
+                                            <div class="col-12">
+                                                <div class="tab-content" id="pills-tabContent">
+                                                    <div class="tab-pane fade show active" id="pills-cloud" role="tabpanel" aria-labelledby="pills-cloud-tab">
+                                                        <p class="text-muted mb-0">You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
+                                                    </div><!--end teb pane-->
+                                                    
+                                                    <div class="tab-pane fade" id="pills-smart" role="tabpanel" aria-labelledby="pills-smart-tab">
+                                                        <p class="text-muted mb-0">You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website.</p>                       
+                                                    </div><!--end teb pane-->
+                        
+                                                    <div class="tab-pane fade" id="pills-apps" role="tabpanel" aria-labelledby="pills-apps-tab">
+                                                        <p class="text-muted mb-0">You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website.</p>                       
+                                                    </div><!--end teb pane-->
+                                                </div><!--end tab content-->
+                                            </div><!--end col-->
+                                        </div><!--end row-->
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            <!-- Nav Tabs End -->
+
+                            <!-- Nav Tabs Start -->
+                            <div class="col-12 mt-4 pt-2">
+                                <div class="component-wrapper rounded shadow">
+                                    <div class="p-4 border-bottom">
+                                        <h5 class="title mb-0"> Nav Tabs #2 </h5>
+                                    </div>
+        
+                                    <div class="p-4">
+                                        <h6 class="text-muted mb-2 pb-2">Ex. 
+                                            <pre><code class="text-danger">
+&lt;div class="row"&gt;
+    &lt;div class="col-md-4 mt-4 pt-2"&gt;
+        &lt;ul class="nav nav-pills nav-justified flex-column rounded shadow p-3 mb-0 sticky-bar" id="pills-tab" role="tablist"&gt;
+            &lt;li class="nav-item"&gt;
+                &lt;a class="nav-link rounded active" id="webdeveloping" data-bs-toggle="pill" href="#developing" role="tab" aria-controls="developing" aria-selected="false"&gt;
+                    &lt;div class="text-center py-1"&gt;
+                        &lt;h6 class="mb-0"&gt;Home&lt;/h6&gt;
+                    &lt;/div&gt;
+                &lt;/a&gt;&lt;!--end nav link--&gt;
+            &lt;/li&gt;&lt;!--end nav item--&gt;
+            
+            &lt;li class="nav-item mt-2"&gt;
+                &lt;a class="nav-link rounded" id="database" data-bs-toggle="pill" href="#data-analise" role="tab" aria-controls="data-analise" aria-selected="false"&gt;
+                    &lt;div class="text-center py-1"&gt;
+                        &lt;h6 class="mb-0"&gt;About&lt;/h6&gt;
+                    &lt;/div&gt;
+                &lt;/a&gt;&lt;!--end nav link--&gt;
+            &lt;/li&gt;&lt;!--end nav item--&gt;
+            
+            &lt;li class="nav-item mt-2"&gt;
+                &lt;a class="nav-link rounded" id="server" data-bs-toggle="pill" href="#security" role="tab" aria-controls="security" aria-selected="false"&gt;
+                    &lt;div class="text-center py-1"&gt;
+                        &lt;h6 class="mb-0"&gt;Service&lt;/h6&gt;
+                    &lt;/div&gt;
+                &lt;/a&gt;&lt;!--end nav link--&gt;
+            &lt;/li&gt;&lt;!--end nav item--&gt;
+        &lt;/ul&gt;&lt;!--end nav pills--&gt;
+    &lt;/div&gt;&lt;!--end col--&gt;
+
+    &lt;div class="col-md-8 col-12 mt-4 pt-2"&gt;
+        &lt;div class="tab-content" id="pills-tabContent"&gt;
+            &lt;div class="tab-pane fade show active p-4 rounded shadow" id="developing" role="tabpanel" aria-labelledby="webdeveloping"&gt;
+                &lt;p class="text-muted mb-0"&gt;You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website.&lt;/p&gt;
+            &lt;/div&gt;&lt;!--end teb pane--&gt;
+            
+            &lt;div class="tab-pane fade p-4 rounded shadow" id="data-analise" role="tabpanel" aria-labelledby="database"&gt;
+                &lt;p class="text-muted mb-0"&gt;You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website.&lt;/p&gt;
+            &lt;/div&gt;&lt;!--end teb pane--&gt;
+
+            &lt;div class="tab-pane fade p-4 rounded shadow" id="security" role="tabpanel" aria-labelledby="server"&gt;
+                &lt;p class="text-muted mb-0"&gt;You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website.&lt;/p&gt;
+            &lt;/div&gt;&lt;!--end teb pane--&gt;
+        &lt;/div&gt;&lt;!--end tab content--&gt;
+    &lt;/div&gt;&lt;!--end col--&gt;
+&lt;/div&gt;&lt;!--end row--&gt;
+</code></pre>
+
+                                        <div class="row">
+                                            <div class="col-md-4 mt-4 pt-2">
+                                                <ul class="nav nav-pills nav-justified flex-column rounded shadow p-3 mb-0 sticky-bar" id="pills-tab" role="tablist">
+                                                    <li class="nav-item">
+                                                        <a class="nav-link rounded active" id="webdeveloping" data-bs-toggle="pill" href="#developing" role="tab" aria-controls="developing" aria-selected="false">
+                                                            <div class="text-center py-1">
+                                                                <h6 class="mb-0">Home</h6>
+                                                            </div>
+                                                        </a><!--end nav link-->
+                                                    </li><!--end nav item-->
+                                                    
+                                                    <li class="nav-item mt-2">
+                                                        <a class="nav-link rounded" id="database" data-bs-toggle="pill" href="#data-analise" role="tab" aria-controls="data-analise" aria-selected="false">
+                                                            <div class="text-center py-1">
+                                                                <h6 class="mb-0">About</h6>
+                                                            </div>
+                                                        </a><!--end nav link-->
+                                                    </li><!--end nav item-->
+                                                    
+                                                    <li class="nav-item mt-2">
+                                                        <a class="nav-link rounded" id="server" data-bs-toggle="pill" href="#security" role="tab" aria-controls="security" aria-selected="false">
+                                                            <div class="text-center py-1">
+                                                                <h6 class="mb-0">Service</h6>
+                                                            </div>
+                                                        </a><!--end nav link-->
+                                                    </li><!--end nav item-->
+                                                </ul><!--end nav pills-->
+                                            </div><!--end col-->
+
+                                            <div class="col-md-8 col-12 mt-4 pt-2">
+                                                <div class="tab-content" id="pills-tabContent">
+                                                    <div class="tab-pane fade show active p-4 rounded shadow" id="developing" role="tabpanel" aria-labelledby="webdeveloping">
+                                                        <p class="text-muted mb-0">You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
+                                                    </div><!--end teb pane-->
+                                                    
+                                                    <div class="tab-pane fade p-4 rounded shadow" id="data-analise" role="tabpanel" aria-labelledby="database">
+                                                        <p class="text-muted mb-0">You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
+                                                    </div><!--end teb pane-->
+
+                                                    <div class="tab-pane fade p-4 rounded shadow" id="security" role="tabpanel" aria-labelledby="server">
+                                                        <p class="text-muted mb-0">You can combine all the Landrick templates into a single one, you can take a component from the Application theme and use it in the Website.</p>
+                                                    </div><!--end teb pane-->
+                                                </div><!--end tab content-->
+                                            </div><!--end col-->
+                                        </div><!--end row-->
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            <!-- Nav Tabs End -->
+                        </div><!--end row-->
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--section-->
+        <!-- End -->
+
+        
+        @@include("partials/footer/footer-one.html")
+
+        @@include("partials/offcanvas-right.html")
+        @@include("partials/switcherbar.html")
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fs-5"><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i></a>
+        <!-- Back to top -->
+
+        <!-- javascript -->
+        @@include("partials/vendor-scripts.html")
+        <!-- Main Js -->
+        <script src="assets/js/plugins.init.js"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+        <script src="assets/js/app.js"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+    </body>
+</html>

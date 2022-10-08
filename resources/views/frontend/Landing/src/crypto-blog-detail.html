@@ -1,0 +1,103 @@
+@@include("partials/main.html")
+
+    <head>
+        @@include("partials/title-meta.html", {"title": "Landrick"})
+        
+        <!-- Css -->
+        @@include("partials/head-css.html")
+
+    </head>
+
+    <body>
+        <!-- Loader -->
+        <!-- <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Loader -->
+        
+        
+        @@include("partials/navbar/nav-crypto.html")
+        
+        <!-- Hero Start -->
+        <section class="bg-half-170 d-table w-100 bg-light">
+            <div class="container">
+                <div class="row mt-5">
+                    <div class="col-lg-8 col-md-7">
+                        <div class="section-title me-lg-5">
+                            <h4 class="title fw-medium mb-4">What is blockchain?</h4>
+                            <p class="text-muted mb-5">It enables peer-to-peer exchange of value in the digital realm through the use of a decentralized protocol, cryptography, and a mechanism to achieve global consensus on the state of a periodically updated public transaction ledger called a 'blockchain.'</p>
+                        
+                            <img src="assets/images/blog/04.jpg" class="img-fluid rounded shadow" alt="">
+
+                            <h5 class="my-4">Blockchain's origin, early growth, and evolution</h5>
+
+                            <p class="text-muted">The paper detailed methods for "allowing any two willing parties to transact directly with each other without the need for a trusted third party." The technologies deployed solved the 'double spend' problem, enabling scarcity in the digital environment for the first time.</p>
+                            <p class="text-muted">The listed author of the paper is Satoshi Nakamoto, a presumed pseudonym for a person or group who's true identity remains a mystery. Nakamoto released the first open-source Landrick software client on January 9th, 2009, and anyone who installed the client could begin using Landrick.</p>
+                            <p class="text-muted">Initial growth of the Landrick network was driven primarily by its utility as a novel method for transacting value in the digital world. Early proponents were, by and large, 'cypherpunks' - individuals who advocated the use of strong cryptography and privacy-enhancing technologies as a route to social and political change. However, speculation as to the future value of Landrick soon became a significant driver of adoption.</p>
+                            <p class="text-muted">The price of Landrick and the number of Landrick users rose in waves over the following decade. As regulators in major economies provided clarity on the legality of Landrick and other cryptocurrencies, a large number of Landrick exchanges established banking connections, making it easy to convert local currency to and from Landrick. Other businesses established robust custodial services, making it easier for institutional investors to gain exposure to the asset as a growing number of high-profile investors signaled their interest.</p>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-5 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                        <div class="card p-4 text-center rounded shadow border-0 sticky-bar">
+                            <img src="assets/images/logo-icon.png" class="avatar avatar-small d-block mx-auto" alt="">
+
+                            <h5 class="mt-4">Buy as little as $30 worth to get started</h5>
+
+                            <img src="assets/images/crypto/bills.svg" class="img-fluid" alt="">
+
+                            <a href="javascript:void(0)" class="btn btn-primary">Buy Now</a>
+
+                            <h6 class="text-muted mb-0 mt-3">Choose from Bitcoin, Bitcoin Cash, Ethereum, and more...</h6>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container--> 
+            
+            <div class="container mt-100 mt-60">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center">
+                            <h4 class="title mb-4">Be the first to know about Crypto news everyday</h4>
+                            <p class="para-desc mx-auto text-muted mb-0">Get crypto analysis, news and updates right to your inbox! Sign up here so you don't miss a single newsletter.</p>
+                        
+                            <div class="subcribe-form mt-5">
+                                <form>
+                                    <div class="mb-0">
+                                        <input type="email" id="email2" name="email" class="rounded-pill border" required placeholder="Enter your email address">
+                                        <button type="submit" class="btn btn-pills btn-primary">Notify me</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End -->
+
+        <!-- Footer Start -->
+        @@include("partials/footer/footer-three.html")
+        <!-- Footer End -->
+
+        @@include("partials/offcanvas-right.html")
+        @@include("partials/switcherbar.html")
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fs-5"><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i></a>
+        <!-- Back to top -->
+
+        <!-- javascript -->
+        @@include("partials/vendor-scripts.html")
+        <!-- Main Js -->
+        <script src="assets/js/plugins.init.js"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+        <script src="assets/js/app.js"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+        
+    </body>
+
+</html>

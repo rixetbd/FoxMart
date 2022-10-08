@@ -1,0 +1,363 @@
+
+@@include("partials/main.html")
+
+    <head>
+        @@include("partials/title-meta.html", {"title": "Landrick"})
+        
+        <!-- Css -->
+        @@include("partials/head-css.html")
+    </head>
+
+    <body>
+        <!-- Loader -->
+        <!-- <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Loader -->
+        
+        <!-- Navbar STart -->
+        <header id="topnav" class="defaultscroll sticky">
+            <div class="container">
+                <!-- Logo container-->
+                <div>
+                    <a class="logo" href="index.html">
+                        <img src="assets/images/logo-dark.png" height="24" class="logo-light-mode" alt="">
+                        <img src="assets/images/logo-light.png" height="24" class="logo-dark-mode" alt="">
+                    </a>
+                </div>
+
+                <!--Login button Start-->
+                <ul class="buy-button list-inline mb-0">
+                    <li class="list-inline-item mb-0">
+                        <a href="javascript:void(0)" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            <div class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="settings" class="fea icon-sm"></i></div>
+                        </a>
+                    </li>
+                    
+                    <li class="list-inline-item ps-1 mb-0">
+                        <a href="https://1.envato.market/landrick" target="_blank">
+                            <div class="btn btn-icon btn-pills btn-primary"><i data-feather="shopping-cart" class="fea icon-sm"></i></div>
+                        </a>
+                    </li>
+                </ul>
+                <!--Login button End-->
+            </div><!--end container-->
+        </header><!--end header-->
+        <!-- Navbar End -->
+
+        <!-- Hero Start -->
+        <section class="bg-half-170 bg-light d-table w-100">
+            <div class="container">
+                <div class="row mt-5 justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <div class="pages-heading">
+                            <h3 class="fw-bold mb-0"> Welcome Landrick Forums </h3>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+                
+                <div class="position-breadcrumb">
+                    <nav aria-label="breadcrumb" class="d-inline-block">
+                        <ul class="breadcrumb rounded shadow mb-0 px-4 py-2">
+                            <li class="breadcrumb-item"><a href="index.html">Landrick</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Forums</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div> <!--end container-->
+        </section><!--end section-->
+        <div class="position-relative">
+            <div class="shape overflow-hidden text-color-white">
+                <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+        <!-- Hero End -->
+
+        <!-- Start Forums -->
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="text-center subcribe-form mb-2">
+                            <form style="max-width:800px;">
+                                <input type="text" id="name" name="name" class="rounded-pill shadow" placeholder="Search forums..." required>
+                                <button type="submit" class="btn btn-pills btn-primary">Search Forums</button>
+                            </form><!--end form-->
+                        </div>
+
+                        <div class="table-responsive bg-white shadow rounded mt-4">
+                            <table class="table mb-0 table-center">
+                                <thead class="bg-light">
+                                    <tr>
+                                        <th scope="col" class="border-bottom p-3" style="min-width: 300px;">Forums Title</th>
+                                        <th scope="col" class="border-bottom p-3 text-center" style="max-width: 150px;">Posted</th>
+                                        <th scope="col" class="border-bottom p-3 text-center" style="width: 100px;">Topics</th>
+                                        <th scope="col" class="border-bottom p-3 text-end" style="width: 100px;">Comments</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="p-3">
+                                            <div class="d-flex">
+                                                <i class="uil uil-comment text-muted h5"></i>
+                                                <div class="flex-1 content ms-3">
+                                                    <a href="forums-topic.html" class="forum-title text-primary fw-bold">Introductions: Landrick</a>
+                                                    <p class="text-muted small mb-0 mt-1">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-center small p-3 h6">Calvin</td>
+                                        <td class="text-center small p-3">3</td>
+                                        <td class="text-center small p-3 text-end">5</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="p-3">
+                                            <div class="d-flex">
+                                                <i class="uil uil-comment text-muted h5"></i>
+                                                <div class="flex-1 content ms-3">
+                                                    <a href="forums-topic.html" class="forum-title text-primary fw-bold">Web Designing and Developing</a>
+                                                    <p class="text-muted small mb-0 mt-1">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-center small p-3 h6">George</td>
+                                        <td class="text-center small p-3">3</td>
+                                        <td class="text-center small p-3 text-end">5</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="p-3">
+                                            <div class="d-flex">
+                                                <i class="uil uil-comment text-muted h5"></i>
+                                                <div class="flex-1 content ms-3">
+                                                    <a href="forums-topic.html" class="forum-title text-primary fw-bold">Hosting and providers</a>
+                                                    <p class="text-muted small mb-0 mt-1">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-center small p-3 h6">Parthiv</td>
+                                        <td class="text-center small p-3">3</td>
+                                        <td class="text-center small p-3 text-end">5</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="p-3">
+                                            <div class="d-flex">
+                                                <i class="uil uil-comment text-muted h5"></i>
+                                                <div class="flex-1 content ms-3">
+                                                    <a href="forums-topic.html" class="forum-title text-primary fw-bold">SEO starter guide</a>
+                                                    <p class="text-muted small mb-0 mt-1">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-center small p-3 h6">David</td>
+                                        <td class="text-center small p-3">3</td>
+                                        <td class="text-center small p-3 text-end">5</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="p-3">
+                                            <div class="d-flex">
+                                                <i class="uil uil-comment text-muted h5"></i>
+                                                <div class="flex-1 content ms-3">
+                                                    <a href="forums-topic.html" class="forum-title text-primary fw-bold">Troubleshooting and managing issues</a>
+                                                    <p class="text-muted small mb-0 mt-1">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-center small p-3 h6">Tiger</td>
+                                        <td class="text-center small p-3">3</td>
+                                        <td class="text-center small p-3 text-end">5</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="p-3">
+                                            <div class="d-flex">
+                                                <i class="uil uil-comment text-muted h5"></i>
+                                                <div class="flex-1 content ms-3">
+                                                    <a href="forums-topic.html" class="forum-title text-primary fw-bold">Backup and restore</a>
+                                                    <p class="text-muted small mb-0 mt-1">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-center small p-3 h6">Cristina</td>
+                                        <td class="text-center small p-3">3</td>
+                                        <td class="text-center small p-3 text-end">5</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="p-3">
+                                            <div class="d-flex">
+                                                <i class="uil uil-comment text-muted h5"></i>
+                                                <div class="flex-1 content ms-3">
+                                                    <a href="forums-topic.html" class="forum-title text-primary fw-bold">Errors and how to fix them</a>
+                                                    <p class="text-muted small mb-0 mt-1">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-center small p-3 h6">Miriam</td>
+                                        <td class="text-center small p-3">3</td>
+                                        <td class="text-center small p-3 text-end">5</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="p-3">
+                                            <div class="d-flex">
+                                                <i class="uil uil-comment text-muted h5"></i>
+                                                <div class="flex-1 content ms-3">
+                                                    <a href="forums-topic.html" class="forum-title text-primary fw-bold">Template features & Services</a>
+                                                    <p class="text-muted small mb-0 mt-1">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-center small p-3 h6">Janalia</td>
+                                        <td class="text-center small p-3">3</td>
+                                        <td class="text-center small p-3 text-end">5</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="p-3">
+                                            <div class="d-flex">
+                                                <i class="uil uil-comment text-muted h5"></i>
+                                                <div class="flex-1 content ms-3">
+                                                    <a href="forums-topic.html" class="forum-title text-primary fw-bold">Landrick includes the ability to create a better of sites by using the multisite feature.</a>
+                                                    <p class="text-muted small mb-0 mt-1">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="text-center small p-3 h6">Harry</td>
+                                        <td class="text-center small p-3">3</td>
+                                        <td class="text-center small p-3 text-end">5</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 mt-4 mt-lg-0 pt-2 pt-lg-0">
+                        <div class="card border-0 sidebar sticky-bar rounded shadow bg-light">
+                            <div class="card-body">
+                                <!-- SEARCH -->
+                                <div class="widget mb-4 pb-2">
+                                    <!-- SEARCH -->
+                                    <div class="widget">
+                                        <form role="search" method="get">
+                                            <div class="input-group mb-3 border rounded">
+                                                <input type="text" id="s" name="s" class="form-control border-0" placeholder="Search Keywords...">
+                                                <button type="submit" class="input-group-text bg-white border-0 bg-transparent" id="searchsubmit"><i class="uil uil-search"></i></button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <!-- SEARCH -->
+                                </div>
+                                <!-- SEARCH -->
+    
+                                <!-- Categories -->
+                                <div class="widget mb-4 pb-2">
+                                    <h5 class="widget-title">Login</h5>
+                                    <form class="login-form mt-4">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Your Email <span class="text-danger">*</span></label>
+                                                    <div class="form-icon position-relative">
+                                                        <i data-feather="user" class="fea icon-sm icons"></i>
+                                                        <input type="email" class="form-control ps-5" placeholder="Email" name="email" required="">
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+                                            <div class="col-lg-12">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Password <span class="text-danger">*</span></label>
+                                                    <div class="form-icon position-relative">
+                                                        <i data-feather="key" class="fea icon-sm icons"></i>
+                                                        <input type="password" class="form-control ps-5" placeholder="Password" required="">
+                                                    </div>
+                                                </div>
+                                            </div>
+    
+                                            <div class="col-lg-12">
+                                                <div class="d-flex justify-content-between">
+                                                    <div class="mb-3">
+                                                        <div class="form-check">
+                                                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                            <label class="form-check-label" for="flexCheckDefault">Remember me</label>
+                                                        </div>
+                                                    </div>
+                                                    <p class="forgot-pass mb-0"><a href="auth-re-password-three.html" class="text-dark fw-bold">Forgot password ?</a></p>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-12 mb-0">
+                                                <div class="d-grid">
+                                                    <button class="btn btn-primary">Sign in</button>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 text-center">
+                                                <p class="mb-0 mt-4"><small class="text-dark me-2">Don't have an account ?</small> <a href="auth-signup-three.html" class="text-dark fw-bold">Sign Up</a></p>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <!-- Categories -->
+    
+                                <!-- RECENT POST -->
+                                <div class="widget mb-4 pb-2">
+                                    <h5 class="widget-title">Recent Replies</h5>
+                                    <ul class="list-unstyled mb-0 mt-4">
+                                        <li class="text-muted small h6"><i data-feather="user" class="fea icon-sm"></i><a href="javascript:void(0)" class="text-dark ms-2">Ameliya</a> on <a href="javascript:void(0)" class="text-primary">Privacy policy</a></li>
+                                        <li class="text-muted small h6"><i data-feather="user" class="fea icon-sm"></i><a href="javascript:void(0)" class="text-dark ms-2">Crista</a> on <a href="javascript:void(0)" class="text-primary">HTML Template hosts</a></li>
+                                        <li class="text-muted small h6"><i data-feather="user" class="fea icon-sm"></i><a href="javascript:void(0)" class="text-dark ms-2">John</a> on <a href="javascript:void(0)" class="text-primary">Specific error messages</a></li>
+                                        <li class="text-muted small h6"><i data-feather="user" class="fea icon-sm"></i><a href="javascript:void(0)" class="text-dark ms-2">Jafrin</a> on <a href="javascript:void(0)" class="text-primary">Network administration</a></li>
+                                        <li class="text-muted small h6 mb-0"><i data-feather="user" class="fea icon-sm"></i><a href="javascript:void(0)" class="text-dark ms-2">Harry</a> on <a href="javascript:void(0)" class="text-primary">Customized template options</a></li>
+                                    </ul>
+                                </div>
+                                <!-- RECENT POST -->
+                                
+                                <!-- SOCIAL -->
+                                <div class="widget">
+                                    <h5 class="widget-title">Follow us</h5>
+                                    <ul class="list-unstyled social-icon social mb-0 mt-4">
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="github" class="fea icon-sm fea-social"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="youtube" class="fea icon-sm fea-social"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="gitlab" class="fea icon-sm fea-social"></i></a></li>
+                                    </ul><!--end icon-->
+                                </div>
+                                <!-- SOCIAL -->
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- Start Forums -->
+
+        
+        @@include("partials/footer/footer-one.html")
+
+        @@include("partials/offcanvas-right.html")
+        @@include("partials/switcherbar.html")
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fs-5"><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i></a>
+        <!-- Back to top -->
+
+        <!-- Javascript -->
+        @@include("partials/vendor-scripts.html")
+        <!-- Main Js -->
+        <script src="assets/js/plugins.init.js"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+        <script src="assets/js/app.js"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+    </body>
+</html>

@@ -1,0 +1,260 @@
+
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        @@include("partials/title-meta.html", {"title": "Landrick"})
+        
+        <!-- Css -->
+        @@include("partials/head-css.html")
+
+    </head>
+
+    <body>
+        <!-- Loader -->
+        <!-- <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Loader -->
+        
+        @@include("partials/navbar/nav-center.html")
+        
+        <!-- Hero Start -->
+        <section class="bg-half-170 bg-light d-table w-100">
+            <div class="container">
+                <div class="row mt-5 justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <div class="pages-heading">
+                            <h4 class="title mb-0"> Background Colors</h4>
+                        </div>
+                    </div>  <!--end col-->
+                </div><!--end row-->
+                
+                <div class="position-breadcrumb">
+                    <nav aria-label="breadcrumb" class="d-inline-block">
+                        <ul class="breadcrumb rounded shadow mb-0 px-4 py-2">
+                            <li class="breadcrumb-item"><a href="index.html">Landrick</a></li>
+                            <li class="breadcrumb-item"><a href="#">Components</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Background</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div> <!--end container-->
+        </section><!--end section-->
+        <!-- Hero End -->
+
+        <!-- Shape Start -->
+        <div class="position-relative">
+            <div class="shape overflow-hidden text-color-white">
+                <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+        <!--Shape End-->
+
+        <!-- Start -->
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 d-md-block d-none">
+                        <h5>Components</h5>
+                        @@include("partials/component-sidenav.html")
+                    </div><!--end col-->
+
+                    <div class="col-lg-9 col-md-8 col-12">
+                        <div class="row">
+                            <!-- BG Color Start -->
+                            <div class="col-12">
+                                <div class="component-wrapper rounded shadow">
+                                    <div class="p-4 border-bottom">
+                                        <h5 class="title mb-0"> Background Color </h5>
+                                    </div>
+
+                                    <div class="p-4">
+                                        <h6 class="text-muted mb-2 pb-2">Ex. <code class="text-danger">&lt;div class="bg-primary"&gt; Landrick Saas & Software Template &lt;/div&gt;</code></h6>
+                                        
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-primary">
+                                            <p class="avatar avatar-small bg-primary rounded mb-0"></p>
+                                        </div>
+
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-secondary">
+                                            <p class="avatar avatar-small bg-secondary rounded mb-0"></p>
+                                        </div>
+
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-success">
+                                            <p class="avatar avatar-small bg-success rounded mb-0"></p>
+                                        </div>
+
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-danger">
+                                            <p class="avatar avatar-small bg-danger rounded mb-0"></p>
+                                        </div>
+
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-warning">
+                                            <p class="avatar avatar-small bg-warning rounded mb-0"></p>
+                                        </div>
+
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-info">
+                                            <p class="avatar avatar-small bg-info rounded mb-0"></p>
+                                        </div>
+
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-light">
+                                            <p class="avatar avatar-small bg-light rounded mb-0"></p>
+                                        </div>
+
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-white">
+                                            <p class="avatar avatar-small bg-white border rounded mb-0"></p>
+                                        </div>
+
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-dark">
+                                            <p class="avatar avatar-small bg-dark rounded mb-0"></p>
+                                        </div>
+
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-muted">
+                                            <p class="avatar avatar-small bg-muted rounded mb-0"></p>
+                                        </div>
+
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-black">
+                                            <p class="avatar avatar-small bg-black rounded mb-0"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            <!-- BG Color End -->
+
+                            <!-- BG Color Start -->
+                            <div class="col-12 mt-4 pt-2">
+                                <div class="component-wrapper rounded shadow">
+                                    <div class="p-4 border-bottom">
+                                        <h5 class="title mb-0"> Background Gradient Color </h5>
+                                    </div>
+
+                                    <div class="p-4">
+                                        <h6 class="text-muted mb-2 pb-2">Ex. <code class="text-danger">&lt;div class="bg-soft-primary"&gt; Landrick Saas & Software Template &lt;/div&gt;</code></h6>
+                                        
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-soft-primary">
+                                            <p class="avatar avatar-small bg-soft-primary rounded mb-0"></p>
+                                        </div>
+
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-soft-secondary">
+                                            <p class="avatar avatar-small bg-soft-secondary rounded mb-0"></p>
+                                        </div>
+
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-soft-success">
+                                            <p class="avatar avatar-small bg-soft-success rounded mb-0"></p>
+                                        </div>
+
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-soft-danger">
+                                            <p class="avatar avatar-small bg-soft-danger rounded mb-0"></p>
+                                        </div>
+
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-soft-warning">
+                                            <p class="avatar avatar-small bg-soft-warning rounded mb-0"></p>
+                                        </div>
+
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-soft-info">
+                                            <p class="avatar avatar-small bg-soft-info rounded mb-0"></p>
+                                        </div>
+
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-soft-light">
+                                            <p class="avatar avatar-small bg-soft-light rounded mb-0"></p>
+                                        </div>
+
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-soft-white">
+                                            <p class="avatar avatar-small bg-soft-white border rounded mb-0"></p>
+                                        </div>
+
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-soft-dark">
+                                            <p class="avatar avatar-small bg-soft-dark rounded mb-0"></p>
+                                        </div>
+
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-soft-muted">
+                                            <p class="avatar avatar-small bg-soft-muted rounded mb-0"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            <!-- BG Color End -->
+
+                            <!-- BG Color Start -->
+                            <div class="col-12 mt-4 pt-2">
+                                <div class="component-wrapper rounded shadow">
+                                    <div class="p-4 border-bottom">
+                                        <h5 class="title mb-0"> Soft Background Color </h5>
+                                    </div>
+
+                                    <div class="p-4">
+                                        <h6 class="text-muted mb-2 pb-2">Ex. <code class="text-danger">&lt;div class="bg-soft-primary"&gt; Landrick Saas & Software Template &lt;/div&gt;</code></h6>
+                                        
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-soft-primary">
+                                            <p class="avatar avatar-small bg-soft-primary rounded mb-0"></p>
+                                        </div>
+
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-soft-secondary">
+                                            <p class="avatar avatar-small bg-soft-secondary rounded mb-0"></p>
+                                        </div>
+
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-soft-success">
+                                            <p class="avatar avatar-small bg-soft-success rounded mb-0"></p>
+                                        </div>
+
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-soft-danger">
+                                            <p class="avatar avatar-small bg-soft-danger rounded mb-0"></p>
+                                        </div>
+
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-soft-warning">
+                                            <p class="avatar avatar-small bg-soft-warning rounded mb-0"></p>
+                                        </div>
+
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-soft-info">
+                                            <p class="avatar avatar-small bg-soft-info rounded mb-0"></p>
+                                        </div>
+
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-soft-light">
+                                            <p class="avatar avatar-small bg-soft-light rounded mb-0"></p>
+                                        </div>
+
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-soft-white">
+                                            <p class="avatar avatar-small bg-soft-white border rounded mb-0"></p>
+                                        </div>
+
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-soft-dark">
+                                            <p class="avatar avatar-small bg-soft-dark rounded mb-0"></p>
+                                        </div>
+
+                                        <div class="d-inline-block me-1 mt-2" data-bs-toggle="tooltip" data-bs-placement="top" title=".bg-soft-muted">
+                                            <p class="avatar avatar-small bg-soft-muted rounded mb-0"></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            <!-- BG Color End -->
+                        </div><!--end row-->
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--section-->
+        <!-- End -->
+
+        
+        @@include("partials/footer/footer-one.html")
+
+        @@include("partials/offcanvas-right.html")
+        @@include("partials/switcherbar.html")
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fs-5"><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i></a>
+        <!-- Back to top -->
+
+        <!-- javascript -->
+        @@include("partials/vendor-scripts.html")
+        <!-- Main Js -->
+        <script src="assets/js/plugins.init.js"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+        <script src="assets/js/app.js"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+    </body>
+</html>

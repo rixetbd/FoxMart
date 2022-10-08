@@ -1,0 +1,577 @@
+
+<!doctype html>
+<html lang="en" dir="ltr">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Landrick - Saas & Software Landing Page Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Premium Bootstrap 5 Landing Page Template" />
+        <meta name="keywords" content="Saas, Software, multi-uses, HTML, Clean, Modern" />
+        <meta name="author" content="Shreethemes" />
+        <meta name="email" content="support@shreethemes.in" />
+        <meta name="website" content="https://shreethemes.in" />
+        <meta name="Version" content="v4.2.0" />
+
+        <!-- favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico" />
+        
+        <!-- Css -->
+        <link href="assets/libs/tobii/css/tobii.min.css" rel="stylesheet">
+        <!-- Bootstrap Css -->
+        <link href="assets/css/bootstrap.min.css" class="theme-opt" rel="stylesheet" type="text/css" />
+        <!-- Icons Css -->
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/libs/@iconscout/unicons/css/line.css" type="text/css" rel="stylesheet" />
+        <!-- Style Css-->
+        <link href="assets/css/style.min.css" class="theme-opt" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <!-- Loader -->
+        <!-- <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Loader -->
+        
+        
+        <!-- Navbar Start -->
+        <header id="topnav" class="defaultscroll sticky">
+            <div class="container">
+                <!-- Logo container-->
+                <a class="logo" href="index.html">
+                    <img src="assets/images/logo-dark.png" height="24" class="logo-light-mode" alt="">
+                    <img src="assets/images/logo-light.png" height="24" class="logo-dark-mode" alt="">
+                </a>
+        
+                <!-- Logo End -->
+
+                <!-- End Logo container-->
+                <div class="menu-extras">
+                    <div class="menu-item">
+                        <!-- Mobile menu toggle-->
+                        <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <!-- End mobile menu toggle-->
+                    </div>
+                </div>
+
+                <!--Login button Start-->
+                <ul class="buy-button list-inline mb-0">
+                    <li class="list-inline-item mb-0">
+                        <a href="javascript:void(0)" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                            <div class="btn btn-icon btn-pills btn-soft-primary"><i data-feather="settings" class="fea icon-sm"></i></div>
+                        </a>
+                    </li>
+            
+                    <li class="list-inline-item ps-1 mb-0">
+                        <a href="https://1.envato.market/landrick" target="_blank">
+                            <div class="btn btn-icon btn-pills btn-primary"><i data-feather="shopping-cart" class="fea icon-sm"></i></div>
+                        </a>
+                    </li>
+                </ul>
+                <!--Login button End-->
+
+                <div id="navigation">
+                    <!-- Navigation Menu-->   
+                    <ul class="navigation-menu">
+                        <li><a href="index-portfolio.html" class="sub-menu-item">Home</a></li>
+                
+                        <li class="has-submenu parent-parent-menu-item">
+                            <a href="javascript:void(0)">Portfolio</a><span class="menu-arrow"></span>
+                            <ul class="submenu megamenu">
+                                <li>
+                                    <ul>
+                                        <li class="megamenu-head">Modern Portfolio</li>
+                                        <li><a href="portfolio-modern-two.html" class="sub-menu-item">Two Column</a></li>
+                                        <li><a href="portfolio-modern-three.html" class="sub-menu-item">Three Column</a></li>
+                                        <li><a href="portfolio-modern-four.html" class="sub-menu-item">Four Column</a></li>
+                                        <li><a href="portfolio-modern-five.html" class="sub-menu-item">Five Column</a></li>
+                                        <li><a href="portfolio-modern-six.html" class="sub-menu-item">Six Column</a></li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <ul>
+                                        <li class="megamenu-head">Classic Portfolio</li>
+                                        <li><a href="portfolio-classic-two.html" class="sub-menu-item">Two Column</a></li>
+                                        <li><a href="portfolio-classic-three.html" class="sub-menu-item">Three Column</a></li>
+                                        <li><a href="portfolio-classic-four.html" class="sub-menu-item">Four Column</a></li>
+                                        <li><a href="portfolio-classic-five.html" class="sub-menu-item">Five Column</a></li>
+                                        <li><a href="portfolio-classic-six.html" class="sub-menu-item">Six Column</a></li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <ul>
+                                        <li class="megamenu-head">Grid Portfolio</li>
+                                        <li><a href="portfolio-grid-two.html" class="sub-menu-item">Two Column</a></li>
+                                        <li><a href="portfolio-grid-three.html" class="sub-menu-item">Three Column</a></li>
+                                        <li><a href="portfolio-grid-four.html" class="sub-menu-item">Four Column</a></li>
+                                        <li><a href="portfolio-grid-five.html" class="sub-menu-item">Five Column</a></li>
+                                        <li><a href="portfolio-grid-six.html" class="sub-menu-item">Six Column</a></li>
+                                    </ul>
+                                </li>
+                        
+                                <li>
+                                    <ul>
+                                        <li class="megamenu-head">Masonry Portfolio</li>
+                                        <li><a href="portfolio-masonry-two.html" class="sub-menu-item">Two Column</a></li>
+                                        <li><a href="portfolio-masonry-three.html" class="sub-menu-item">Three Column</a></li>
+                                        <li><a href="portfolio-masonry-four.html" class="sub-menu-item">Four Column</a></li>
+                                        <li><a href="portfolio-masonry-five.html" class="sub-menu-item">Five Column</a></li>
+                                        <li><a href="portfolio-masonry-six.html" class="sub-menu-item">Six Column</a></li>
+                                    </ul>
+                                </li>
+                        
+                                <li>
+                                    <ul>
+                                        <li class="megamenu-head">Portfolio Detail</li>
+                                        <li><a href="portfolio-detail-one.html" class="sub-menu-item">Portfolio One</a></li>
+                                        <li><a href="portfolio-detail-two.html" class="sub-menu-item">Portfolio Two</a></li>
+                                        <li><a href="portfolio-detail-three.html" class="sub-menu-item">Portfolio Three</a></li>
+                                        <li><a href="portfolio-detail-four.html" class="sub-menu-item">Portfolio Four</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li><a href="portfolio-about.html" class="sub-menu-item">About us</a></li>
+                
+                        <li><a href="portfolio-service.html" class="sub-menu-item">Services</a></li>
+                    </ul><!--end navigation menu-->
+                </div>
+            </div><!--end container-->
+        </header><!--end header-->
+        <!-- Navbar End -->
+        
+        <!-- Hero Start -->
+        <section class="bg-half-170 bg-light d-table w-100">
+            <div class="container">
+                <div class="row mt-5 justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <div class="pages-heading">
+                            <h4 class="title mb-0"> Work Masonry </h4>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+                
+                <div class="position-breadcrumb">
+                    <nav aria-label="breadcrumb" class="d-inline-block">
+                        <ul class="breadcrumb rounded shadow mb-0 px-4 py-2">
+                            <li class="breadcrumb-item"><a href="index.html">Landrick</a></li>
+                            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                            <li class="breadcrumb-item"><a href="#">Work</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Masonry</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div> <!--end container-->
+        </section><!--end section-->
+        <div class="position-relative">
+            <div class="shape overflow-hidden text-color-white">
+                <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+        <!-- Hero End -->
+
+        <!-- Start -->
+        <section class="section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 mb-4 filters-group-wrap">
+                        <div class="filters-group">
+                            <ul class="container-filter list-inline mb-0 filter-options text-center">
+                                <li class="list-inline-item categories-name border text-dark rounded active" data-group="all">All</li>
+                                <li class="list-inline-item categories-name border text-dark rounded" data-group="branding">Branding</li>
+                                <li class="list-inline-item categories-name border text-dark rounded" data-group="designing">Designing</li>
+                                <li class="list-inline-item categories-name border text-dark rounded" data-group="photography">Photography</li>
+                                <li class="list-inline-item categories-name border text-dark rounded" data-group="development">Development</li>
+                            </ul>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div id="grid" class="row">
+                            <div class="col-md-6 col-12 spacing picture-item" data-groups='["branding"]'>
+                                <div class="card border-0 work-container work-primary work-modern position-relative d-block overflow-hidden rounded">
+                                    <div class="card-body p-0">
+                                        <img src="assets/images/work/13.jpg" class="img-fluid" alt="work-image">
+                                        <div class="overlay-work"></div>
+                                        <div class="content">
+                                            <h5 class="mb-1"><a href="portfolio-detail-one.html" class="text-white title">Mockup Collection</a></h5>
+                                            <h6 class="text-white-50 tag mt-1 mb-0">Mockup</h6>
+                                        </div>
+                                        <div class="icons text-center">
+                                            <a href="assets/images/work/13.jpg" class="work-icon bg-white d-inline-block rounded-pill lightbox"><i data-feather="camera" class="fea icon-sm image-icon"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            
+                            <div class="col-md-6 col-12 spacing picture-item" data-groups='["designing"]'>
+                                <div class="card border-0 work-container work-primary work-modern position-relative d-block overflow-hidden rounded">
+                                    <div class="card-body p-0">
+                                        <img src="assets/images/work/21.jpg" class="img-fluid" alt="work-image">
+                                        <div class="overlay-work"></div>
+                                        <div class="content">
+                                            <h5 class="mb-1"><a href="portfolio-detail-one.html" class="text-white title">Mockup Collection</a></h5>
+                                            <h6 class="text-white-50 tag mt-1 mb-0">Mockup</h6>
+                                        </div>
+                                        <div class="icons text-center">
+                                            <a href="assets/images/work/21.jpg" class="work-icon bg-white d-inline-block rounded-pill lightbox"><i data-feather="camera" class="fea icon-sm image-icon"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            
+                            <div class="col-md-6 col-12 spacing picture-item" data-groups='["photography"]'>
+                                <div class="card border-0 work-container work-primary work-modern position-relative d-block overflow-hidden rounded">
+                                    <div class="card-body p-0">
+                                        <img src="assets/images/work/14.jpg" class="img-fluid" alt="work-image">
+                                        <div class="overlay-work"></div>
+                                        <div class="content">
+                                            <h5 class="mb-1"><a href="portfolio-detail-one.html" class="text-white title">Abstract images</a></h5>
+                                            <h6 class="text-white-50 tag mt-1 mb-0">Abstract</h6>
+                                        </div>
+                                        <div class="icons text-center">
+                                            <a href="assets/images/work/14.jpg" class="work-icon bg-white d-inline-block rounded-pill lightbox"><i data-feather="camera" class="fea icon-sm image-icon"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            
+                            <div class="col-md-6 col-12 spacing picture-item" data-groups='["development"]'>
+                                <div class="card border-0 work-container work-primary work-modern position-relative d-block overflow-hidden rounded">
+                                    <div class="card-body p-0">
+                                        <img src="assets/images/work/22.jpg" class="img-fluid" alt="work-image">
+                                        <div class="overlay-work"></div>
+                                        <div class="content">
+                                            <h5 class="mb-1"><a href="portfolio-detail-one.html" class="text-white title">Yellow bg with Books</a></h5>
+                                            <h6 class="text-white-50 tag mt-1 mb-0">Books</h6>
+                                        </div>
+                                        <div class="icons text-center">
+                                            <a href="assets/images/work/22.jpg" class="work-icon bg-white d-inline-block rounded-pill lightbox"><i data-feather="camera" class="fea icon-sm image-icon"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            
+                            <div class="col-md-6 col-12 spacing picture-item" data-groups='["branding"]'>
+                                <div class="card border-0 work-container work-primary work-modern position-relative d-block overflow-hidden rounded">
+                                    <div class="card-body p-0">
+                                        <img src="assets/images/work/16.jpg" class="img-fluid" alt="work-image">
+                                        <div class="overlay-work"></div>
+                                        <div class="content">
+                                            <h5 class="mb-1"><a href="portfolio-detail-one.html" class="text-white title">Company V-card</a></h5>
+                                            <h6 class="text-white-50 tag mt-1 mb-0">V-card</h6>
+                                        </div>
+                                        <div class="icons text-center">
+                                            <a href="assets/images/work/16.jpg" class="work-icon bg-white d-inline-block rounded-pill lightbox"><i data-feather="camera" class="fea icon-sm image-icon"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            
+                            <div class="col-md-6 col-12 spacing picture-item" data-groups='["branding"]'>
+                                <div class="card border-0 work-container work-primary work-modern position-relative d-block overflow-hidden rounded">
+                                    <div class="card-body p-0">
+                                        <img src="assets/images/work/23.jpg" class="img-fluid" alt="work-image">
+                                        <div class="overlay-work"></div>
+                                        <div class="content">
+                                            <h5 class="mb-1"><a href="portfolio-detail-one.html" class="text-white title">Mockup box with paints</a></h5>
+                                            <h6 class="text-white-50 tag mt-1 mb-0">Photography</h6>
+                                        </div>
+                                        <div class="icons text-center">
+                                            <a href="assets/images/work/23.jpg" class="work-icon bg-white d-inline-block rounded-pill lightbox"><i data-feather="camera" class="fea icon-sm image-icon"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            
+                            <div class="col-md-6 col-12 spacing picture-item" data-groups='["designing"]'>
+                                <div class="card border-0 work-container work-primary work-modern position-relative d-block overflow-hidden rounded">
+                                    <div class="card-body p-0">
+                                        <img src="assets/images/work/15.jpg" class="img-fluid" alt="work-image">
+                                        <div class="overlay-work"></div>
+                                        <div class="content">
+                                            <h5 class="mb-1"><a href="portfolio-detail-one.html" class="text-white title">Coffee cup</a></h5>
+                                            <h6 class="text-white-50 tag mt-1 mb-0">Cups</h6>
+                                        </div>
+                                        <div class="icons text-center">
+                                            <a href="assets/images/work/15.jpg" class="work-icon bg-white d-inline-block rounded-pill lightbox"><i data-feather="camera" class="fea icon-sm image-icon"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            
+                            <div class="col-md-6 col-12 spacing picture-item" data-groups='["development"]'>
+                                <div class="card border-0 work-container work-primary work-modern position-relative d-block overflow-hidden rounded">
+                                    <div class="card-body p-0">
+                                        <img src="assets/images/work/17.jpg" class="img-fluid" alt="work-image">
+                                        <div class="overlay-work"></div>
+                                        <div class="content">
+                                            <h5 class="mb-1"><a href="portfolio-detail-one.html" class="text-white title">Pen and article</a></h5>
+                                            <h6 class="text-white-50 tag mt-1 mb-0">Article</h6>
+                                        </div>
+                                        <div class="icons text-center">
+                                            <a href="assets/images/work/17.jpg" class="work-icon bg-white d-inline-block rounded-pill lightbox"><i data-feather="camera" class="fea icon-sm image-icon"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                        
+                            <div class="col-md-6 col-12 spacing picture-item" data-groups='["photography"]'>
+                                <div class="card border-0 work-container work-primary work-modern position-relative d-block overflow-hidden rounded">
+                                    <div class="card-body p-0">
+                                        <img src="assets/images/work/24.jpg" class="img-fluid" alt="work-image">
+                                        <div class="overlay-work"></div>
+                                        <div class="content">
+                                            <h5 class="mb-1"><a href="portfolio-detail-one.html" class="text-white title">White mockup box</a></h5>
+                                            <h6 class="text-white-50 tag mt-1 mb-0">Color</h6>
+                                        </div>
+                                        <div class="icons text-center">
+                                            <a href="assets/images/work/24.jpg" class="work-icon bg-white d-inline-block rounded-pill lightbox"><i data-feather="camera" class="fea icon-sm image-icon"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            
+                            <div class="col-md-6 col-12 spacing picture-item" data-groups='["photography"]'>
+                                <div class="card border-0 work-container work-primary work-modern position-relative d-block overflow-hidden rounded">
+                                    <div class="card-body p-0">
+                                        <img src="assets/images/work/18.jpg" class="img-fluid" alt="work-image">
+                                        <div class="overlay-work"></div>
+                                        <div class="content">
+                                            <h5 class="mb-1"><a href="portfolio-detail-one.html" class="text-white title">Logo Vectors</a></h5>
+                                            <h6 class="text-white-50 tag mt-1 mb-0">Logos</h6>
+                                        </div>
+                                        <div class="icons text-center">
+                                            <a href="assets/images/work/18.jpg" class="work-icon bg-white d-inline-block rounded-pill lightbox"><i data-feather="camera" class="fea icon-sm image-icon"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                        </div><!--end row-->
+                        
+                        <!-- PAGINATION START -->
+                        <div class="row">
+                            <div class="col-12 mt-4 pt-2">
+                                <ul class="pagination justify-content-center mb-0">
+                                    <li class="page-item"><a class="page-link" href="javascript:void(0)" aria-label="Previous">Prev</a></li>
+                                    <li class="page-item active"><a class="page-link" href="javascript:void(0)">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="javascript:void(0)">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="javascript:void(0)">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="javascript:void(0)" aria-label="Next">Next</a></li>
+                                </ul>
+                            </div><!--end col-->
+                        </div><!--end row-->
+                        <!-- PAGINATION END -->
+                    </div>
+                </div>
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End -->
+
+        <!-- Footer Start -->
+        <!-- Footer Start -->
+        <footer class="footer" style="background-image: url('assets/images/svg-map.svg'); background-repeat: no-repeat; background-position: center;">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 py-lg-5">
+                        <div class="footer-py-60 text-center">
+                            <a href="#" class="logo-footer">
+                                <img src="assets/images/logo-light.png" height="32" alt="">
+                            </a>
+                            <p class="mt-4 para-desc mx-auto">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                            <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="instagram" class="fea icon-sm fea-social"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
+                                <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
+                            </ul><!--end icon-->
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="footer-py-30 footer-bar bg-footer">
+                <div class="container text-center">
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <div class="text-center">
+                                <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> Landrick. Design with <i class="mdi mdi-heart text-danger"></i> by <a href="https://shreethemes.in/" target="_blank" class="text-reset">Shreethemes</a>.</p>
+                            </div>
+                        </div><!--end col-->
+                    </div><!--end row-->
+                </div><!--end container-->
+            </div>
+        </footer><!--end footer-->
+        <!-- Footer End -->
+        <!-- Footer End -->
+
+        <!-- Offcanvas Start -->
+        <div class="offcanvas offcanvas-end shadow" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header p-4 border-bottom">
+                <h5 id="offcanvasRightLabel" class="mb-0">
+                    <img src="assets/images/logo-dark.png" height="24" class="light-version" alt="">
+                    <img src="assets/images/logo-light.png" height="24" class="dark-version" alt="">
+                </h5>
+                <button type="button" class="btn-close d-flex align-items-center text-dark" data-bs-dismiss="offcanvas" aria-label="Close"><i class="uil uil-times fs-4"></i></button>
+            </div>
+            <div class="offcanvas-body p-4">
+                <div class="row">
+                    <div class="col-12">
+                        <img src="assets/images/contact.svg" class="img-fluid d-block mx-auto" style="max-width: 256px;" alt="">
+                        <div class="card border-0 mt-5" style="z-index: 1">
+                            <div class="card-body p-0">
+                                <form method="post" name="myForm" id="myForm" onsubmit="return validateForm()">
+                                    <p id="error-msg" class="mb-0"></p>
+                                    <div id="simple-msg"></div>
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <label class="form-label">Your Name <span class="text-danger">*</span></label>
+                                                <div class="form-icon position-relative">
+                                                    <i data-feather="user" class="fea icon-sm icons"></i>
+                                                    <input name="name" id="name" type="text" class="form-control ps-5" placeholder="Name :">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="mb-3">
+                                                <label class="form-label">Your Email <span class="text-danger">*</span></label>
+                                                <div class="form-icon position-relative">
+                                                    <i data-feather="mail" class="fea icon-sm icons"></i>
+                                                    <input name="email" id="email" type="email" class="form-control ps-5" placeholder="Email :">
+                                                </div>
+                                            </div> 
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="mb-3">
+                                                <label class="form-label">Subject</label>
+                                                <div class="form-icon position-relative">
+                                                    <i data-feather="book" class="fea icon-sm icons"></i>
+                                                    <input name="subject" id="subject" class="form-control ps-5" placeholder="subject :">
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="mb-3">
+                                                <label class="form-label">Comments <span class="text-danger">*</span></label>
+                                                <div class="form-icon position-relative">
+                                                    <i data-feather="message-circle" class="fea icon-sm icons clearfix"></i>
+                                                    <textarea name="comments" id="comments" rows="4" class="form-control ps-5" placeholder="Message :"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="d-grid">
+                                                <button type="submit" id="submit" name="send" class="btn btn-primary">Send Message</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offcanvas-footer p-4 border-top text-center">
+                <ul class="list-unstyled social-icon social mb-0">
+                    <li class="list-inline-item mb-0"><a href="https://1.envato.market/landrick" target="_blank" class="rounded"><i class="uil uil-shopping-cart align-middle" title="Buy Now"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://dribbble.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-dribbble align-middle" title="dribbble"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://www.behance.net/shreethemes" target="_blank" class="rounded"><i class="uil uil-behance align-middle" title="behance"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://www.facebook.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-facebook-f align-middle" title="facebook"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://www.instagram.com/shreethemes/" target="_blank" class="rounded"><i class="uil uil-instagram align-middle" title="instagram"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://twitter.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-twitter align-middle" title="twitter"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="mailto:support@shreethemes.in" class="rounded"><i class="uil uil-envelope align-middle" title="email"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://shreethemes.in" target="_blank" class="rounded"><i class="uil uil-globe align-middle" title="website"></i></a></li>
+                </ul><!--end icon-->
+            </div>
+        </div>
+        <!-- Offcanvas End -->
+        <!-- Switcher Start -->
+        <a href="javascript:void(0)" class="switcher-btn shadow-md text-primary bg-white" data-bs-toggle="offcanvas" data-bs-target="#switcher-sidebar" aria-controls="offcanvasLeft">
+            <i class="mdi mdi-cog mdi-24px mdi-spin align-middle"></i>
+        </a>
+
+        <div class="offcanvas offcanvas-start shadow" tabindex="-1" id="switcher-sidebar" aria-labelledby="offcanvasLeftLabel">
+            <div class="offcanvas-header p-4 border-bottom">
+                <h5 id="offcanvasLeftLabel" class="mb-0">
+                    <img src="assets/images/logo-dark.png" height="24" class="light-version" alt="">
+                    <img src="assets/images/logo-light.png" height="24" class="dark-version" alt="">
+                </h5>
+                <button type="button" class="btn-close d-flex align-items-center text-dark" data-bs-dismiss="offcanvas" aria-label="Close"><i class="uil uil-times fs-4"></i></button>
+            </div>
+            <div class="offcanvas-body p-4">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="text-center">
+                            <h6 class="fw-bold">Theme Options</h6>
+
+                            <ul class="text-center style-switcher list-unstyled mt-4">
+                                <li class="d-grid"><a href="javascript:void(0)" class="rtl-version t-rtl-light" onclick="setTheme('style-rtl')"><img src="assets/images/demos/rtl.png" class="img-fluid rounded-md shadow-md d-block mx-auto" style="width: 270px;" alt=""><span class="text-dark fw-medium mt-3 d-block">RTL Version</span></a></li>
+                                <li class="d-grid"><a href="javascript:void(0)" class="ltr-version t-ltr-light" onclick="setTheme('style')"><img src="assets/images/demos/ltr.png" class="img-fluid rounded-md shadow-md d-block mx-auto" style="width: 270px;" alt=""><span class="text-dark fw-medium mt-3 d-block">LTR Version</span></a></li>
+                                <li class="d-grid"><a href="javascript:void(0)" class="dark-rtl-version t-rtl-dark" onclick="setTheme('style-dark-rtl')"><img src="assets/images/demos/dark-rtl.png" class="img-fluid rounded-md shadow-md d-block mx-auto" style="width: 270px;" alt=""><span class="text-dark fw-medium mt-3 d-block">RTL Version</span></a></li>
+                                <li class="d-grid"><a href="javascript:void(0)" class="dark-ltr-version t-ltr-dark" onclick="setTheme('style-dark')"><img src="assets/images/demos/dark.png" class="img-fluid rounded-md shadow-md d-block mx-auto" style="width: 270px;" alt=""><span class="text-dark fw-medium mt-3 d-block">LTR Version</span></a></li>
+                                <li class="d-grid"><a href="javascript:void(0)" class="dark-version t-dark mt-4" onclick="setTheme('style-dark')"><img src="assets/images/demos/dark.png" class="img-fluid rounded-md shadow-md d-block mx-auto" style="width: 270px;" alt=""><span class="text-dark fw-medium mt-3 d-block">Dark Version</span></a></li>
+                                <li class="d-grid"><a href="javascript:void(0)" class="light-version t-light mt-4" onclick="setTheme('style')"><img src="assets/images/demos/ltr.png" class="img-fluid rounded-md shadow-md d-block mx-auto" style="width: 270px;" alt=""><span class="text-dark fw-medium mt-3 d-block">Light Version</span></a></li>
+                                <li class="d-grid"><a href="../../dashboard/dist/index.html" target="_blank" class="mt-4"><img src="assets/images/demos/admin.png" class="img-fluid rounded-md shadow-md d-block mx-auto" style="width: 270px;" alt=""><span class="text-dark fw-medium mt-3 d-block">Landing</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="offcanvas-footer p-4 border-top text-center">
+                <ul class="list-unstyled social-icon social mb-0">
+                    <li class="list-inline-item mb-0"><a href="https://1.envato.market/landrick" target="_blank" class="rounded"><i class="uil uil-shopping-cart align-middle" title="Buy Now"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://dribbble.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-dribbble align-middle" title="dribbble"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://www.behance.net/shreethemes" target="_blank" class="rounded"><i class="uil uil-behance align-middle" title="behance"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://www.facebook.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-facebook-f align-middle" title="facebook"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://www.instagram.com/shreethemes/" target="_blank" class="rounded"><i class="uil uil-instagram align-middle" title="instagram"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://twitter.com/shreethemes" target="_blank" class="rounded"><i class="uil uil-twitter align-middle" title="twitter"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="mailto:support@shreethemes.in" class="rounded"><i class="uil uil-envelope align-middle" title="email"></i></a></li>
+                    <li class="list-inline-item mb-0"><a href="https://shreethemes.in" target="_blank" class="rounded"><i class="uil uil-globe align-middle" title="website"></i></a></li>
+                </ul><!--end icon-->
+            </div>
+        </div>
+        <!-- Switcher End -->
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fs-5"><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i></a>
+        <!-- Back to top -->
+
+        <!-- javascript -->
+        <!-- JAVASCRIPT -->
+        <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/libs/feather-icons/feather.min.js"></script>
+        <!-- Lightbox -->
+        <script src="assets/libs/shufflejs/shuffle.min.js"></script>
+        <script src="assets/libs/tobii/js/tobii.min.js"></script>
+        <!-- Main Js -->
+        <script src="assets/js/plugins.init.js"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+        <script src="assets/js/app.js"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+    </body>
+</html>

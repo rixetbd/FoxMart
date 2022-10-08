@@ -1,0 +1,429 @@
+@@include("partials/main.html")
+
+    <head>
+        @@include("partials/title-meta.html", {"title": "Landrick"})
+        
+        <!-- Css -->
+        @@include("partials/head-css.html")
+
+    </head>
+
+    <body>
+        <!-- Loader -->
+        <!-- <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Loader -->
+        
+        
+        @@include("partials/navbar/nav-crypto.html")
+        
+        <!-- Hero Start -->
+        <section class="bg-half-170 bg-light d-table w-100" style="background: url('assets/images/shape02.png') top left;">
+            <div class="container">
+                <div class="row mt-5 justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <div class="pages-heading">
+                            <h4 class="title mb-0"> FAQs </h4>
+                        </div>
+                    </div>  <!--end col-->
+                </div><!--end row-->
+                
+                <div class="position-breadcrumb">
+                    <nav aria-label="breadcrumb" class="d-inline-block">
+                        <ul class="breadcrumb rounded shadow mb-0 px-4 py-2">
+                            <li class="breadcrumb-item"><a href="index.html">Landrick</a></li>
+                            <li class="breadcrumb-item"><a href="index-crypto.html">Crypto</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">FAQs</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div> <!--end container-->
+        </section><!--end section-->
+        <!-- Hero End -->
+
+        <!-- Shape Start -->
+        <div class="position-relative">
+            <div class="shape overflow-hidden text-color-white">
+                <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+        <!--Shape End-->
+
+        <!-- Start -->
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-5 col-12">
+                        <div class="card section-title p-4 shadow rounded border-0">
+                            <ul class="nav nav-pills nav-justified flex-column bg-transparent mb-0" id="pills-tab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link rounded shadow active" id="pills-buying-tab" data-bs-toggle="pill" href="#pills-buying" role="tab" aria-controls="pills-buying" aria-selected="false">
+                                        <div class="text-start py-1 px-3">
+                                            <h6 class="mb-0">About Landrick</h6>
+                                        </div>
+                                    </a><!--end nav link-->
+                                </li><!--end nav item-->
+                                
+                                <li class="nav-item mt-3">
+                                    <a class="nav-link rounded shadow" id="pills-general-tab" data-bs-toggle="pill" href="#pills-general" role="tab" aria-controls="pills-general" aria-selected="false">
+                                        <div class="text-start py-1 px-3">
+                                            <h6 class="mb-0">Accounts</h6>
+                                        </div>
+                                    </a><!--end nav link-->
+                                </li><!--end nav item-->
+                                
+                                <li class="nav-item mt-3">
+                                    <a class="nav-link rounded shadow" id="pills-payment-tab" data-bs-toggle="pill" href="#pills-payment" role="tab" aria-controls="pills-payment" aria-selected="false">
+                                        <div class="text-start py-1 px-3">
+                                            <h6 class="mb-0">Transactions</h6>
+                                        </div>
+                                    </a><!--end nav link-->
+                                </li><!--end nav item-->
+
+                                <li class="nav-item mt-3">
+                                    <a class="nav-link rounded shadow" id="pills-support-tab" data-bs-toggle="pill" href="#pills-support" role="tab" aria-controls="pills-support" aria-selected="false">
+                                        <div class="text-start py-1 px-3">
+                                            <h6 class="mb-0">Cryptocurrency Withdrawals</h6>
+                                        </div>
+                                    </a><!--end nav link-->
+                                </li><!--end nav item-->
+                            </ul><!--end nav pills-->
+                        </div>
+                    </div>
+
+                    <div class="col-lg-8 col-md-7 col-12 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-buying" role="tabpanel" aria-labelledby="pills-buying-tab">
+                                <div class="section-title" id="tech">
+                                    <h5>About Landrick</h5>
+                                </div>
+        
+                                <div class="accordion mt-4 pt-2" id="buyingquestion">
+                                    <div class="accordion-item rounded">
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button border-0 bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                aria-expanded="true" aria-controls="collapseOne">
+                                                How does it work ?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse border-0 collapse show" aria-labelledby="headingOne"
+                                            data-bs-parent="#buyingquestion">
+                                            <div class="accordion-body text-muted">
+                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="accordion-item rounded mt-2">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                aria-expanded="false" aria-controls="collapseTwo">
+                                                Do I need a designer to use Landrick ?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse border-0 collapse" aria-labelledby="headingTwo"
+                                            data-bs-parent="#buyingquestion">
+                                            <div class="accordion-body text-muted">
+                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="accordion-item rounded mt-2">
+                                        <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                What do I need to do to start selling ?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse border-0 collapse" aria-labelledby="headingThree"
+                                            data-bs-parent="#buyingquestion">
+                                            <div class="accordion-body text-muted">
+                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="accordion-item rounded mt-2">
+                                        <h2 class="accordion-header" id="headingFour">
+                                            <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                What happens when I receive an order ?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseFour" class="accordion-collapse border-0 collapse" aria-labelledby="headingFour"
+                                            data-bs-parent="#buyingquestion">
+                                            <div class="accordion-body text-muted">
+                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end teb pane-->
+                            
+                            <div class="tab-pane fade" id="pills-general" role="tabpanel" aria-labelledby="pills-general-tab">
+                                <div class="section-title" id="general">
+                                    <h5>Accounts</h5>
+                                </div>
+        
+                                <div class="accordion mt-4 pt-2" id="generalquestion">
+                                    <div class="accordion-item rounded">
+                                        <h2 class="accordion-header" id="headingfive">
+                                            <button class="accordion-button border-0 bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive"
+                                                aria-expanded="true" aria-controls="collapsefive">
+                                                How does it work ?
+                                            </button>
+                                        </h2>
+                                        <div id="collapsefive" class="accordion-collapse border-0 collapse show" aria-labelledby="headingfive"
+                                            data-bs-parent="#generalquestion">
+                                            <div class="accordion-body text-muted">
+                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="accordion-item rounded mt-2">
+                                        <h2 class="accordion-header" id="headingsix">
+                                            <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix"
+                                                aria-expanded="false" aria-controls="collapsesix">
+                                                Do I need a designer to use Landrick ?
+                                            </button>
+                                        </h2>
+                                        <div id="collapsesix" class="accordion-collapse border-0 collapse" aria-labelledby="headingsix"
+                                            data-bs-parent="#generalquestion">
+                                            <div class="accordion-body text-muted">
+                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="accordion-item rounded mt-2">
+                                        <h2 class="accordion-header" id="headingseven">
+                                            <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
+                                                What do I need to do to start selling ?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseseven" class="accordion-collapse border-0 collapse" aria-labelledby="headingseven"
+                                            data-bs-parent="#generalquestion">
+                                            <div class="accordion-body text-muted">
+                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="accordion-item rounded mt-2">
+                                        <h2 class="accordion-header" id="headingeight">
+                                            <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
+                                                What happens when I receive an order ?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseeight" class="accordion-collapse border-0 collapse" aria-labelledby="headingeight"
+                                            data-bs-parent="#generalquestion">
+                                            <div class="accordion-body text-muted">
+                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end teb pane-->
+
+                            <div class="tab-pane fade" id="pills-payment" role="tabpanel" aria-labelledby="pills-payment-tab">
+                                <div class="section-title" id="payment">
+                                    <h5>Transactions</h5>
+                                </div>
+        
+                                <div class="accordion mt-4 pt-2" id="paymentquestion">
+                                    <div class="accordion-item rounded">
+                                        <h2 class="accordion-header" id="headingnine">
+                                            <button class="accordion-button border-0 bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapsenine"
+                                                aria-expanded="true" aria-controls="collapsenine">
+                                                How does it work ?
+                                            </button>
+                                        </h2>
+                                        <div id="collapsenine" class="accordion-collapse border-0 collapse show" aria-labelledby="headingnine"
+                                            data-bs-parent="#paymentquestion">
+                                            <div class="accordion-body text-muted">
+                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="accordion-item rounded mt-2">
+                                        <h2 class="accordion-header" id="headingten">
+                                            <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseten"
+                                                aria-expanded="false" aria-controls="collapseten">
+                                                Do I need a designer to use Landrick ?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseten" class="accordion-collapse border-0 collapse" aria-labelledby="headingten"
+                                            data-bs-parent="#paymentquestion">
+                                            <div class="accordion-body text-muted">
+                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="accordion-item rounded mt-2">
+                                        <h2 class="accordion-header" id="headingeleven">
+                                            <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapseeleven" aria-expanded="false" aria-controls="collapseeleven">
+                                                What do I need to do to start selling ?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseeleven" class="accordion-collapse border-0 collapse" aria-labelledby="headingeleven"
+                                            data-bs-parent="#paymentquestion">
+                                            <div class="accordion-body text-muted">
+                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="accordion-item rounded mt-2">
+                                        <h2 class="accordion-header" id="headingtwelve">
+                                            <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapsetwelve" aria-expanded="false" aria-controls="collapsetwelve">
+                                                What happens when I receive an order ?
+                                            </button>
+                                        </h2>
+                                        <div id="collapsetwelve" class="accordion-collapse border-0 collapse" aria-labelledby="headingtwelve"
+                                            data-bs-parent="#paymentquestion">
+                                            <div class="accordion-body text-muted">
+                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end teb pane-->
+
+                            <div class="tab-pane fade" id="pills-support" role="tabpanel" aria-labelledby="pills-support-tab">
+                                <div class="section-title" id="support">
+                                    <h5>Cryptocurrency Withdrawals</h5>
+                                </div>
+        
+                                <div class="accordion mt-4 pt-2" id="supportquestion">
+                                    <div class="accordion-item rounded">
+                                        <h2 class="accordion-header" id="headingthirteen">
+                                            <button class="accordion-button border-0 bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapsethirteen"
+                                                aria-expanded="true" aria-controls="collapsethirteen">
+                                                How does it work ?
+                                            </button>
+                                        </h2>
+                                        <div id="collapsethirteen" class="accordion-collapse border-0 collapse show" aria-labelledby="headingthirteen"
+                                            data-bs-parent="#supportquestion">
+                                            <div class="accordion-body text-muted">
+                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="accordion-item rounded mt-2">
+                                        <h2 class="accordion-header" id="headingfourteen">
+                                            <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefourteen"
+                                                aria-expanded="false" aria-controls="collapsefourteen">
+                                                Do I need a designer to use Landrick ?
+                                            </button>
+                                        </h2>
+                                        <div id="collapsefourteen" class="accordion-collapse border-0 collapse" aria-labelledby="headingfourteen"
+                                            data-bs-parent="#supportquestion">
+                                            <div class="accordion-body text-muted">
+                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="accordion-item rounded mt-2">
+                                        <h2 class="accordion-header" id="headingfifteen">
+                                            <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapsefifteen" aria-expanded="false" aria-controls="collapsefifteen">
+                                                What do I need to do to start selling ?
+                                            </button>
+                                        </h2>
+                                        <div id="collapsefifteen" class="accordion-collapse border-0 collapse" aria-labelledby="headingfifteen"
+                                            data-bs-parent="#supportquestion">
+                                            <div class="accordion-body text-muted">
+                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                            </div>
+                                        </div>
+                                    </div>
+        
+                                    <div class="accordion-item rounded mt-2">
+                                        <h2 class="accordion-header" id="headingsixteen">
+                                            <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
+                                                data-bs-target="#collapsesixteen" aria-expanded="false" aria-controls="collapsesixteen">
+                                                What happens when I receive an order ?
+                                            </button>
+                                        </h2>
+                                        <div id="collapsesixteen" class="accordion-collapse border-0 collapse" aria-labelledby="headingsixteen"
+                                            data-bs-parent="#supportquestion">
+                                            <div class="accordion-body text-muted">
+                                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end teb pane-->
+                        </div><!--end tab content-->
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+            
+            <div class="position-absolute top-50 end-0 translate-middle-y" style="z-index: -1; opacity: 0.1;">
+                <img src="assets/images/icon-gradient.png" height="550" alt="">
+            </div>
+        </section><!--end section-->
+        <!-- End -->
+
+        <!-- Start -->
+        <section class="section bg-light">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center">
+                            <h4 class="title mb-4">Be the first to know about Crypto news everyday</h4>
+                            <p class="para-desc mx-auto text-muted mb-0">Get crypto analysis, news and updates right to your inbox! Sign up here so you don't miss a single newsletter.</p>
+                        
+                            <div class="subcribe-form mt-5">
+                                <form>
+                                    <div class="mb-0">
+                                        <input type="email" id="email2" name="email" class="rounded-pill border" required placeholder="Enter your email address">
+                                        <button type="submit" class="btn btn-pills btn-primary">Notify me</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End -->
+
+        <!-- Footer Start -->
+        @@include("partials/footer/footer-three.html")
+        <!-- Footer End -->
+
+        @@include("partials/offcanvas-right.html")
+        @@include("partials/switcherbar.html")
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fs-5"><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i></a>
+        <!-- Back to top -->
+        
+        <!-- javascript -->
+        @@include("partials/vendor-scripts.html")
+        <!-- Main Js -->
+        <script src="assets/js/plugins.init.js"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+        <script src="assets/js/app.js"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+        
+    </body>
+
+</html>

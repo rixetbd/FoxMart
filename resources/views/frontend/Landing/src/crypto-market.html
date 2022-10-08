@@ -1,0 +1,427 @@
+@@include("partials/main.html")
+
+    <head>
+        @@include("partials/title-meta.html", {"title": "Landrick"})
+        
+        <!-- Css -->
+        @@include("partials/head-css.html")
+
+    </head>
+
+    <body>
+        <!-- Loader -->
+        <!-- <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Loader -->
+        
+        
+        @@include("partials/navbar/nav-crypto.html")
+        
+        <!-- Hero Start -->
+        <section class="bg-half-170 bg-light d-table w-100" style="background: url('assets/images/shape02.png') top left;">
+            <div class="container">
+                <div class="row justify-content-center mt-5">
+                    <div class="col-12">
+                        <div class="title-heading text-center">
+                            <span class="text-muted">In the past 24 hours</span>
+                            <h4 class="mt-2 mb-4">Market is up <span class="text-success">15.78%</span></h4>
+                            <p class="text-muted para-desc mx-auto mb-0">Start working with <span class="text-primary fw-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+
+                            <div class="text-center subcribe-form mt-4 pt-2">
+                                <form>
+                                    <div class="form-icon position-relative">
+                                        <i data-feather="search" class="fea icon-sm icons mt-1"></i>
+                                        <input type="text" id="text" name="text" class="rounded-pill bg-white-50 form-control ps-5" placeholder="Search assets...">
+                                    </div>
+                                    <button type="submit" class="btn btn-pills btn-primary">Search</button>
+                                </form><!--end form-->
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container--> 
+        </section><!--end section-->
+        <!-- Hero End -->
+
+        <!-- Start -->
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="section-title mb-4">
+                            <h4>Top Movers</h4>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="card border-0 p-4 rounded shadow position-relative">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <img src="assets/images/crypto/bitcoin.png" class="avatar avatar-coin rounded-pill p-1 bg-success" alt="">
+                                <span class="text-muted">BTC</span>
+                            </div>
+
+                            <h6>Bitcoin</h6>
+
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <small class="text-success">+15.55%</small>
+                                <small class="text-success">+$ 155</small>
+                                <small>$ 41245</small>
+                            </div>
+
+                            <div class="crypto-chart">
+                                <div>
+                                    <div id="chart-1"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end slide-->
+
+                    <div class="col-lg-3 col-md-6 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                        <div class="card border-0 p-4 rounded shadow position-relative">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <img src="assets/images/crypto/ethereum.png" class="avatar avatar-coin rounded-pill p-1 bg-danger" alt="">
+                                <span class="text-muted">ETS</span>
+                            </div>
+
+                            <h6>Ethereum</h6>
+
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <small class="text-danger">-25.01%</small>
+                                <small class="text-danger">-$ 524</small>
+                                <small>$ 1458</small>
+                            </div>
+
+                            <div class="crypto-chart">
+                                <div>
+                                    <div id="chart-2"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end slide-->
+
+                    <div class="col-lg-3 col-md-6 mt-4 pt-2 mt-lg-0 pt-lg-0">
+                        <div class="card border-0 p-4 rounded shadow position-relative">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <img src="assets/images/crypto/monero.png" class="avatar avatar-coin rounded-pill p-1 bg-success" alt="">
+                                <span class="text-muted">XMR</span>
+                            </div>
+
+                            <h6>Monero</h6>
+
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <small class="text-success">+3.08%</small>
+                                <small class="text-success">+$ 58</small>
+                                <small>$ 448</small>
+                            </div>
+
+                            <div class="crypto-chart">
+                                <div>
+                                    <div id="chart-3"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end slide-->
+
+                    <div class="col-lg-3 col-md-6 mt-4 pt-2 mt-lg-0 pt-lg-0">
+                        <div class="card border-0 p-4 rounded shadow position-relative">
+                            <div class="d-flex justify-content-between align-items-center mb-3">
+                                <img src="assets/images/crypto/litecoin.png" class="avatar avatar-coin rounded-pill p-1 bg-danger" alt="">
+                                <span class="text-muted">LTC</span>
+                            </div>
+
+                            <h6>Litecoin</h6>
+
+                            <div class="d-flex justify-content-between align-items-center mt-2">
+                                <small class="text-danger">-5.05%</small>
+                                <small class="text-danger">-$ 48</small>
+                                <small>$ 478</small>
+                            </div>
+
+                            <div class="crypto-chart">
+                                <div>
+                                    <div id="chart-4"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row justify-content-center">
+                    <div class="col-12 mt-4 pt-2">
+                        <div class="table-responsive bg-white shadow rounded">
+                            <table class="table mb-0 table-center">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="fw-normal border-bottom text-muted py-4 px-3" style="min-width: 250px;">Name</th>
+                                        <th scope="col" class="fw-normal border-bottom text-muted py-4 px-3" style="width: 150px;">Price</th>
+                                        <th scope="col" class="fw-normal border-bottom text-muted py-4 px-3" style="width: 150px;">Change(%)</th>
+                                        <th scope="col" class="fw-normal border-bottom text-muted py-4 px-3" style="width: 150px;">Change($)</th>
+                                        <th scope="col" class="fw-normal border-bottom text-muted py-4 px-3" style="width: 150px;">Marketcap</th>
+                                        <th scope="col" class="fw-normal border-bottom text-muted py-4 px-3 text-end" style="width: 100px;">Trade</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    <tr>
+                                        <th class="p-3">
+                                            <div class="align-items-center">
+                                                <img src="assets/images/crypto/bitcoin.png" class="me-3" height="32" alt="">
+                                                <p class="mb-0 d-inline fw-normal h6">Bitcoin <span class="text-muted">BTC</span> </p>
+                                            </div>
+                                        </th>
+                                        <td class="p-3">$34587</td>
+                                        <td class="text-danger p-3">-2.5%</td>
+                                        <td class="text-danger p-3">-$745</td>
+                                        <td class="text-muted p-3">$725,354M</td>
+                                        <td class="p-3 text-end"><a href="javascript:void(0)" class="btn btn-sm btn-primary">Trade</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <th class="p-3">
+                                            <div class="align-items-center">
+                                                <img src="assets/images/crypto/litecoin.png" class="me-3" height="32" alt="">
+                                                <p class="mb-0 d-inline fw-normal h6">Litecoin <span class="text-muted">LTC</span></p>
+                                            </div>
+                                        </th>
+                                        <td class="p-3">$216</td>
+                                        <td class="text-success p-3">+.264%</td>
+                                        <td class="text-success p-3">+$.264</td>
+                                        <td class="text-muted p-3">$11,100M</td>
+                                        <td class="p-3 text-end"><a href="javascript:void(0)" class="btn btn-sm btn-primary">Trade</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <th class="p-3">
+                                            <div class="align-items-center">
+                                                <img src="assets/images/crypto/auroracoin.png" class="me-3" height="32" alt="">
+                                                <p class="mb-0 d-inline fw-normal h6">Auroracoin <span class="text-muted">ARC</span> </p>
+                                            </div>
+                                        </th>
+                                        <td class="p-3">$452</td>
+                                        <td class="text-danger p-3">-1.9%</td>
+                                        <td class="text-danger p-3">-$1.9</td>
+                                        <td class="text-muted p-3">$45,785M</td>
+                                        <td class="p-3 text-end"><a href="javascript:void(0)" class="btn btn-sm btn-primary">Trade</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <th class="p-3">
+                                            <div class="align-items-center">
+                                                <img src="assets/images/crypto/coinye.png" class="me-3" height="32" alt="">
+                                                <p class="mb-0 d-inline fw-normal h6">Coinye <span class="text-muted">CNY</span> </p>
+                                            </div>
+                                        </th>
+                                        <td class="p-3">$154</td>
+                                        <td class="text-success p-3">+1.05%</td>
+                                        <td class="text-success p-3">+$1.05</td>
+                                        <td class="text-muted p-3">$85,478M</td>
+                                        <td class="p-3 text-end"><a href="javascript:void(0)" class="btn btn-sm btn-primary">Trade</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <th class="p-3">
+                                            <div class="align-items-center">
+                                                <img src="assets/images/crypto/ethereum.png" class="me-3" height="32" alt="">
+                                                <p class="mt-2 d-inline fw-normal h6">Ethereum Coin <span class="text-muted">ETH</span> </p>
+                                            </div>
+                                        </th>
+                                        <td class="p-3">$854</td>
+                                        <td class="text-success p-3">+1.705%</td>
+                                        <td class="text-success p-3">+$1.705</td>
+                                        <td class="text-muted p-3">$112,452M</td>
+                                        <td class="p-3 text-end"><a href="javascript:void(0)" class="btn btn-sm btn-primary">Trade</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <th class="p-3">
+                                            <div class="align-items-center">
+                                                <img src="assets/images/crypto/potcoin.png" class="me-3" height="32" alt="">
+                                                <p class="mb-0 d-inline fw-normal h6">Potcoin <span class="text-muted">PTC</span> </p>
+                                            </div>
+                                        </th>
+                                        <td class="p-3">$548</td>
+                                        <td class="text-danger p-3">-3.2%</td>
+                                        <td class="text-danger p-3">-$3.2</td>
+                                        <td class="text-muted p-3">$4,712M</td>
+                                        <td class="p-3 text-end"><a href="javascript:void(0)" class="btn btn-sm btn-primary">Trade</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <th class="p-3">
+                                            <div class="align-items-center">
+                                                <img src="assets/images/crypto/zcash.png" class="me-3" height="32" alt="">
+                                                <p class="mb-0 d-inline fw-normal h6">Zcash Coin <span class="text-muted">ZCC</span> </p>
+                                            </div>
+                                        </th>
+                                        <td class="p-3">$965</td>
+                                        <td class="text-success p-3">+1.465%</td>
+                                        <td class="text-success p-3">+$1.465</td>
+                                        <td class="text-muted p-3">$487,552M</td>
+                                        <td class="p-3 text-end"><a href="javascript:void(0)" class="btn btn-sm btn-primary">Trade</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <th class="p-3">
+                                            <div class="align-items-center">
+                                                <img src="assets/images/crypto/primecoin.png" class="me-3" height="32" alt="">
+                                                <p class="mb-0 d-inline fw-normal h6">Prime coin <span class="text-muted">XPM</span> </p>
+                                            </div>
+                                        </th>
+                                        <td class="p-3">$4875</td>
+                                        <td class="text-danger p-3">-1.08%</td>
+                                        <td class="text-danger p-3">-$1.08</td>
+                                        <td class="text-muted p-3">$55,221M</td>
+                                        <td class="p-3 text-end"><a href="javascript:void(0)" class="btn btn-sm btn-primary">Trade</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <th class="p-3">
+                                            <div class="align-items-center">
+                                                <img src="assets/images/crypto/blocknet.png" class="me-3" height="32" alt="">
+                                                <p class="mb-0 d-inline fw-normal h6">Blocknet <span class="text-muted">BLOCK</span> </p>
+                                            </div>
+                                        </th>
+                                        <td class="p-3">$478</td>
+                                        <td class="text-success p-3">+2.8%</td>
+                                        <td class="text-success p-3">+$2.8</td>
+                                        <td class="text-muted p-3">$66,552M</td>
+                                        <td class="p-3 text-end"><a href="javascript:void(0)" class="btn btn-sm btn-primary">Trade</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <th class="p-3">
+                                            <div class="align-items-center">
+                                                <img src="assets/images/crypto/kucoin.png" class="me-3" height="32" alt="">
+                                                <p class="mb-0 d-inline fw-normal h6">Kucoin <span class="text-muted">KCS</span> </p>
+                                            </div>
+                                        </th>
+                                        <td class="p-3">$545</td>
+                                        <td class="text-success p-3">+1.5%</td>
+                                        <td class="text-success p-3">+$1.5</td>
+                                        <td class="text-muted p-3">$98,562M</td>
+                                        <td class="p-3 text-end"><a href="javascript:void(0)" class="btn btn-sm btn-primary">Trade</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <th class="p-3">
+                                            <div class="align-items-center">
+                                                <img src="assets/images/crypto/bittorrent.png" class="me-3" height="32" alt="">
+                                                <p class="mb-0 d-inline fw-normal h6">Bittorrent <span class="text-muted">BTT</span> </p>
+                                            </div>
+                                        </th>
+                                        <td class="p-3">$4935</td>
+                                        <td class="text-danger p-3">-3.2%</td>
+                                        <td class="text-danger p-3">-$3.2</td>
+                                        <td class="text-muted p-3">$663,214M</td>
+                                        <td class="p-3 text-end"><a href="javascript:void(0)" class="btn btn-sm btn-primary">Trade</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <th class="p-3">
+                                            <div class="align-items-center">
+                                                <img src="assets/images/crypto/avalanche.png" class="me-3" height="32" alt="">
+                                                <p class="mb-0 d-inline fw-normal h6">Avalanche <span class="text-muted">AVAX</span> </p>
+                                            </div>
+                                        </th>
+                                        <td class="p-3">$1008</td>
+                                        <td class="text-success p-3">+1.4%</td>
+                                        <td class="text-success p-3">+$1.4</td>
+                                        <td class="text-muted p-3">$88,512M</td>
+                                        <td class="p-3 text-end"><a href="javascript:void(0)" class="btn btn-sm btn-primary">Trade</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <th class="p-3">
+                                            <div class="align-items-center">
+                                                <img src="assets/images/crypto/bitcoin-cash.png" class="me-3" height="32" alt="">
+                                                <p class="mb-0 d-inline fw-normal h6">Bitcoin cash <span class="text-muted">BCS</span> </p>
+                                            </div>
+                                        </th>
+                                        <td class="p-3">$816</td>
+                                        <td class="text-success p-3">+4.65%</td>
+                                        <td class="text-success p-3">+$4.65</td>
+                                        <td class="text-muted p-3">$54,212M</td>
+                                        <td class="p-3 text-end"><a href="javascript:void(0)" class="btn btn-sm btn-primary">Trade</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <th class="p-3">
+                                            <div class="align-items-center">
+                                                <img src="assets/images/crypto/binance.png" class="me-3" height="32" alt="">
+                                                <p class="mb-0 d-inline fw-normal h6">Binance <span class="text-muted">BNB</span> </p>
+                                            </div>
+                                        </th>
+                                        <td class="p-3">$965</td>
+                                        <td class="text-success p-3">-2.45%</td>
+                                        <td class="text-success p-3">-$2.45</td>
+                                        <td class="text-muted p-3">$458,122M</td>
+                                        <td class="p-3 text-end"><a href="javascript:void(0)" class="btn btn-sm btn-primary">Trade</a></td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <th class="p-3">
+                                            <div class="align-items-center">
+                                                <img src="assets/images/crypto/monero.png" class="me-3" height="32" alt="">
+                                                <p class="mb-0 d-inline fw-normal h6">Monero <span class="text-muted">XMR</span> </p>
+                                            </div>
+                                        </th>
+                                        <td class="p-3">$4758</td>
+                                        <td class="text-success p-3">+3.5%</td>
+                                        <td class="text-success p-3">+$3.5</td>
+                                        <td class="text-muted p-3">$52,142M</td>
+                                        <td class="p-3 text-end"><a href="javascript:void(0)" class="btn btn-sm btn-primary">Trade</a></td>
+                                    </tr>
+                                </tbody>
+                            </table><!--end table-->
+                        </div>
+                    </div><!--end col-->
+
+                    <!-- PAGINATION START -->
+                    <div class="col-12 mt-4 pt-2">
+                        <div class="d-md-flex align-items-center text-center justify-content-between">
+                            <span class="text-muted me-3">Showing 1 - 15 out of 452</span>
+                            <ul class="pagination justify-content-center mb-0 mt-3 mt-sm-0">
+                                <li class="page-item"><a class="page-link" href="javascript:void(0)" aria-label="Previous">Prev</a></li>
+                                <li class="page-item active"><a class="page-link" href="javascript:void(0)">1</a></li>
+                                <li class="page-item"><a class="page-link" href="javascript:void(0)">2</a></li>
+                                <li class="page-item"><a class="page-link" href="javascript:void(0)">3</a></li>
+                                <li class="page-item"><a class="page-link" href="javascript:void(0)" aria-label="Next">Next</a></li>
+                            </ul>
+                        </div>
+                    </div><!--end col-->
+                    <!-- PAGINATION END -->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End -->
+
+        <!-- Footer Start -->
+        @@include("partials/footer/footer-three.html")
+        <!-- Footer End -->
+
+        @@include("partials/offcanvas-right.html")
+        @@include("partials/switcherbar.html")
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fs-5"><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i></a>
+        <!-- Back to top -->
+        
+        
+        <!-- javascript -->
+        @@include("partials/vendor-scripts.html")
+        <!-- Charts -->
+        <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
+        <!-- Main Js -->
+        <script src="assets/js/plugins.init.js"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+        <script src="assets/js/app.js"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->        
+    </body>
+
+</html>

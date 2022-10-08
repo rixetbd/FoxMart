@@ -1,0 +1,382 @@
+
+@@include("partials/main.html")
+
+    <head>
+        @@include("partials/title-meta.html", {"title": "Landrick"})
+        
+        <!-- Css -->
+        <link href="assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet">
+        @@include("partials/head-css.html")
+
+    </head>
+
+    <body>
+        <!-- Loader -->
+        <!-- <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Loader -->
+        
+        
+        @@include("partials/navbar/nav-job.html")
+        
+        <!-- Hero Start -->
+        <section class="bg-half-170 bg-primary d-table w-100 " style="background-image: url('assets/images/job/bg.png');">
+            <div class="container">
+                <div class="row mt-5 justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <div class="pages-heading">
+                            <h4 class="title text-white title-dark mb-0"> Pricing plans </h4>
+                        </div>
+                    </div>  <!--end col-->
+                </div><!--end row-->
+                
+                <div class="position-breadcrumb">
+                    <nav aria-label="breadcrumb" class="d-inline-block">
+                        <ul class="breadcrumb rounded shadow mb-0 px-4 py-2">
+                            <li class="breadcrumb-item"><a href="index.html">Landrick</a></li>
+                            <li class="breadcrumb-item"><a href="index-job.html">Careers</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Price</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div> <!--end container-->
+        </section><!--end section-->
+        <!-- Hero End -->
+
+        <!-- Shape Start -->
+        <div class="position-relative">
+            <div class="shape overflow-hidden text-color-white">
+                <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+        <!--Shape End-->
+        
+        <!-- Start -->
+        <section class="section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <div class="switcher-pricing d-flex justify-content-center align-items-center mb-4 pb-2">
+                            <label class="toggler text-muted toggler--is-active" id="filt-monthly">Monthly</label>
+                            <div class="form-check form-switch mx-3">
+                                <input class="form-check-input" type="checkbox" id="switcher">
+                            </div>
+                            <label class="toggler text-muted" id="filt-yearly">Yearly</label>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row">
+                    <div class="col-12">
+                        <div id="monthly" class="wrapper-full">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                                    <div class="card pricing pricing-primary business-rate shadow bg-light border-0 rounded">
+                                        <div class="card-body">
+                                            <h6 class="title name fw-bold text-uppercase mb-4">Free</h6>
+                                            <div class="d-flex mb-4">
+                                                <span class="h4 mb-0 mt-2">$</span>
+                                                <span class="price h1 mb-0">0</span>
+                                                <span class="h4 align-self-end mb-1">/mo</span>
+                                            </div>
+                                            
+                                            <ul class="list-unstyled mb-0 ps-0">
+                                                <li class="h6 text-muted mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Full Access</li>
+                                                <li class="h6 text-muted mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Source Files</li>
+                                            </ul>
+                                            <a href="javascript:void(0)" class="btn btn-primary mt-4">Buy Now</a>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+                                
+                                <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                                    <div class="card pricing pricing-primary business-rate shadow border-0 rounded">
+                                        <div class="ribbon ribbon-right ribbon-warning overflow-hidden"><span class="text-center d-block shadow small h6">Best</span></div>
+                                        <div class="card-body">
+                                            <h6 class="title name fw-bold text-uppercase mb-4">Starter</h6>
+                                            <div class="d-flex mb-4">
+                                                <span class="h4 mb-0 mt-2">$</span>
+                                                <span class="price h1 mb-0">39</span>
+                                                <span class="h4 align-self-end mb-1">/mo</span>
+                                            </div>
+            
+                                            <ul class="list-unstyled mb-0 ps-0">
+                                                <li class="h6 text-muted mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Full Access</li>
+                                                <li class="h6 text-muted mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Source Files</li>
+                                                <li class="h6 text-muted mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Free Appointments</li>
+                                            </ul>
+                                            <a href="javascript:void(0)" class="btn btn-primary mt-4">Get Started</a>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+                                
+                                <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                                    <div class="card pricing pricing-primary business-rate shadow bg-light border-0 rounded">
+                                        <div class="card-body">
+                                            <h6 class="title name fw-bold text-uppercase mb-4">Professional</h6>
+                                            <div class="d-flex mb-4">
+                                                <span class="h4 mb-0 mt-2">$</span>
+                                                <span class="price h1 mb-0">59</span>
+                                                <span class="h4 align-self-end mb-1">/mo</span>
+                                            </div>
+                                            
+                                            <ul class="list-unstyled mb-0 ps-0">
+                                                <li class="h6 text-muted mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Full Access</li>
+                                                <li class="h6 text-muted mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Source Files</li>
+                                                <li class="h6 text-muted mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>1 Domain Free</li>
+                                                <li class="h6 text-muted mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Enhanced Security</li>
+                                            </ul>
+                                            <a href="javascript:void(0)" class="btn btn-primary mt-4">Try It Now</a>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+                                
+                                <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                                    <div class="card pricing pricing-primary business-rate shadow bg-light border-0 rounded">
+                                        <div class="card-body">
+                                            <h6 class="title name fw-bold text-uppercase mb-4">Ultimate</h6>
+                                            <div class="d-flex mb-4">
+                                                <span class="h4 mb-0 mt-2">$</span>
+                                                <span class="price h1 mb-0">79</span>
+                                                <span class="h4 align-self-end mb-1">/mo</span>
+                                            </div>
+                                            
+                                            <ul class="list-unstyled mb-0 ps-0">
+                                                <li class="h6 text-muted mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Full Access</li>
+                                                <li class="h6 text-muted mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Enhanced Security</li>
+                                                <li class="h6 text-muted mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Source Files</li>
+                                                <li class="h6 text-muted mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>1 Domain Free</li>
+                                                <li class="h6 text-muted mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Free Installment</li>
+                                            </ul>
+                                            <a href="javascript:void(0)" class="btn btn-primary mt-4">Started Now</a>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+                            </div><!--end row-->
+                        </div>
+
+                        <div id="yearly" class="wrapper-full hide">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                                    <div class="card pricing pricing-primary business-rate shadow bg-light border-0 rounded">
+                                        <div class="card-body">
+                                            <h6 class="title name fw-bold text-uppercase mb-4">Free</h6>
+                                            <div class="d-flex mb-4">
+                                                <span class="h4 mb-0 mt-2">$</span>
+                                                <span class="price h1 mb-0">10</span>
+                                                <span class="h4 align-self-end mb-1">/mo</span>
+                                            </div>
+                                            
+                                            <ul class="list-unstyled mb-0 ps-0">
+                                                <li class="h6 text-muted mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Full Access</li>
+                                                <li class="h6 text-muted mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Source Files</li>
+                                            </ul>
+                                            <a href="javascript:void(0)" class="btn btn-primary mt-4">Buy Now</a>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+                                
+                                <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                                    <div class="card pricing pricing-primary business-rate shadow border-0 rounded">
+                                        <div class="ribbon ribbon-right ribbon-warning overflow-hidden"><span class="text-center d-block shadow small h6">Best</span></div>
+                                        <div class="card-body">
+                                            <h6 class="title name fw-bold text-uppercase mb-4">Starter</h6>
+                                            <div class="d-flex mb-4">
+                                                <span class="h4 mb-0 mt-2">$</span>
+                                                <span class="price h1 mb-0">139</span>
+                                                <span class="h4 align-self-end mb-1">/mo</span>
+                                            </div>
+            
+                                            <ul class="list-unstyled mb-0 ps-0">
+                                                <li class="h6 text-muted mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Full Access</li>
+                                                <li class="h6 text-muted mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Source Files</li>
+                                                <li class="h6 text-muted mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Free Appointments</li>
+                                            </ul>
+                                            <a href="javascript:void(0)" class="btn btn-primary mt-4">Get Started</a>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+                                
+                                <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                                    <div class="card pricing pricing-primary business-rate shadow bg-light border-0 rounded">
+                                        <div class="card-body">
+                                            <h6 class="title name fw-bold text-uppercase mb-4">Professional</h6>
+                                            <div class="d-flex mb-4">
+                                                <span class="h4 mb-0 mt-2">$</span>
+                                                <span class="price h1 mb-0">159</span>
+                                                <span class="h4 align-self-end mb-1">/mo</span>
+                                            </div>
+                                            
+                                            <ul class="list-unstyled mb-0 ps-0">
+                                                <li class="h6 text-muted mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Full Access</li>
+                                                <li class="h6 text-muted mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Source Files</li>
+                                                <li class="h6 text-muted mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>1 Domain Free</li>
+                                                <li class="h6 text-muted mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Enhanced Security</li>
+                                            </ul>
+                                            <a href="javascript:void(0)" class="btn btn-primary mt-4">Try It Now</a>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+                                
+                                <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                                    <div class="card pricing pricing-primary business-rate shadow bg-light border-0 rounded">
+                                        <div class="card-body">
+                                            <h6 class="title name fw-bold text-uppercase mb-4">Ultimate</h6>
+                                            <div class="d-flex mb-4">
+                                                <span class="h4 mb-0 mt-2">$</span>
+                                                <span class="price h1 mb-0">179</span>
+                                                <span class="h4 align-self-end mb-1">/mo</span>
+                                            </div>
+                                            
+                                            <ul class="list-unstyled mb-0 ps-0">
+                                                <li class="h6 text-muted mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Full Access</li>
+                                                <li class="h6 text-muted mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Enhanced Security</li>
+                                                <li class="h6 text-muted mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Source Files</li>
+                                                <li class="h6 text-muted mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>1 Domain Free</li>
+                                                <li class="h6 text-muted mb-0"><span class="icon h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Free Installment</li>
+                                            </ul>
+                                            <a href="javascript:void(0)" class="btn btn-primary mt-4">Started Now</a>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+                            </div><!--end row-->
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <!-- Testi start -->
+            <div class="container mt-100 mt-60">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <div class="section-title mb-4 pb-2">
+                            <h4 class="title mb-4">Candidates Review</h4>
+                            <p class="text-muted para-desc mx-auto mb-0">Start working with <span class="text-primary fw-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row">
+                    <div class="col-12 mt-4 pt-2">
+                        <div class="tiny-three-item">
+                            <div class="tiny-slide">
+                                <div class="card client-testi border-0 text-center">
+                                    <div class="card-body">
+                                        <img src="assets/images/client/01.jpg" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow" alt="">
+                                        <p class="text-muted mt-4">" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. "</p>
+                                        <h6 class="text-primary">- Thomas Israel</h6>                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide">
+                                <div class="card client-testi border-0 text-center">
+                                    <div class="card-body">
+                                        <img src="assets/images/client/02.jpg" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow" alt="">
+                                        <p class="text-muted mt-4">" The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century. "</p>
+                                        <h6 class="text-primary">- Carl Oliver</h6>                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide">
+                                <div class="card client-testi border-0 text-center">
+                                    <div class="card-body">
+                                        <img src="assets/images/client/03.jpg" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow" alt="">
+                                        <p class="text-muted mt-4">" One disadvantage of Lorum Ipsum is that in Latin certain letters appear more frequently than others. "</p>
+                                        <h6 class="text-primary">- Barbara McIntosh</h6>                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide">
+                                <div class="card client-testi border-0 text-center">
+                                    <div class="card-body">
+                                        <img src="assets/images/client/04.jpg" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow" alt="">
+                                        <p class="text-muted mt-4">" Thus, Lorem Ipsum has only limited suitability as a visual filler for German texts. "</p>
+                                        <h6 class="text-primary">- Jill Webb</h6>                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide">
+                                <div class="card client-testi border-0 text-center">
+                                    <div class="card-body">
+                                        <img src="assets/images/client/05.jpg" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow" alt="">
+                                        <p class="text-muted mt-4">" There is now an abundance of readable dummy texts. These are usually used when a text is required. "</p>
+                                        <h6 class="text-primary">- Dean Tolle</h6>                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide">
+                                <div class="card client-testi border-0 text-center">
+                                    <div class="card-body">
+                                        <img src="assets/images/client/06.jpg" class="img-fluid avatar avatar-small rounded-circle mx-auto shadow" alt="">
+                                        <p class="text-muted mt-4">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero. "</p>
+                                        <h6 class="text-primary">- Christa Smith</h6>                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+            <div class="container pt-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-2 col-md-2 col-6 text-center">
+                        <img src="assets/images/client/amazon.svg" class="avatar avatar-ex-sm" alt="">
+                    </div><!--end col-->
+
+                    <div class="col-lg-2 col-md-2 col-6 text-center">
+                        <img src="assets/images/client/google.svg" class="avatar avatar-ex-sm" alt="">
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-2 col-md-2 col-6 text-center mt-4 mt-sm-0">
+                        <img src="assets/images/client/lenovo.svg" class="avatar avatar-ex-sm" alt="">
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-2 col-md-2 col-6 text-center mt-4 mt-sm-0">
+                        <img src="assets/images/client/paypal.svg" class="avatar avatar-ex-sm" alt="">
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-2 col-md-2 col-6 text-center mt-4 mt-sm-0">
+                        <img src="assets/images/client/shopify.svg" class="avatar avatar-ex-sm" alt="">
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-2 col-md-2 col-6 text-center mt-4 mt-sm-0">
+                        <img src="assets/images/client/spotify.svg" class="avatar avatar-ex-sm" alt="">
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+            <!-- Testi end -->
+        </section><!--end section-->
+        <!-- End -->
+
+        
+        @@include("partials/footer/footer-one.html")
+
+        @@include("partials/offcanvas-right.html")
+        @@include("partials/switcherbar.html")
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fs-5"><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i></a>
+        <!-- Back to top -->
+
+        <!-- javascript -->
+        @@include("partials/vendor-scripts.html")
+        <!-- SLider -->
+        <script src="assets/libs/tiny-slider/min/tiny-slider.js"></script>
+        <!-- Main Js -->
+        <script src="assets/js/plugins.init.js"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+        <script src="assets/js/app.js"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+    </body>
+</html>

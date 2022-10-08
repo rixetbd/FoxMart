@@ -1,0 +1,566 @@
+@@include("partials/main.html")
+
+    <head>
+        @@include("partials/title-meta.html", {"title": "Landrick"})
+        
+        <!-- Css -->
+        <link href="assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet">
+        <link href="assets/libs/tobii/css/tobii.min.css" rel="stylesheet">
+        @@include("partials/head-css.html")
+
+    </head>
+
+    <body>
+        <!-- Loader -->
+        <!-- <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Loader -->
+        
+        @@include("partials/navbar/nav-light-center.html")
+        
+        <!-- Hero Start -->
+        <section class="home-slider position-relative">
+            <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <div class="bg-home d-flex align-items-center" style="background-image:url('assets/images/logistics/01.jpg')">
+                            <div class="bg-overlay"></div>
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col">
+                                        <div class="title-heading position-relative mt-4 text-center" style="z-index: 1;">
+                                            <h1 class="fw-bold display-4 text-white title-dark mb-3">Logistic Solutions <br>Around the World</h1>
+                                            <p class="para-desc mx-auto text-white-50">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap v5 html page.</p>
+                                            <div class="mt-4 pt-2">
+                                                <a href="#!" class="btn btn-primary">Learn More</a>
+                                            </div>
+                                        </div>
+                                    </div><!--end col-->
+                                </div><!--end row-->
+                            </div><!--end container-->
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="bg-home d-flex align-items-center" style="background-image:url('assets/images/logistics/02.jpg')">
+                            <div class="bg-overlay"></div>
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col">
+                                        <div class="title-heading position-relative mt-4 text-center" style="z-index: 1;">
+                                            <h1 class="fw-bold display-4 text-white title-dark mb-3">We Make Your <br> Logistic Simple</h1>
+                                            <p class="para-desc mx-auto text-white-50">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap v5 html page.</p>
+                                            <div class="mt-4 pt-2">
+                                                <a href="#!" class="btn btn-primary">Learn More</a>
+                                            </div>
+                                        </div>
+                                    </div><!--end col-->
+                                </div><!--end row-->
+                            </div><!--end container-->
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <div class="bg-home d-flex align-items-center" style="background-image:url('assets/images/logistics/03.jpg')">
+                            <div class="bg-overlay"></div>
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col">
+                                        <div class="title-heading position-relative mt-4 text-center" style="z-index: 1;">
+                                            <h1 class="fw-bold display-4 text-white title-dark mb-3">Flexible Logistics <br>& Cargo for Business</h1>
+                                            <p class="para-desc mx-auto text-white-50">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap v5 html page.</p>
+                                            <div class="mt-4 pt-2">
+                                                <a href="#!" class="btn btn-primary">Learn More</a>
+                                            </div>
+                                        </div>
+                                    </div><!--end col-->
+                                </div><!--end row-->
+                            </div><!--end container-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!--end section-->
+        <!-- Hero End -->
+
+        <!-- FEATURES START -->
+        <section class="section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="features-absolute">
+                            <div class="row g-2">
+                                <div class="col-md-6 col-12">
+                                    <div class="card features feature-primary feature-full-bg rounded shadow p-4 position-relative overflow-hidden border-0">
+                                        <span class="h2 icon-color">
+                                            <i class="uil uil-truck"></i>
+                                        </span>
+                                        <div class="card-body p-0 content">
+                                            <h5 class="mb-3">Transport Solutions</h5>
+                                            <p class="para text-muted mb-3">If the distribution of letters and 'words' is random, the reader from making a neutral judgement</p>
+                                            
+                                            <a href="javascript:void(0)" class="readmore text-dark">Read More <i class="uil uil-angle-right align-middle"></i></a>
+                                        </div>
+                                        <div class="position-absolute top-0 end-0">
+                                            <i class="uil uil-truck display-1 opacity-05"></i>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+                                
+                                <div class="col-md-6 col-12">
+                                    <div class="card features feature-primary feature-full-bg rounded shadow p-4 position-relative overflow-hidden border-0">
+                                        <span class="h2 icon-color">
+                                            <i class="uil uil-parcel"></i>
+                                        </span>
+                                        <div class="card-body p-0 content">
+                                            <h5 class="mb-3">Warehousing Solutions</h5>
+                                            <p class="para text-muted mb-3">If the distribution of letters and 'words' is random, the reader from making a neutral judgement</p>
+                                            
+                                            <a href="javascript:void(0)" class="readmore text-dark">Read More <i class="uil uil-angle-right align-middle"></i></a>
+                                        </div>
+                                        <div class="position-absolute top-0 end-0">
+                                            <i class="uil uil-parcel display-1 opacity-05"></i>
+                                        </div>
+                                    </div>
+                                </div><!--end col-->
+                            </div><!--end row-->
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="container mt-100 mt-60">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-5 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                        <div class="position-relative">
+                            <img src="assets/images/logistics/about.png" class="rounded img-fluid mx-auto d-block" alt="">
+                            <div class="play-icon">
+                                <a href="#!" data-type="youtube" data-id="yba7hPeTSjk" class="play-btn lightbox border-0">
+                                    <i class="mdi mdi-play text-primary rounded-circle shadow"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-7 col-md-7 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                        <div class="section-title ms-lg-4">
+                            <h6>About us</h6>
+                            <h4 class="title mb-4">Powerful Features of <br> <span class="text-primary">Landrick</span> Logistics</h4>
+                            <p class="text-muted">Start working with <span class="text-primary fw-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect. Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with 'real' content. This is required when, for example, the final text is not yet available. Dummy texts have been in use by typesetters since the 16th century.</p>
+                            <a href="javascript:void(0)" class="btn btn-primary mt-3">Read More <i class="uil uil-angle-right-b"></i></a>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <!-- Partners start -->
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-2 col-md-2 col-6 text-center py-4">
+                        <img src="assets/images/client/amazon.svg" class="avatar avatar-ex-sm" alt="">
+                    </div><!--end col-->
+
+                    <div class="col-lg-2 col-md-2 col-6 text-center py-4">
+                        <img src="assets/images/client/google.svg" class="avatar avatar-ex-sm" alt="">
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-2 col-md-2 col-6 text-center py-4">
+                        <img src="assets/images/client/lenovo.svg" class="avatar avatar-ex-sm" alt="">
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-2 col-md-2 col-6 text-center py-4">
+                        <img src="assets/images/client/paypal.svg" class="avatar avatar-ex-sm" alt="">
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-2 col-md-2 col-6 text-center py-4">
+                        <img src="assets/images/client/shopify.svg" class="avatar avatar-ex-sm" alt="">
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-2 col-md-2 col-6 text-center py-4">
+                        <img src="assets/images/client/spotify.svg" class="avatar avatar-ex-sm" alt="">
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+            <!-- Partners End -->
+
+            <div class="container-fluid mt-100 mt-60">
+                <div class="py-5" style="background: url('assets/images/svg-map.svg');">
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-12 text-center">
+                                <span class="clip-text clip-text-image text-uppercase fw-bold" style="background-image: url('assets/images/logistics/01.jpg');">Landrick.</span>
+                            </div><!--end col-->
+                        </div><!--end row-->
+                    </div><!--end container-->
+                </div>
+            </div><!--end container-->
+
+            <div class="container mt-100 mt-60">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <div class="section-title mb-4 pb-2">
+                            <h4 class="title mb-4">Explore Our Services</h4>
+                            <p class="text-muted para-desc mb-0 mx-auto">Start working with <span class="text-primary fw-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <div class="card features feature-primary feature-clean explore-feature p-4 border-0 rounded-md shadow text-center">
+                            <div class="icons text-center mx-auto">
+                                <i class="uil uil-truck d-block rounded h3 mb-0 mx-auto"></i>
+                            </div>
+
+                            <div class="card-body p-0 content">
+                                <h5 class="mt-4"><a href="javascript:void(0)" class="title text-dark">Land Transport</a></h5>
+                                <p class="text-muted">The most well-known which is said to have originated</p>
+
+                                <a href="javascript:void(0)" class="read-more">Read More <i class="uil uil-angle-right-b align-middle"></i></a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <div class="card features feature-primary feature-clean explore-feature p-4 border-0 rounded-md shadow text-center">
+                            <div class="icons text-center mx-auto">
+                                <i class="uil uil-plane-departure d-block rounded h3 mb-0 mx-auto"></i>
+                            </div>
+
+                            <div class="card-body p-0 content">
+                                <h5 class="mt-4"><a href="javascript:void(0)" class="title text-dark">Air Freight</a></h5>
+                                <p class="text-muted">The most well-known which is said to have originated</p>
+
+                                <a href="javascript:void(0)" class="read-more">Read More <i class="uil uil-angle-right-b align-middle"></i></a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <div class="card features feature-primary feature-clean explore-feature p-4 border-0 rounded-md shadow text-center">
+                            <div class="icons text-center mx-auto">
+                                <i class="uil uil-ship d-block rounded h3 mb-0 mx-auto"></i>
+                            </div>
+
+                            <div class="card-body p-0 content">
+                                <h5 class="mt-4"><a href="javascript:void(0)" class="title text-dark">Ocean Freight</a></h5>
+                                <p class="text-muted">The most well-known which is said to have originated</p>
+
+                                <a href="javascript:void(0)" class="read-more">Read More <i class="uil uil-angle-right-b align-middle"></i></a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <div class="card features feature-primary feature-clean explore-feature p-4 border-0 rounded-md shadow text-center">
+                            <div class="icons text-center mx-auto">
+                                <i class="uil uil-money-stack d-block rounded h3 mb-0 mx-auto"></i>
+                            </div>
+
+                            <div class="card-body p-0 content">
+                                <h5 class="mt-4"><a href="javascript:void(0)" class="title text-dark">Cost Saving</a></h5>
+                                <p class="text-muted">The most well-known which is said to have originated</p>
+
+                                <a href="javascript:void(0)" class="read-more">Read More <i class="uil uil-angle-right-b align-middle"></i></a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <div class="card features feature-primary feature-clean explore-feature p-4 border-0 rounded-md shadow text-center">
+                            <div class="icons text-center mx-auto">
+                                <i class="uil uil-package d-block rounded h3 mb-0 mx-auto"></i>
+                            </div>
+
+                            <div class="card-body p-0 content">
+                                <h5 class="mt-4"><a href="javascript:void(0)" class="title text-dark">Safe Packing</a></h5>
+                                <p class="text-muted">The most well-known which is said to have originated</p>
+
+                                <a href="javascript:void(0)" class="read-more">Read More <i class="uil uil-angle-right-b align-middle"></i></a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <div class="card features feature-primary feature-clean explore-feature p-4 border-0 rounded-md shadow text-center">
+                            <div class="icons text-center mx-auto">
+                                <i class="uil uil-fast-mail-alt d-block rounded h3 mb-0 mx-auto"></i>
+                            </div>
+
+                            <div class="card-body p-0 content">
+                                <h5 class="mt-4"><a href="javascript:void(0)" class="title text-dark">Fast Shipping</a></h5>
+                                <p class="text-muted">The most well-known which is said to have originated</p>
+
+                                <a href="javascript:void(0)" class="read-more">Read More <i class="uil uil-angle-right-b align-middle"></i></a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End -->
+
+        <!-- Start CTA -->
+        <section class="section bg-cta" style="background: url('assets/images/logistics/cta.jpg') center;">
+            <div class="bg-overlay"></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <div class="title-heading">
+                            <img src="assets/images/logo-light.png" height="24" alt="">
+                            <h4 class="heading title-dark text-white my-4">World’s Leading Contract <br> Logistics Provider</h4>
+                            <p class="text-white-50 para-dark para-desc mx-auto">Start working with Landrick that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                            <a href="#!" data-type="youtube" data-id="yba7hPeTSjk" class="play-btn  mt-4 lightbox">
+                                <i data-feather="play" class="fea icon-ex-md text-white title-dark"></i>
+                            </a>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End CTA -->
+
+        <!-- Start -->
+        <section class="section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="section-title text-center mb-4 pb-2">
+                            <h4 class="title mb-4">Our Happy Customers</h4>
+                            <p class="text-muted mx-auto para-desc">Start working with <span class="text-primary fw-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 mt-4">
+                        <div class="tiny-three-item">
+                            <div class="tiny-slide">
+                                <div class="d-flex client-testi m-2">
+                                    <img src="assets/images/client/01.jpg" class="avatar avatar-small client-image rounded shadow" alt="">
+                                    <div class="card flex-1 content p-3 shadow rounded position-relative">
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                        </ul>
+                                        <p class="text-muted mt-2">" It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. "</p>
+                                        <h6 class="text-primary">- Thomas Israel <small class="text-muted">C.E.O</small></h6>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="tiny-slide">
+                                <div class="d-flex client-testi m-2">
+                                    <img src="assets/images/client/02.jpg" class="avatar avatar-small client-image rounded shadow" alt="">
+                                    <div class="card flex-1 content p-3 shadow rounded position-relative">
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star-half text-warning"></i></li>
+                                        </ul>
+                                        <p class="text-muted mt-2">" One disadvantage of Lorum Ipsum is that in Latin certain letters appear more frequently than others. "</p>
+                                        <h6 class="text-primary">- Barbara McIntosh <small class="text-muted">M.D</small></h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide">
+                                <div class="d-flex client-testi m-2">
+                                    <img src="assets/images/client/03.jpg" class="avatar avatar-small client-image rounded shadow" alt="">
+                                    <div class="card flex-1 content p-3 shadow rounded position-relative">
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                        </ul>
+                                        <p class="text-muted mt-2">" The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century. "</p>
+                                        <h6 class="text-primary">- Carl Oliver <small class="text-muted">P.A</small></h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide">
+                                <div class="d-flex client-testi m-2">
+                                    <img src="assets/images/client/04.jpg" class="avatar avatar-small client-image rounded shadow" alt="">
+                                    <div class="card flex-1 content p-3 shadow rounded position-relative">
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                        </ul>
+                                        <p class="text-muted mt-2">" According to most sources, Lorum Ipsum can be traced back to a text composed by Cicero. "</p>
+                                        <h6 class="text-primary">- Christa Smith <small class="text-muted">Manager</small></h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide">
+                                <div class="d-flex client-testi m-2">
+                                    <img src="assets/images/client/05.jpg" class="avatar avatar-small client-image rounded shadow" alt="">
+                                    <div class="card flex-1 content p-3 shadow rounded position-relative">
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                        </ul>
+                                        <p class="text-muted mt-2">" There is now an abundance of readable dummy texts. These are usually used when a text is required. "</p>
+                                        <h6 class="text-primary">- Dean Tolle <small class="text-muted">Developer</small></h6>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide">
+                                <div class="d-flex client-testi m-2">
+                                    <img src="assets/images/client/06.jpg" class="avatar avatar-small client-image rounded shadow" alt="">
+                                    <div class="card flex-1 content p-3 shadow rounded position-relative">
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                            <li class="list-inline-item"><i class="mdi mdi-star text-warning"></i></li>
+                                        </ul>
+                                        <p class="text-muted mt-2">" Thus, Lorem Ipsum has only limited suitability as a visual filler for German texts. "</p>
+                                        <h6 class="text-primary">- Jill Webb <small class="text-muted">Designer</small></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="container mt-100 mt-60">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <div class="section-title mb-4 pb-2">
+                            <h4 class="title mb-4">Latest News</h4>
+                            <p class="text-muted para-desc mx-auto mb-0">Start working with <span class="text-primary fw-bold">Landrick</span> that can provide everything you need to generate awareness, drive traffic, connect.</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <div class="card blog blog-primary rounded border-0 shadow">
+                            <div class="position-relative">
+                                <img src="assets/images/logistics/blog01.jpg" class="card-img-top rounded-top" alt="...">
+                                <div class="overlay rounded-top"></div>
+                            </div>
+                            <div class="card-body content">
+                                <h5><a href="javascript:void(0)" class="card-title title text-dark">Helping Companies in  Their Green Transition</a></h5>
+                                <div class="post-meta d-flex justify-content-between mt-3">
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="list-inline-item me-2 mb-0"><a href="javascript:void(0)" class="text-muted like"><i class="uil uil-heart me-1"></i>33</a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="text-muted comments"><i class="uil uil-comment me-1"></i>08</a></li>
+                                    </ul>
+                                    <a href="blog-detail.html" class="text-muted readmore">Read More <i class="uil uil-angle-right-b align-middle"></i></a>
+                                </div>
+                            </div>
+                            <div class="author">
+                                <small class="user d-block"><i class="uil uil-user"></i> Calvin Carlo</small>
+                                <small class="date"><i class="uil uil-calendar-alt"></i> 25th June 2021</small>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <div class="card blog blog-primary rounded border-0 shadow">
+                            <div class="position-relative">
+                                <img src="assets/images/logistics/blog02.jpg" class="card-img-top rounded-top" alt="...">
+                                <div class="overlay rounded-top"></div>
+                            </div>
+                            <div class="card-body content">
+                                <h5><a href="javascript:void(0)" class="card-title title text-dark">Key Logistics Trends in Life  Sciences 2021</a></h5>
+                                <div class="post-meta d-flex justify-content-between mt-3">
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="list-inline-item me-2 mb-0"><a href="javascript:void(0)" class="text-muted like"><i class="uil uil-heart me-1"></i>33</a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="text-muted comments"><i class="uil uil-comment me-1"></i>08</a></li>
+                                    </ul>
+                                    <a href="blog-detail.html" class="text-muted readmore">Read More <i class="uil uil-angle-right-b align-middle"></i></a>
+                                </div>
+                            </div>
+                            <div class="author">
+                                <small class="user d-block"><i class="uil uil-user"></i> Calvin Carlo</small>
+                                <small class="date"><i class="uil uil-calendar-alt"></i> 25th June 2021</small>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <div class="card blog blog-primary rounded border-0 shadow">
+                            <div class="position-relative">
+                                <img src="assets/images/logistics/blog03.jpg" class="card-img-top rounded-top" alt="...">
+                                <div class="overlay rounded-top"></div>
+                            </div>
+                            <div class="card-body content">
+                                <h5><a href="javascript:void(0)" class="card-title title text-dark">5 Benefits of Working with  a Freight Broker</a></h5>
+                                <div class="post-meta d-flex justify-content-between mt-3">
+                                    <ul class="list-unstyled mb-0">
+                                        <li class="list-inline-item me-2 mb-0"><a href="javascript:void(0)" class="text-muted like"><i class="uil uil-heart me-1"></i>33</a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="text-muted comments"><i class="uil uil-comment me-1"></i>08</a></li>
+                                    </ul>
+                                    <a href="blog-detail.html" class="text-muted readmore">Read More <i class="uil uil-angle-right-b align-middle"></i></a>
+                                </div>
+                            </div>
+                            <div class="author">
+                                <small class="user d-block"><i class="uil uil-user"></i> Calvin Carlo</small>
+                                <small class="date"><i class="uil uil-calendar-alt"></i> 25th June 2021</small>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- End -->
+
+        <!-- Footer Start -->
+        @@include("partials/footer/footer-five.html")
+        <!-- Footer End -->
+
+        
+        @@include("partials/cookie-popup.html")
+        
+
+        @@include("partials/offcanvas-right.html")
+        @@include("partials/switcherbar.html")
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fs-5"><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i></a>
+        <!-- Back to top -->
+
+        
+
+        <!-- Javascript -->
+        @@include("partials/vendor-scripts.html")
+        <!-- SLIDER -->
+        <script src="assets/libs/tiny-slider/min/tiny-slider.js"></script>
+        <!-- Lightbox -->
+        <script src="assets/libs/tobii/js/tobii.min.js"></script>
+        <!-- Main Js -->
+        <script src="assets/js/plugins.init.js"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+        <script src="assets/js/app.js"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+    </body>
+</html>

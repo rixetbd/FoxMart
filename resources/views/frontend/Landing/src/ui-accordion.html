@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        @@include("partials/title-meta.html", {"title": "Landrick"})
+        
+        <!-- Css -->
+        @@include("partials/head-css.html")
+
+    </head>
+
+    <body>
+        <!-- Loader -->
+        <!-- <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Loader -->
+        
+        @@include("partials/navbar/nav-center.html")
+        
+        <!-- Hero Start -->
+        <section class="bg-half-170 bg-light d-table w-100">
+            <div class="container">
+                <div class="row mt-5 justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <div class="pages-heading">
+                            <h4 class="title mb-0"> Accordions </h4>
+                        </div>
+                    </div>  <!--end col-->
+                </div><!--end row-->
+                
+                <div class="position-breadcrumb">
+                    <nav aria-label="breadcrumb" class="d-inline-block">
+                        <ul class="breadcrumb rounded shadow mb-0 px-4 py-2">
+                            <li class="breadcrumb-item"><a href="index.html">Landrick</a></li>
+                            <li class="breadcrumb-item"><a href="#">Components</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Accordions</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div> <!--end container-->
+        </section><!--end section-->
+        <!-- Hero End -->
+
+        <!-- Shape Start -->
+        <div class="position-relative">
+            <div class="shape overflow-hidden text-color-white">
+                <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+        <!--Shape End-->
+
+        <!-- Start -->
+        <section class="section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 d-md-block d-none">
+                        <h5>Components</h5>
+                        @@include("partials/component-sidenav.html")
+                    </div><!--end col-->
+
+                    <div class="col-lg-9 col-md-8 col-12">
+                        <div class="row">
+                            <!-- Accordions Start -->
+                            <div class="col-12">
+                                <div class="component-wrapper rounded shadow">
+                                    <div class="p-4 border-bottom">
+                                        <h5 class="title mb-0">Accordions</h5>
+                                    </div>
+        
+                                    <div class="p-4">
+                                        <h6 class="text-muted mb-2 pb-2">Ex. 
+                                            <pre><code class="text-danger">
+&lt;div class="accordion" id="buyingquestion"&gt;
+    &lt;div class="accordion-item rounded"&gt;
+        &lt;h2 class="accordion-header" id="headingOne"&gt;
+            &lt;button class="accordion-button border-0 bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne"&gt;
+                How does it work ?
+            &lt;/button&gt;
+        &lt;/h2&gt;
+        &lt;div id="collapseOne" class="accordion-collapse border-0 collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#buyingquestion"&gt;
+            &lt;div class="accordion-body text-muted"&gt;
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+    
+    &lt;div class="accordion-item rounded mt-2"&gt;
+        &lt;h2 class="accordion-header" id="headingTwo"&gt;
+            &lt;button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                aria-expanded="false" aria-controls="collapseTwo"&gt;
+                Do I need a designer to use Landrick ?
+            &lt;/button&gt;
+        &lt;/h2&gt;
+        &lt;div id="collapseTwo" class="accordion-collapse border-0 collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#buyingquestion"&gt;
+            &lt;div class="accordion-body text-muted"&gt;
+                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+                                        </h6>
+
+                                        <div class="accordion" id="buyingquestion">
+                                            <div class="accordion-item rounded">
+                                                <h2 class="accordion-header" id="headingOne">
+                                                    <button class="accordion-button border-0 bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                                                        aria-expanded="true" aria-controls="collapseOne">
+                                                        How does it work ?
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseOne" class="accordion-collapse border-0 collapse show" aria-labelledby="headingOne"
+                                                    data-bs-parent="#buyingquestion">
+                                                    <div class="accordion-body text-muted">
+                                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="accordion-item rounded mt-2">
+                                                <h2 class="accordion-header" id="headingTwo">
+                                                    <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                                                        aria-expanded="false" aria-controls="collapseTwo">
+                                                        Do I need a designer to use Landrick ?
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseTwo" class="accordion-collapse border-0 collapse" aria-labelledby="headingTwo"
+                                                    data-bs-parent="#buyingquestion">
+                                                    <div class="accordion-body text-muted">
+                                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                                    </div>
+                                                </div>
+                                            </div>
+                
+                                            <div class="accordion-item rounded mt-2">
+                                                <h2 class="accordion-header" id="headingThree">
+                                                    <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                        What do I need to do to start selling ?
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseThree" class="accordion-collapse border-0 collapse" aria-labelledby="headingThree"
+                                                    data-bs-parent="#buyingquestion">
+                                                    <div class="accordion-body text-muted">
+                                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                                    </div>
+                                                </div>
+                                            </div>
+                
+                                            <div class="accordion-item rounded mt-2">
+                                                <h2 class="accordion-header" id="headingFour">
+                                                    <button class="accordion-button border-0 bg-light collapsed" type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                                        What happens when I receive an order ?
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseFour" class="accordion-collapse border-0 collapse" aria-labelledby="headingFour"
+                                                    data-bs-parent="#buyingquestion">
+                                                    <div class="accordion-body text-muted">
+                                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!--end col-->
+                            <!-- Accordions End -->
+                        </div><!--end row-->
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--section-->
+        <!-- End -->
+
+        
+        @@include("partials/footer/footer-one.html")
+
+        @@include("partials/offcanvas-right.html")
+        @@include("partials/switcherbar.html")
+
+        <!-- Back to top -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="back-to-top fs-5"><i data-feather="arrow-up" class="fea icon-sm icons align-middle"></i></a>
+        <!-- Back to top -->
+
+        <!-- javascript -->
+        @@include("partials/vendor-scripts.html")
+        <!-- Main Js -->
+        <script src="assets/js/plugins.init.js"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+        <script src="assets/js/app.js"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+    </body>
+</html>
